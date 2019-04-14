@@ -1,0 +1,38 @@
+
+
+
+/* Navbar Css */
+.navbar {
+    font-size: 14px;
+    background-color: black !important;
+
+}
+
+/* Logo CSS */
+.logotop {
+
+    position: fixed;
+    z-index: 99;
+    padding-top: 80px;
+}
+
+/* Carousel CSS */
+.carousel-caption {
+    font-size: 14px;
+    position: absolute;
+    right: 38%;
+    bottom: 91px;
+    /* left: 15%; */
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 85px;
+    color: #ed0000 !important;
+    text-align: left;
+}
+
+/* Section1 CSS */
+
+.section1 {
+    background-image: url("Img/Second_section.png")
+}
+
