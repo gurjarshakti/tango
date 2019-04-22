@@ -31,11 +31,25 @@
 }
 
 /* Section1 CSS */
+.section2 {
+   
+    background-image: url('../Img/sec2.png');
+    height: 416px;   
+}
 
+.section2head {
 
-/*Upcoming Events Section */
+}
 
+/*News Section */
 
+.newssection {
+    background-color: black;
+}
+
+.newscard {
+    background-color: bisque;
+}
 /* FULL Footer Css */
 .footer {
     padding-top: 20px;
