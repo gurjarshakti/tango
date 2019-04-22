@@ -1,4 +1,4 @@
-Tango Perth Society 
+#Tango Perth Society 
 
 Code Management -
 Github 
@@ -8,6 +8,8 @@ Framwork -
 Bootstrap Version - 4.1.3 
 https://getbootstrap.com/docs/4.1/getting-started/introduction/ 
 
+Icons - 
+Fontawesome - https://fontawesome.com 
 
 CAROUSEL SLIDER - 
 Slick 
