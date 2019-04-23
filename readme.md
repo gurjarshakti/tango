@@ -15,3 +15,5 @@ CAROUSEL SLIDER -
 Slick 
 https://kenwheeler.github.io/slick/
 
+#Updated
+
