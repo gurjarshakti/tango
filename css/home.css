@@ -41,6 +41,22 @@
 
 }
 
+.sechtion2text {
+
+    padding-top: 160px;
+    padding-left: 647px;
+
+}
+
+
+.section2btn {
+  border-radius: 3px;
+  background-color: #c30101;
+}
+
+.eventbutton {
+    padding-bottom: 20px;
+}
 /*News Section */
 
 .newssection {
@@ -54,5 +70,11 @@
 .footer {
     padding-top: 20px;
 }
+
+.card {
+    width: auto !important;
+}
+
+
 
 /* Mini Footer Css */
