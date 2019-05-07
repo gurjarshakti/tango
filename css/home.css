@@ -935,4 +935,9 @@ h6.footerhead.text-center {
         .card-deck.cardrow {
             padding-bottom: 20px;
         }
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {color: #fff;
+    background-color: #fff;
+    border-color: #000;
+}}
 /* ------------- date 6 may 2019 end ---------------------- */ 
