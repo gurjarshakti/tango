@@ -360,12 +360,12 @@ hr { border:0; height:20px;
 /* Font awesome Icons */
 
 
-
+/*
 .far.fa-calendar-alt, .fa-user-friends, .fa-clock, .fa-map-marker-alt {
    
     color: red;
 }
-
+*/
 
 
 
@@ -931,21 +931,81 @@ h6.footerhead.text-center {
 
 .eventpad {
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-.bookbtn {
-    border-radius: 3px;
-    background-color: #ee2225;
-    padding-left: 20px;
-    padding-right: 20px;
-    color: white;
-}
 
 .bookingdiv {
     padding-left: 100px;
 }
 
 
-ul {
+.eventlist ul li {
     list-style: none;
+      padding-left: 0px;
 }
+
+.eventlist ul{
+    
+      padding-left: 0px;
+}
+.eventlist span {
+    font-size: 13px;
+    padding-left: 5px;
+}
+.eventlist span a{
+    color: #000;
+    
+}
+.eventlist span a:hover{
+    color: #000;
+    text-decoration: none;
+    
+}
+.col.booknow {
+    padding-left: 500px;
+}
+
+.bookbtn {
+   border-radius: 10px;
+    background-color: #ee2225;
+   
+    color: #fff;
+    padding:8px 15px 8px 15px;
+    font-size: 13px;
+}
+.bookbtn:hover {
+   
+   
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+
+.btnlist {
+    padding-right: 50px;
+    padding-left: 15px;
+}
+
+.activitybtn {
+    border-radius: 10px;
+    background-color: #ee2225;
+   
+    color: #fff;
+    padding:8px 15px 8px 15px;
+    font-size: 13px;
+}
+.activitybtn:hover {
+   
+   
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+.event_description p { font-size:14px; margin-bottom:15px; text-align:justify;}
+.event_description { margin-bottom:30px;}
+
+.eventlist .fa {color:#ee2225;}
+.eventlist .fab {color:#ee2225;}
