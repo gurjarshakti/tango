@@ -100,24 +100,56 @@
         <div class="text-center">
             <div class="about-right text-center">
                 <div class="text-center">
+                    <img src="images/decorline.png">
                     <div class="abouttext">
-                        <h4>Event Details Page</h4>
+                        <h4>Event Details</h4>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-
-
-
-
     <div class="container">
         <div class="row eventpad">
-            <div class="col">
-                <img src="images/gallery2.jpeg" style="width:100%;">
-            </div>
-            <div class="col">
+             <div class="col-sm-6">
+               <!-- <img src="images/gallery2.jpeg" style="width:100%;">-->
+                 
+                 
+                 <div id="slideshow" class="fullscreen">
+				<!-- Below are the images in the gallery -->
+			   <div id="img-1" data-img-id="1" class="img-wrapper active popup" style="background-image: url('images/img1.jpg')"></div>
+			    <div id="img-2" data-img-id="2" class="img-wrapper popup" style="background-image: url('images/img2.jpg')"></div>
+			    <div id="img-3" data-img-id="3" class="img-wrapper popup" style="background-image: url('images/img3.jpg')"></div>
+			    <div id="img-4" data-img-id="4" class="img-wrapper popup" style="background-image: url('images/img2.jpg')"></div>
+			    <div id="img-1" data-img-id="5" class="img-wrapper popup" style="background-image: url('images/img1.jpg')"></div>
+			    <div id="img-2" data-img-id="6" class="img-wrapper popup" style="background-image: url('images/img2.jpg')"></div>
+			    <div id="img-3" data-img-id="7" class="img-wrapper popup" style="background-image: url('images/img3.jpg')"></div>
+			    <div id="img-4" data-img-id="8" class="img-wrapper popup" style="background-image: url('images/img2.jpg')"></div>
+
+				<!-- Below are the thumbnails of above images -->
+			    <div class="thumbs-container bottom">
+			    	<div id="prev-btn" class="prev">
+			    		<i class="fa fa-chevron-left fa-3x"></i>
+			    	</div>
+
+					<ul class="thumbs">
+						<li data-thumb-id="1" class="thumb active" style="background-image: url('images/img1.jpg')"></li>
+						<li data-thumb-id="2" class="thumb" style="background-image: url('images/img2.jpg')"></li>
+						<li data-thumb-id="3" class="thumb" style="background-image: url('images/img3.jpg')"></li>
+						<li data-thumb-id="4" class="thumb" style="background-image: url('images/img2.jpg')"></li>
+						<li data-thumb-id="5" class="thumb" style="background-image: url('images/img1.jpg')"></li>
+						<li data-thumb-id="6" class="thumb" style="background-image: url('images/img2.jpg')"></li>
+						<li data-thumb-id="7" class="thumb" style="background-image: url('images/img3.jpg')"></li>
+						<li data-thumb-id="8" class="thumb" style="background-image: url('images/img2.jpg')"></li>
+					</ul>
+
+			    	<div id="next-btn" class="next">
+			    		<i class="fa fa-chevron-right fa-3x"></i>
+			    	</div>
+			    </div>
+			</div>
+            </div> 
+            <div class="col-sm-6">
                 <div class="map-responsive_new">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d386950.6511603643!2d-73.70231446529533!3d40.738882125234106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNueva+York!5e0!3m2!1ses-419!2sus!4v1445032011908"
@@ -125,6 +157,9 @@
                 </div>
             </div>
         </div>
+        <!------------------------------------------------------------------------->
+        
+           <!---------------------------------------------------------------->
         <div class="row eventpad" style="color: #ee2225;">
             <div class="col">
                 <h4>The Event Name</h4>
@@ -166,37 +201,46 @@
             <div class="col  eventlist">
                 <ul>
                     <li>
-                        <i class="fa fa-envelope-open-text"></i><strong>Email:</strong><span><a href="#">asd@example.com</a></span>
+                        <i class="fa fa-envelope-open-text"></i><strong>Email:</strong><span><a
+                                href="#">asd@example.com</a></span>
                     </li>
                     <li>
-                        <i class="fa fa-globe"></i><strong> Website:</strong><span><a href="#">www.website.com</a></span>
+                        <i class="fa fa-globe"></i><strong> Website:</strong><span><a
+                                href="#">www.website.com</a></span>
                     </li>
                     <li>
-                       <i class="fab fa-facebook-f"></i><strong> Facebook:</strong><span> <a href="#">www.facebook.com</a></span>
+                        <i class="fab fa-facebook-f"></i><strong> Facebook:</strong><span> <a
+                                href="#">www.facebook.com</a></span>
                     </li>
                 </ul>
             </div>
         </div>
         <h5><strong>About Event</strong></h5>
-<div class="event_description">
-        <p>Lorem ipsum dolor sit amet, vel ea pertinacia vituperata. Causae euismod voluptua ea eam, at usu ridens
-            omittam sapientem, duo principes tin cidunt argumentum no. Ei mel invidunt detraxit maiestatis. His ea
-            expetenda contentiones, ne tollit facilisis pro, ei eam nobis legendos vitupe rata. Ex utinam equidem sit.
-            Vocibus apeirian quo te. Malorum principes ex eam. No mea malis augue doctus. Qui an idque minim, an vel
-            sale as sum delicatissimi, postea dolorem inciderint usu et.</p>
-          <p>  
-            Ea eros sonet copiosae eos. Ea sea elit timeam
-            fuisset, ad essent volumus adipisci usu, eius facilisis.Lorem ipsum dolor sit amet, vel ea pertinacia
-            vituperata. Causae euismod voluptua ea eam, at usu ridens omittam sapientem, duo principes tin cidunt
-            argumentum no. Ei mel invidunt detraxit maiestatis. His ea expetenda contentiones, ne tollit facilisis pro,
-            ei eam nobis legendos vitupe rata. Ex utinam equidem sit. Vocibus apeirian quo te. Malorum principes ex eam.
-            No mea malis augue doctus. Qui an idque minim, an vel sale as sum delicatissimi, postea dolorem inciderint
-            usu et. Ea eros sonet copiosae eos. Ea sea elit timeam fuisset, ad essent volumus adipisci usu, eius
-            facilisis. </p><p> 
-            Ex utinam equidem sit. Vocibus apeirian quo te. Malorum principes ex eam. No mea malis augue doctus. Qui
-            an idque minim, an vel sale as sum delicatissimi, postea dolorem inciderint usu et. Ea eros sonet copiosae
-            eos. Ea sea elit timeam fuisset, ad essent volumus adipisci usu, eius facilisis.</p>
-</div>
+        <div class="event_description">
+            <p>Lorem ipsum dolor sit amet, vel ea pertinacia vituperata. Causae euismod voluptua ea eam, at usu ridens
+                omittam sapientem, duo principes tin cidunt argumentum no. Ei mel invidunt detraxit maiestatis. His ea
+                expetenda contentiones, ne tollit facilisis pro, ei eam nobis legendos vitupe rata. Ex utinam equidem
+                sit.
+                Vocibus apeirian quo te. Malorum principes ex eam. No mea malis augue doctus. Qui an idque minim, an vel
+                sale as sum delicatissimi, postea dolorem inciderint usu et.</p>
+            <p>
+                Ea eros sonet copiosae eos. Ea sea elit timeam
+                fuisset, ad essent volumus adipisci usu, eius facilisis.Lorem ipsum dolor sit amet, vel ea pertinacia
+                vituperata. Causae euismod voluptua ea eam, at usu ridens omittam sapientem, duo principes tin cidunt
+                argumentum no. Ei mel invidunt detraxit maiestatis. His ea expetenda contentiones, ne tollit facilisis
+                pro,
+                ei eam nobis legendos vitupe rata. Ex utinam equidem sit. Vocibus apeirian quo te. Malorum principes ex
+                eam.
+                No mea malis augue doctus. Qui an idque minim, an vel sale as sum delicatissimi, postea dolorem
+                inciderint
+                usu et. Ea eros sonet copiosae eos. Ea sea elit timeam fuisset, ad essent volumus adipisci usu, eius
+                facilisis. </p>
+            <p>
+                Ex utinam equidem sit. Vocibus apeirian quo te. Malorum principes ex eam. No mea malis augue doctus. Qui
+                an idque minim, an vel sale as sum delicatissimi, postea dolorem inciderint usu et. Ea eros sonet
+                copiosae
+                eos. Ea sea elit timeam fuisset, ad essent volumus adipisci usu, eius facilisis.</p>
+        </div>
         <div class="row eventpad">
             <div class="btnlist"><i class="fas fa-save"></i> <a href="#" class="activitybtn">Save Event</a> </div>
             <div class="btnlist"><i class="fas fa-print"></i> <a href="#" class="activitybtn">Print Event</a></div>
@@ -205,7 +249,6 @@
     </div>
     </div>
     <footer>
-
         <div class="container-fluid footer">
             <div class="row text-white footer">
                 <div class="col-sm-12">
@@ -295,18 +338,392 @@
         </div>
 
     </footer>
-
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.1.min.js"></script>
     <!-- Javascript Files -->
-    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
-    <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" src="./slick/slick.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
         integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
     </script>
-    
-    
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
         integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+    </script><script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script type="text/javascript" src="https://www.jqueryscript.net/demo/Simple-jQuery-Popup-Gallery-Lightbox-Plugin-Popup/js/popup2.2.js
+"></script>
+
+<style>/*********************************
+* Slideshow Styling
+*********************************/
+#slideshow {
+	width: 100%;
+	height: 100%;
+	margin: 100px auto;
+
+    position:relative;
+
+    overflow: hidden;
+}
+	#slideshow.fullscreen {
+		position: relative;
+		top: 0;
+		left: 0;
+
+		width: 100%;
+		height: 100%;
+		margin: 0;
+		padding: 0;
+
+		overflow: hidden;
+	}
+	.img-wrapper {
+	    min-width: 100%;
+	    min-height: 100%;
+		
+		position: absolute;
+		top: 0;
+	    bottom: 0;
+	    left: 0;
+	    right: 0;
+
+	    margin: auto;
+	    overflow: hidden;
+	    
+	    z-index:8;
+
+	    background-size: cover;
+	    background-position: center center;
+	}
+		#slideshow .img-wrapper.active {
+		    z-index:10;
+		}
+
+		#slideshow .img-wrapper.last-active {
+		    z-index:9;
+		}
+
+	/*********************************
+	* Thumbnail Styling
+	*********************************/
+	.thumbs-container {
+		width: 100%;
+		height: 85px;
+		position: absolute;
+		left: 0;
+
+		z-index: 11;
+
+		background: #e4d9d9;
+		opacity: .7;
+	}
+		.thumbs-container.top {
+			top: 0;
+		}
+		.thumbs-container.bottom {
+			bottom: 0;
+		}
+		.prev, .next {
+			width: 3%;
+			min-width: 40px;
+			height: 48px;
+			padding: 24px 1%;
+
+			color: #999999;
+			cursor: pointer;
+		}
+		.prev { float: left; }
+		.next { float: right; }
+			.prev:hover, .next:hover {
+				color: #555555;
+			}
+		ul.thumbs {
+			position: absolute;
+			top: 0;
+			left: 5%;
+			right: 5%;
+			height: 100px;
+			padding: 0;
+			margin: 0 5%;
+			overflow: hidden;
+			white-space: nowrap;
+			text-align: center;
+		}
+    
+    .thumbs li {list-style: none !important;}
+			.thumb {
+				display: inline-block;
+				width: 120px;
+				height: 65px;
+				margin: 10px;
+
+				overflow: hidden;
+				background-size: cover;
+	    		background-position: center center;
+
+	    		cursor: pointer;
+			}
+				.thumb:first-of-type {
+					margin-left: 0px;
+				}
+			.thumb.active {
+				width: 116px;
+				height: 65px;
+				border: 2px solid #FFF;
+			}
+    #popupBox {
+  background: #fff;
+  display: none;
+  border: 3px solid #ccc
+}
+
+.contentBox {
+  overflow-y: scroll;
+  height: 270px
+}
+
+.popupContent { background: #fff; }
+
+.popupContent .popClose {
+  float: right;
+  display: block;
+  height: 16px;
+  width: 16px;
+  background: url(img/closeBut.jpg) no-repeat;
+  text-indent: -9000px
+}
+
+.popupClose {
+  display: block;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  height: 16px;
+  width: 16px;
+  text-indent: -9000px;
+  background: url(img/closeBut.jpg) no-repeat
+}
+
+.galleryTitle {
+  font-size: 1.3em;
+  text-align: center;
+}
+
+.popupContent .pop2 {
+  font-size: 1.2em;
+  text-align: center;
+  padding: 30px
+}
+
+.popupContent .galleryTitle { position: relative }
+
+.galleryControls {
+  overflow: hidden;
+  line-height: 40px
+}
+
+.galleryControls a {
+  font-size: 1.2em;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+  text-transform: uppercase
+}
+
+.galleryControls .prev {
+  float: left;
+  margin-left: 20px
+}
+
+.galleryControls .next {
+  float: right;
+  margin-right: 20px
+}
+
+.galleryControls p { text-align: center; }
+
+.imageDesc {
+  min-height: 50px;
+  line-height: 15px;
+  text-align: left
+}
+
+.imageDesc p {
+  padding: 5px 10px;
+  color: #fff;
+  font-size: 12px
+}
+
+.popupBtns { padding: 20px }
+
+.popupBtns input {
+  margin-right: 20px;
+  font-size: 14px;
+}
+    </style>
+<script>$(function() {
+$(".popup").popup({
+
+transparentLayer : true,
+gallery : true,
+galleryTitle : "dd",
+imgaeDesc : true,
+galleryCounter : true,
+imageDesc : true,
+autoSize : false,
+boxHeight : 600,
+boxWidth : 500,
+shadowLength : 0,
+transition : 0,
+onOpen : function() {
+console.log("opened the box .popup");
+},
+onClose : function() {
+console.log("closed the box .popup");
+}
+
+});
+	/******************************
+	* STATIC VARIABLES
+	******************************/
+	var THUMBNAIL_WIDTH = 140,
+		GALLERY = $('#slideshow');
+
+
+	/******************************
+	* EVENT LISTENERS
+	******************************/
+	GALLERY.find('.thumb').on('click', function() {
+		loadClickedImage($(this).data('thumb-id'));
+	});
+	GALLERY.find('#prev-btn').on('click', function() {
+		slidePrev();
+	});
+	GALLERY.find('#next-btn').on('click', function() {
+		slideNext();
+	});
+	$(document).keydown(function(e){
+		switch(e.keyCode) {
+			// Left arrow press
+			case 37:
+				slidePrev();
+				break;
+			// Right arrow press
+			case 39:
+				slideNext();
+				break;
+			default:
+				break;
+		}
+	});
+
+
+	/******************************
+	* GALLERY FUNCTIONS
+	******************************/
+	var slideNext = function() {
+	
+	    var active = GALLERY.find('.img-wrapper.active');
+
+		if (active.length === 0) { 
+			active = GALLERY.find('.img-wrapper:last');
+		}
+
+	    // Setting next image & thumb properties
+	    loadNextImage(active);
+	};
+
+	var loadNextImage = function(active) {
+		var next =  active.next(".img-wrapper").length ? active.next(".img-wrapper") : GALLERY.find('.img-wrapper:first'),
+			nextThumb = GALLERY.find('[data-thumb-id="' + next.data('img-id') + '"]');
+
+		// Setting next image & thumb properties
+		GALLERY.find('.thumb').removeClass('active');
+		nextThumb.addClass('active');
+		active.addClass('last-active');
+
+		// Transitioning to next image & thumbnail
+		scrollThumbnails(nextThumb);
+		next.css({opacity: 0.0})
+			.addClass('active')
+			.animate({opacity: 1.0}, 1000, function() {
+				active.removeClass('active last-active');
+			});
+	};
+
+	var slidePrev = function() {
+		var active = GALLERY.find('.img-wrapper.active');
+
+		if (active.length === 0) {
+			active = GALLERY.find('.img-wrapper:last');
+		}
+
+		// Setting next image & thumb properties
+		loadPrevImage(active);
+	};
+
+	var loadPrevImage = function(active) {
+		var prev =  active.prev(".img-wrapper").length ? active.prev(".img-wrapper") : GALLERY.find('.img-wrapper:last'),
+			prevThumb = GALLERY.find('[data-thumb-id="' + prev.data('img-id') + '"]');
+
+		// Setting next image & thumb properties
+		GALLERY.find('.thumb').removeClass('active');
+		prevThumb.addClass('active');
+		active.addClass('last-active');
+
+		// Transitioning to next image & thumbnail
+		scrollThumbnails(prevThumb);
+		prev.css({opacity: 0.0})
+			.addClass('active')
+			.animate({opacity: 1.0}, 1000, function() {
+				active.removeClass('active last-active');
+			});
+	};
+
+	var loadClickedImage = function(id) {
+		var image =  GALLERY.find('[data-img-id="' + id + '"]'),
+			imgThumb = GALLERY.find('[data-thumb-id="' + id + '"]'),
+			currActive = GALLERY.find('.img-wrapper.active');
+
+		// Setting image & thumb properties
+		GALLERY.find('.thumb').removeClass('active');
+		currActive.addClass('last-active').removeClass('active');
+		imgThumb.addClass('active');
+	    
+		// Transitioning to image & thumbnail
+		scrollThumbnails(imgThumb);
+		image.css({opacity: 0.0})
+			.addClass('active')
+			.animate({opacity: 1.0}, 1000, function() {
+				currActive.removeClass('last-active');
+			});
+	};
+
+	var scrollThumbnails = function(thumb) {
+		var offset, // used for thumbnail offset
+			first,  // stores first thumbnail object
+			x = thumb.position().left + parseInt(thumb.css('margin-left'), 10);
+
+		// Checking current thumbnail offset
+		if(x < 0) {
+			first = GALLERY.find('.thumb:first');
+			offset = parseInt(first.css('margin-left'), 10) - x;
+			first.animate({
+				marginLeft: offset
+			}, 1000);
+		} else {
+			x = thumb.position().left;
+			var currOffset = ( x + THUMBNAIL_WIDTH ) - thumb.parent().width();
+			if(currOffset > 0) {
+				first = GALLERY.find('.thumb:first');
+				offset = parseInt(first.css('margin-left'), 10) - currOffset;
+				first.animate({
+					marginLeft: offset
+				}, 1000);
+			}
+		}
+	};
+}());
+    
     </script>
+
 </body>
 
 </html>
