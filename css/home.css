@@ -1025,3 +1025,14 @@ h6.footerhead.text-center {
 .eventlist .fab {
     color: #ee2225;
 }
+
+/* ------------- date 07 may 2019 End---------------------- */
+
+/* ------------- date 20 may 2019 Start ---------------------- */
+ 
+.flexslider {
+    margin: 0 0 60px;
+    background: #fff;
+    border: 4px solid #fff;
+    position: relative;
+    zoom: 1; }

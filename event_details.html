@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <!-- Homepage css-->
-    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" type="text/css" href="css/home.css">
     <!-- Slick css-->
     <link rel="stylesheet" type="text/css" href="./slick/slick.css">
     <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
@@ -17,8 +17,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <!-- Google Font-->
-    <!-- <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet"> -->
-    <link rel="stylesheet" type="text/css" href="fonts">
+    <link rel="stylesheet" type="text/css" href="/fonts/">
 
 </head>
 
@@ -111,44 +110,53 @@
 
     <div class="container">
         <div class="row eventpad">
-             <div class="col-sm-6">
-               <!-- <img src="images/gallery2.jpeg" style="width:100%;">-->
-                 
-                 
-                 <div id="slideshow" class="fullscreen">
-				<!-- Below are the images in the gallery -->
-			   <div id="img-1" data-img-id="1" class="img-wrapper active popup" style="background-image: url('images/img1.jpg')"></div>
-			    <div id="img-2" data-img-id="2" class="img-wrapper popup" style="background-image: url('images/img2.jpg')"></div>
-			    <div id="img-3" data-img-id="3" class="img-wrapper popup" style="background-image: url('images/img3.jpg')"></div>
-			    <div id="img-4" data-img-id="4" class="img-wrapper popup" style="background-image: url('images/img2.jpg')"></div>
-			    <div id="img-1" data-img-id="5" class="img-wrapper popup" style="background-image: url('images/img1.jpg')"></div>
-			    <div id="img-2" data-img-id="6" class="img-wrapper popup" style="background-image: url('images/img2.jpg')"></div>
-			    <div id="img-3" data-img-id="7" class="img-wrapper popup" style="background-image: url('images/img3.jpg')"></div>
-			    <div id="img-4" data-img-id="8" class="img-wrapper popup" style="background-image: url('images/img2.jpg')"></div>
+            <div class="col-sm-6">
+                <!-- <img src="images/gallery2.jpeg" style="width:100%;">-->
 
-				<!-- Below are the thumbnails of above images -->
-			    <div class="thumbs-container bottom">
-			    	<div id="prev-btn" class="prev">
-			    		<i class="fa fa-chevron-left fa-3x"></i>
-			    	</div>
 
-					<ul class="thumbs">
-						<li data-thumb-id="1" class="thumb active" style="background-image: url('images/img1.jpg')"></li>
-						<li data-thumb-id="2" class="thumb" style="background-image: url('images/img2.jpg')"></li>
-						<li data-thumb-id="3" class="thumb" style="background-image: url('images/img3.jpg')"></li>
-						<li data-thumb-id="4" class="thumb" style="background-image: url('images/img2.jpg')"></li>
-						<li data-thumb-id="5" class="thumb" style="background-image: url('images/img1.jpg')"></li>
-						<li data-thumb-id="6" class="thumb" style="background-image: url('images/img2.jpg')"></li>
-						<li data-thumb-id="7" class="thumb" style="background-image: url('images/img3.jpg')"></li>
-						<li data-thumb-id="8" class="thumb" style="background-image: url('images/img2.jpg')"></li>
-					</ul>
+                <div id="slideshow" class="fullscreen">
+                    <!-- Below are the images in the gallery -->
+                    <div id="img-1" data-img-id="1" class="img-wrapper active popup"
+                        style="background-image: url('images/img1.jpg')"></div>
+                    <div id="img-2" data-img-id="2" class="img-wrapper popup"
+                        style="background-image: url('images/img2.jpg')"></div>
+                    <div id="img-3" data-img-id="3" class="img-wrapper popup"
+                        style="background-image: url('images/img3.jpg')"></div>
+                    <div id="img-4" data-img-id="4" class="img-wrapper popup"
+                        style="background-image: url('images/img2.jpg')"></div>
+                    <div id="img-1" data-img-id="5" class="img-wrapper popup"
+                        style="background-image: url('images/img1.jpg')"></div>
+                    <div id="img-2" data-img-id="6" class="img-wrapper popup"
+                        style="background-image: url('images/img2.jpg')"></div>
+                    <div id="img-3" data-img-id="7" class="img-wrapper popup"
+                        style="background-image: url('images/img3.jpg')"></div>
+                    <div id="img-4" data-img-id="8" class="img-wrapper popup"
+                        style="background-image: url('images/img2.jpg')"></div>
 
-			    	<div id="next-btn" class="next">
-			    		<i class="fa fa-chevron-right fa-3x"></i>
-			    	</div>
-			    </div>
-			</div>
-            </div> 
+                    <!-- Below are the thumbnails of above images -->
+                    <div class="thumbs-container bottom">
+                        <div id="prev-btn" class="prev">
+                            <i class="fa fa-chevron-left fa-3x"></i>
+                        </div>
+
+                        <ul class="thumbs">
+                            <li data-thumb-id="1" class="thumb active" style="background-image: url('images/img1.jpg')">
+                            </li>
+                            <li data-thumb-id="2" class="thumb" style="background-image: url('images/img2.jpg')"></li>
+                            <li data-thumb-id="3" class="thumb" style="background-image: url('images/img3.jpg')"></li>
+                            <li data-thumb-id="4" class="thumb" style="background-image: url('images/img2.jpg')"></li>
+                            <li data-thumb-id="5" class="thumb" style="background-image: url('images/img1.jpg')"></li>
+                            <li data-thumb-id="6" class="thumb" style="background-image: url('images/img2.jpg')"></li>
+                            <li data-thumb-id="7" class="thumb" style="background-image: url('images/img3.jpg')"></li>
+                            <li data-thumb-id="8" class="thumb" style="background-image: url('images/img2.jpg')"></li>
+                        </ul>
+
+                        <div id="next-btn" class="next">
+                            <i class="fa fa-chevron-right fa-3x"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="col-sm-6">
                 <div class="map-responsive_new">
                     <iframe
@@ -158,8 +166,8 @@
             </div>
         </div>
         <!------------------------------------------------------------------------->
-        
-           <!---------------------------------------------------------------->
+
+        <!---------------------------------------------------------------->
         <div class="row eventpad" style="color: #ee2225;">
             <div class="col">
                 <h4>The Event Name</h4>
@@ -248,6 +256,102 @@
         </div>
     </div>
     </div>
+
+    <!---------------------------- Recent Events --------------------------------------------->
+
+
+    <div class="event_section">
+
+        <div class="event_section">
+            <h4 class="text-center sectionhead3">Upcoming Events</h4>
+            <div class="hrline test_center">
+                <hr>
+            </div>
+
+        </div>
+        <div class="container">
+            <div class="card-deck">
+                <div class="card" style="box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16);">
+                    <div class="eventimg">
+                        <a href="#"> <img class="card-img-top" src="images/upevent1.png" alt="Card image cap" /></a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="event_details.html">lorem ipsum sentence generator</a></h5>
+                        <span><i class="fas fa-user-friends"></i>Member Name</span>
+                        <div>
+                            <span><i class="far fa-calendar-alt"></i> 14-04-2019</span>
+                            <span><i class="fas fa-clock"></i>02:00 PM</span>
+                        </div>
+                        <span><i class="fas fa-map-marker-alt"></i>211 Aveneu Jean Jaures</span>
+                    </div>
+                </div>
+                <div class="card" style="box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16);">
+                    <div class="eventimg">
+                        <a href="#"> <img class="card-img-top" src="images/upevent1.png" alt="Card image cap" /></a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="event_details.html">lorem ipsum sentence generator</a></h5>
+                        <span><i class="fas fa-user-friends"></i>Member Name</span>
+                        <div>
+                            <span><i class="far fa-calendar-alt"></i> 14-04-2019</span>
+                            <span><i class="fas fa-clock"></i>02:00 PM</span>
+                        </div>
+                        <span><i class="fas fa-map-marker-alt"></i>211 Aveneu Jean Jaures</span>
+                    </div>
+                </div>
+                <div class="card" style="box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16);">
+                    <div class="eventimg">
+                        <a href="#"> <img class="card-img-top" src="images/upevent1.png" alt="Card image cap" /></a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="event_details.html">lorem ipsum sentence generator</a></h5>
+                        <span><i class="fas fa-user-friends"></i>Member Name</span>
+                        <div>
+                            <span><i class="far fa-calendar-alt"></i> 14-04-2019</span>
+                            <span><i class="fas fa-clock"></i>02:00 PM</span>
+                        </div>
+                        <span><i class="fas fa-map-marker-alt"></i>211 Aveneu Jean Jaures</span>
+                    </div>
+                </div>
+                <div class="card" style="box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16);">
+                    <div class="eventimg">
+                        <a href="event_details.html"> <img class="card-img-top" src="images/upevent1.png"
+                                alt="Card image cap" /></a>
+                    </div>
+                    <div class="card-body">
+
+                        <h5 class="card-title"><a href="event_details.html">lorem ipsum sentence generator</a></h5>
+                        <span><i class="fas fa-user-friends"></i>Member Name</span>
+                        <div>
+                            <span><i class="far fa-calendar-alt"></i> 14-04-2019</span>
+                            <span><i class="fas fa-clock"></i>02:00 PM</span>
+                        </div>
+                        <span><i class="fas fa-map-marker-alt"></i>211 Aveneu Jean Jaures</span>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center viewmoreevent">
+                <a href="#" class="section2btn">View More About Classes</a>
+            </div>
+        </div>
+    </div>
+
+    <!---------------------------- Recent Events --------------------------------------------->
+
+    <div class="wrapper">
+        <h2>Slick Carousel Example<h2>
+                <div class="carousel">
+                    <div><img src="http://lorempixel.com/200/200/nature/"></div>
+                    <div><img src="http://lorempixel.com/200/200/fashion/"></div>
+                    <div><img src="http://lorempixel.com/200/200/sports/"></div>
+                    <div><img src="http://lorempixel.com/200/200/animal/"></div>
+                    <div><img src="http://lorempixel.com/200/200/abstract/"></div>
+                    <div><img src="http://lorempixel.com/200/200/people/"></div>
+                </div>
+    </div>
+
+
+
     <footer>
         <div class="container-fluid footer">
             <div class="row text-white footer">
@@ -338,7 +442,7 @@
         </div>
 
     </footer>
-<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.1.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <!-- Javascript Files -->
     <script type="text/javascript" src="./slick/slick.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
@@ -346,382 +450,437 @@
     </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
         integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
-    </script><script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<script type="text/javascript" src="https://www.jqueryscript.net/demo/Simple-jQuery-Popup-Gallery-Lightbox-Plugin-Popup/js/popup2.2.js
+    </script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script type="text/javascript" src="https://www.jqueryscript.net/demo/Simple-jQuery-Popup-Gallery-Lightbox-Plugin-Popup/js/popup2.2.js
 "></script>
+<script>
+$(document).ready(function () {
+            $('.carousel').slick({
+                slidesToShow: 3,
+                dots: true,
+                centerMode: true,
+            });
+        });
 
-<style>/*********************************
+</script>
+    <style>
+        /*********************************
 * Slideshow Styling
 *********************************/
-#slideshow {
-	width: 100%;
-	height: 100%;
-	margin: 100px auto;
+        #slideshow {
+            width: 100%;
+            height: 100%;
+            margin: 100px auto;
 
-    position:relative;
+            position: relative;
 
-    overflow: hidden;
-}
-	#slideshow.fullscreen {
-		position: relative;
-		top: 0;
-		left: 0;
+            overflow: hidden;
+        }
 
-		width: 100%;
-		height: 100%;
-		margin: 0;
-		padding: 0;
+        #slideshow.fullscreen {
+            position: relative;
+            top: 0;
+            left: 0;
 
-		overflow: hidden;
-	}
-	.img-wrapper {
-	    min-width: 100%;
-	    min-height: 100%;
-		
-		position: absolute;
-		top: 0;
-	    bottom: 0;
-	    left: 0;
-	    right: 0;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
 
-	    margin: auto;
-	    overflow: hidden;
-	    
-	    z-index:8;
+            overflow: hidden;
+        }
 
-	    background-size: cover;
-	    background-position: center center;
-	}
-		#slideshow .img-wrapper.active {
-		    z-index:10;
-		}
+        .img-wrapper {
+            min-width: 100%;
+            min-height: 100%;
 
-		#slideshow .img-wrapper.last-active {
-		    z-index:9;
-		}
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
 
-	/*********************************
+            margin: auto;
+            overflow: hidden;
+
+            z-index: 8;
+
+            background-size: cover;
+            background-position: center center;
+        }
+
+        #slideshow .img-wrapper.active {
+            z-index: 10;
+        }
+
+        #slideshow .img-wrapper.last-active {
+            z-index: 9;
+        }
+
+        /*********************************
 	* Thumbnail Styling
 	*********************************/
-	.thumbs-container {
-		width: 100%;
-		height: 85px;
-		position: absolute;
-		left: 0;
+        .thumbs-container {
+            width: 100%;
+            height: 85px;
+            position: absolute;
+            left: 0;
 
-		z-index: 11;
+            z-index: 11;
 
-		background: #e4d9d9;
-		opacity: .7;
-	}
-		.thumbs-container.top {
-			top: 0;
-		}
-		.thumbs-container.bottom {
-			bottom: 0;
-		}
-		.prev, .next {
-			width: 3%;
-			min-width: 40px;
-			height: 48px;
-			padding: 24px 1%;
+            background: #e4d9d9;
+            opacity: .7;
+        }
 
-			color: #999999;
-			cursor: pointer;
-		}
-		.prev { float: left; }
-		.next { float: right; }
-			.prev:hover, .next:hover {
-				color: #555555;
-			}
-		ul.thumbs {
-			position: absolute;
-			top: 0;
-			left: 5%;
-			right: 5%;
-			height: 100px;
-			padding: 0;
-			margin: 0 5%;
-			overflow: hidden;
-			white-space: nowrap;
-			text-align: center;
-		}
-    
-    .thumbs li {list-style: none !important;}
-			.thumb {
-				display: inline-block;
-				width: 120px;
-				height: 65px;
-				margin: 10px;
+        .thumbs-container.top {
+            top: 0;
+        }
 
-				overflow: hidden;
-				background-size: cover;
-	    		background-position: center center;
+        .thumbs-container.bottom {
+            bottom: 0;
+        }
 
-	    		cursor: pointer;
-			}
-				.thumb:first-of-type {
-					margin-left: 0px;
-				}
-			.thumb.active {
-				width: 116px;
-				height: 65px;
-				border: 2px solid #FFF;
-			}
-    #popupBox {
-  background: #fff;
-  display: none;
-  border: 3px solid #ccc
-}
+        .prev,
+        .next {
+            width: 3%;
+            min-width: 40px;
+            height: 48px;
+            padding: 24px 1%;
 
-.contentBox {
-  overflow-y: scroll;
-  height: 270px
-}
+            color: #999999;
+            cursor: pointer;
+        }
 
-.popupContent { background: #fff; }
+        .prev {
+            float: left;
+        }
 
-.popupContent .popClose {
-  float: right;
-  display: block;
-  height: 16px;
-  width: 16px;
-  background: url(img/closeBut.jpg) no-repeat;
-  text-indent: -9000px
-}
+        .next {
+            float: right;
+        }
 
-.popupClose {
-  display: block;
-  position: absolute;
-  top: 5px;
-  right: 5px;
-  height: 16px;
-  width: 16px;
-  text-indent: -9000px;
-  background: url(img/closeBut.jpg) no-repeat
-}
+        .prev:hover,
+        .next:hover {
+            color: #555555;
+        }
 
-.galleryTitle {
-  font-size: 1.3em;
-  text-align: center;
-}
+        ul.thumbs {
+            position: absolute;
+            top: 0;
+            left: 5%;
+            right: 5%;
+            height: 100px;
+            padding: 0;
+            margin: 0 5%;
+            overflow: hidden;
+            white-space: nowrap;
+            text-align: center;
+        }
 
-.popupContent .pop2 {
-  font-size: 1.2em;
-  text-align: center;
-  padding: 30px
-}
+        .thumbs li {
+            list-style: none !important;
+        }
 
-.popupContent .galleryTitle { position: relative }
+        .thumb {
+            display: inline-block;
+            width: 120px;
+            height: 65px;
+            margin: 10px;
 
-.galleryControls {
-  overflow: hidden;
-  line-height: 40px
-}
+            overflow: hidden;
+            background-size: cover;
+            background-position: center center;
 
-.galleryControls a {
-  font-size: 1.2em;
-  font-weight: bold;
-  text-decoration: none;
-  color: #333;
-  text-transform: uppercase
-}
+            cursor: pointer;
+        }
 
-.galleryControls .prev {
-  float: left;
-  margin-left: 20px
-}
+        .thumb:first-of-type {
+            margin-left: 0px;
+        }
 
-.galleryControls .next {
-  float: right;
-  margin-right: 20px
-}
+        .thumb.active {
+            width: 116px;
+            height: 65px;
+            border: 2px solid #FFF;
+        }
 
-.galleryControls p { text-align: center; }
+        #popupBox {
+            background: #fff;
+            display: none;
+            border: 3px solid #ccc
+        }
 
-.imageDesc {
-  min-height: 50px;
-  line-height: 15px;
-  text-align: left
-}
+        .contentBox {
+            overflow-y: scroll;
+            height: 270px
+        }
 
-.imageDesc p {
-  padding: 5px 10px;
-  color: #fff;
-  font-size: 12px
-}
+        .popupContent {
+            background: #fff;
+        }
 
-.popupBtns { padding: 20px }
+        .popupContent .popClose {
+            float: right;
+            display: block;
+            height: 16px;
+            width: 16px;
+            background: url(img/closeBut.jpg) no-repeat;
+            text-indent: -9000px
+        }
 
-.popupBtns input {
-  margin-right: 20px;
-  font-size: 14px;
-}
+        .popupClose {
+            display: block;
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            height: 16px;
+            width: 16px;
+            text-indent: -9000px;
+            background: url(img/closeBut.jpg) no-repeat
+        }
+
+        .galleryTitle {
+            font-size: 1.3em;
+            text-align: center;
+        }
+
+        .popupContent .pop2 {
+            font-size: 1.2em;
+            text-align: center;
+            padding: 30px
+        }
+
+        .popupContent .galleryTitle {
+            position: relative
+        }
+
+        .galleryControls {
+            overflow: hidden;
+            line-height: 40px
+        }
+
+        .galleryControls a {
+            font-size: 1.2em;
+            font-weight: bold;
+            text-decoration: none;
+            color: #333;
+            text-transform: uppercase
+        }
+
+        .galleryControls .prev {
+            float: left;
+            margin-left: 20px
+        }
+
+        .galleryControls .next {
+            float: right;
+            margin-right: 20px
+        }
+
+        .galleryControls p {
+            text-align: center;
+        }
+
+        .imageDesc {
+            min-height: 50px;
+            line-height: 15px;
+            text-align: left
+        }
+
+        .imageDesc p {
+            padding: 5px 10px;
+            color: #fff;
+            font-size: 12px
+        }
+
+        .popupBtns {
+            padding: 20px
+        }
+
+        .popupBtns input {
+            margin-right: 20px;
+            font-size: 14px;
+        }
     </style>
-<script>$(function() {
-$(".popup").popup({
+    <script>
+        $(function () {
+            $(".popup").popup({
 
-transparentLayer : true,
-gallery : true,
-galleryTitle : "dd",
-imgaeDesc : true,
-galleryCounter : true,
-imageDesc : true,
-autoSize : false,
-boxHeight : 600,
-boxWidth : 500,
-shadowLength : 0,
-transition : 0,
-onOpen : function() {
-console.log("opened the box .popup");
-},
-onClose : function() {
-console.log("closed the box .popup");
-}
+                transparentLayer: true,
+                gallery: true,
+                galleryTitle: "dd",
+                imgaeDesc: true,
+                galleryCounter: true,
+                imageDesc: true,
+                autoSize: false,
+                boxHeight: 600,
+                boxWidth: 500,
+                shadowLength: 0,
+                transition: 0,
+                onOpen: function () {
+                    console.log("opened the box .popup");
+                },
+                onClose: function () {
+                    console.log("closed the box .popup");
+                }
 
-});
-	/******************************
-	* STATIC VARIABLES
-	******************************/
-	var THUMBNAIL_WIDTH = 140,
-		GALLERY = $('#slideshow');
-
-
-	/******************************
-	* EVENT LISTENERS
-	******************************/
-	GALLERY.find('.thumb').on('click', function() {
-		loadClickedImage($(this).data('thumb-id'));
-	});
-	GALLERY.find('#prev-btn').on('click', function() {
-		slidePrev();
-	});
-	GALLERY.find('#next-btn').on('click', function() {
-		slideNext();
-	});
-	$(document).keydown(function(e){
-		switch(e.keyCode) {
-			// Left arrow press
-			case 37:
-				slidePrev();
-				break;
-			// Right arrow press
-			case 39:
-				slideNext();
-				break;
-			default:
-				break;
-		}
-	});
+            });
+            /******************************
+             * STATIC VARIABLES
+             ******************************/
+            var THUMBNAIL_WIDTH = 140,
+                GALLERY = $('#slideshow');
 
 
-	/******************************
-	* GALLERY FUNCTIONS
-	******************************/
-	var slideNext = function() {
-	
-	    var active = GALLERY.find('.img-wrapper.active');
+            /******************************
+             * EVENT LISTENERS
+             ******************************/
+            GALLERY.find('.thumb').on('click', function () {
+                loadClickedImage($(this).data('thumb-id'));
+            });
+            GALLERY.find('#prev-btn').on('click', function () {
+                slidePrev();
+            });
+            GALLERY.find('#next-btn').on('click', function () {
+                slideNext();
+            });
+            $(document).keydown(function (e) {
+                switch (e.keyCode) {
+                    // Left arrow press
+                    case 37:
+                        slidePrev();
+                        break;
+                        // Right arrow press
+                    case 39:
+                        slideNext();
+                        break;
+                    default:
+                        break;
+                }
+            });
 
-		if (active.length === 0) { 
-			active = GALLERY.find('.img-wrapper:last');
-		}
 
-	    // Setting next image & thumb properties
-	    loadNextImage(active);
-	};
+            /******************************
+             * GALLERY FUNCTIONS
+             ******************************/
+            var slideNext = function () {
 
-	var loadNextImage = function(active) {
-		var next =  active.next(".img-wrapper").length ? active.next(".img-wrapper") : GALLERY.find('.img-wrapper:first'),
-			nextThumb = GALLERY.find('[data-thumb-id="' + next.data('img-id') + '"]');
+                var active = GALLERY.find('.img-wrapper.active');
 
-		// Setting next image & thumb properties
-		GALLERY.find('.thumb').removeClass('active');
-		nextThumb.addClass('active');
-		active.addClass('last-active');
+                if (active.length === 0) {
+                    active = GALLERY.find('.img-wrapper:last');
+                }
 
-		// Transitioning to next image & thumbnail
-		scrollThumbnails(nextThumb);
-		next.css({opacity: 0.0})
-			.addClass('active')
-			.animate({opacity: 1.0}, 1000, function() {
-				active.removeClass('active last-active');
-			});
-	};
+                // Setting next image & thumb properties
+                loadNextImage(active);
+            };
 
-	var slidePrev = function() {
-		var active = GALLERY.find('.img-wrapper.active');
+            var loadNextImage = function (active) {
+                var next = active.next(".img-wrapper").length ? active.next(".img-wrapper") : GALLERY.find(
+                        '.img-wrapper:first'),
+                    nextThumb = GALLERY.find('[data-thumb-id="' + next.data('img-id') + '"]');
 
-		if (active.length === 0) {
-			active = GALLERY.find('.img-wrapper:last');
-		}
+                // Setting next image & thumb properties
+                GALLERY.find('.thumb').removeClass('active');
+                nextThumb.addClass('active');
+                active.addClass('last-active');
 
-		// Setting next image & thumb properties
-		loadPrevImage(active);
-	};
+                // Transitioning to next image & thumbnail
+                scrollThumbnails(nextThumb);
+                next.css({
+                        opacity: 0.0
+                    })
+                    .addClass('active')
+                    .animate({
+                        opacity: 1.0
+                    }, 1000, function () {
+                        active.removeClass('active last-active');
+                    });
+            };
 
-	var loadPrevImage = function(active) {
-		var prev =  active.prev(".img-wrapper").length ? active.prev(".img-wrapper") : GALLERY.find('.img-wrapper:last'),
-			prevThumb = GALLERY.find('[data-thumb-id="' + prev.data('img-id') + '"]');
+            var slidePrev = function () {
+                var active = GALLERY.find('.img-wrapper.active');
 
-		// Setting next image & thumb properties
-		GALLERY.find('.thumb').removeClass('active');
-		prevThumb.addClass('active');
-		active.addClass('last-active');
+                if (active.length === 0) {
+                    active = GALLERY.find('.img-wrapper:last');
+                }
 
-		// Transitioning to next image & thumbnail
-		scrollThumbnails(prevThumb);
-		prev.css({opacity: 0.0})
-			.addClass('active')
-			.animate({opacity: 1.0}, 1000, function() {
-				active.removeClass('active last-active');
-			});
-	};
+                // Setting next image & thumb properties
+                loadPrevImage(active);
+            };
 
-	var loadClickedImage = function(id) {
-		var image =  GALLERY.find('[data-img-id="' + id + '"]'),
-			imgThumb = GALLERY.find('[data-thumb-id="' + id + '"]'),
-			currActive = GALLERY.find('.img-wrapper.active');
+            var loadPrevImage = function (active) {
+                var prev = active.prev(".img-wrapper").length ? active.prev(".img-wrapper") : GALLERY.find(
+                        '.img-wrapper:last'),
+                    prevThumb = GALLERY.find('[data-thumb-id="' + prev.data('img-id') + '"]');
 
-		// Setting image & thumb properties
-		GALLERY.find('.thumb').removeClass('active');
-		currActive.addClass('last-active').removeClass('active');
-		imgThumb.addClass('active');
-	    
-		// Transitioning to image & thumbnail
-		scrollThumbnails(imgThumb);
-		image.css({opacity: 0.0})
-			.addClass('active')
-			.animate({opacity: 1.0}, 1000, function() {
-				currActive.removeClass('last-active');
-			});
-	};
+                // Setting next image & thumb properties
+                GALLERY.find('.thumb').removeClass('active');
+                prevThumb.addClass('active');
+                active.addClass('last-active');
 
-	var scrollThumbnails = function(thumb) {
-		var offset, // used for thumbnail offset
-			first,  // stores first thumbnail object
-			x = thumb.position().left + parseInt(thumb.css('margin-left'), 10);
+                // Transitioning to next image & thumbnail
+                scrollThumbnails(prevThumb);
+                prev.css({
+                        opacity: 0.0
+                    })
+                    .addClass('active')
+                    .animate({
+                        opacity: 1.0
+                    }, 1000, function () {
+                        active.removeClass('active last-active');
+                    });
+            };
 
-		// Checking current thumbnail offset
-		if(x < 0) {
-			first = GALLERY.find('.thumb:first');
-			offset = parseInt(first.css('margin-left'), 10) - x;
-			first.animate({
-				marginLeft: offset
-			}, 1000);
-		} else {
-			x = thumb.position().left;
-			var currOffset = ( x + THUMBNAIL_WIDTH ) - thumb.parent().width();
-			if(currOffset > 0) {
-				first = GALLERY.find('.thumb:first');
-				offset = parseInt(first.css('margin-left'), 10) - currOffset;
-				first.animate({
-					marginLeft: offset
-				}, 1000);
-			}
-		}
-	};
-}());
-    
+            var loadClickedImage = function (id) {
+                var image = GALLERY.find('[data-img-id="' + id + '"]'),
+                    imgThumb = GALLERY.find('[data-thumb-id="' + id + '"]'),
+                    currActive = GALLERY.find('.img-wrapper.active');
+
+                // Setting image & thumb properties
+                GALLERY.find('.thumb').removeClass('active');
+                currActive.addClass('last-active').removeClass('active');
+                imgThumb.addClass('active');
+
+                // Transitioning to image & thumbnail
+                scrollThumbnails(imgThumb);
+                image.css({
+                        opacity: 0.0
+                    })
+                    .addClass('active')
+                    .animate({
+                        opacity: 1.0
+                    }, 1000, function () {
+                        currActive.removeClass('last-active');
+                    });
+            };
+
+            var scrollThumbnails = function (thumb) {
+                var offset, // used for thumbnail offset
+                    first, // stores first thumbnail object
+                    x = thumb.position().left + parseInt(thumb.css('margin-left'), 10);
+
+                // Checking current thumbnail offset
+                if (x < 0) {
+                    first = GALLERY.find('.thumb:first');
+                    offset = parseInt(first.css('margin-left'), 10) - x;
+                    first.animate({
+                        marginLeft: offset
+                    }, 1000);
+                } else {
+                    x = thumb.position().left;
+                    var currOffset = (x + THUMBNAIL_WIDTH) - thumb.parent().width();
+                    if (currOffset > 0) {
+                        first = GALLERY.find('.thumb:first');
+                        offset = parseInt(first.css('margin-left'), 10) - currOffset;
+                        first.animate({
+                            marginLeft: offset
+                        }, 1000);
+                    }
+                }
+            };
+        }());
     </script>
 
 </body>
