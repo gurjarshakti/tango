@@ -21,30 +21,11 @@
     padding-right: 30px;
 }
 
-.searchbardiv {
-    background-color: white;
-    border-radius: 4.5px;
-}
-
-.searchbar {
-    border-radius: 4.5px;
-    height: 25px;
-    width: 134px !important;
-    border: none;
-}
-
 
 .fa-search {
     color: #E14848;
 
 }
-
-.searchbtn {
-    border: none;
-    background-color: white;
-    border-radius: 4.5px;
-}
-
 
 .navbar a:hover {
     background-color: #E14848;
@@ -71,7 +52,7 @@ h1,
 h2,
 h3,
 h4,
-h5,
+h5
     {
     font-family: 'Helvetica', sans-serif;
     font-weight: bold;
@@ -123,22 +104,13 @@ h5,
     font-size: 15px;
     font-weight: bold;
     text-decoration: none;
-    /* margin-top: 30px; */
+    /*margin-top: 30px;*/
     /* margin-bottom: 15px; */
 }
 
 .section3 {
     background-color: black;
 }
-
-
-
-.eventbutton {
-    padding-bottom: 10px;
-    padding-top: 20px;
-}
-
-
 
 .viewmoreevent {
     padding-bottom: 30px;
@@ -429,17 +401,6 @@ hr {
 
 .musiccard {
     background: black;
-}
-
-.musicbtn {
-    /* width: 100%; */
-    /* height: 35px; */
-    border-radius: 10px;
-    border: solid 1px #ee2225;
-    background: transparent;
-    padding: 10px 25px 10px 25px;
-    text-align: center;
-    font-size: 13px;
 }
 
 .musicbtndiv {
@@ -753,3 +714,86 @@ h6.footerhead.text-center {font-weight: bold;
 
 .eventlist .fa {color:#ee2225;}
 .eventlist .fab {color:#ee2225;}
+
+/* ------------- date 17 June 2019 start ---------------------- */
+
+.dropdown, .dropdown-item{
+    opacity: 0.8;
+    color: #fff;
+}
+
+.dropdown-item{
+    padding: 0.25em;
+}
+
+.dropdown-divider{
+    padding: 0;
+    height: 1px;
+    width: 100%;
+    background-color: #000;
+    opacity: 0.8;
+}
+
+.searchbardiv {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.searchbar {
+    border-radius: 10px;
+    height: 25px;
+    width: 134px !important;
+    border: none;
+}
+
+.searchbtn {
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.eventbutton{
+    margin-top: 2em;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.carousel-indicators li{
+    opacity: 0.8;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    opacity: 0.8;
+}
+
+.expand-button{
+    padding: 14px 50px;
+    text-align: center;
+}
+
+.musicbtn {
+    /* width: 100%; */
+    /* height: 35px; */
+    border-radius: 12px;
+    border: solid 1px #ee2225;
+    background: transparent;
+    padding: 10px 35px;
+    text-align: center;
+    font-size: 13px;
+}
+
+#email{
+    background: transparent;
+    color: #fff;
+}
+
+.copyrights{
+    background-color: #000;
+    opacity: 1;
+}
+
+.copyrighttext a{
+    text-decoration: none;
+    color: green;
+}
+/* ------------- date 17 June 2019 end ---------------------- */
