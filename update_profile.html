@@ -89,21 +89,19 @@
                         <a class="nav-link text-white" href="#">About Us <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Calender</a>
+                        <a class="nav-link text-white" href="#">Calendar</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Gallrey</a>
-                        <div class="dropdown-menu bg-light" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Tango</a>
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Gallery</a>
+                        <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Events</a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="#">Classes</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Show</a>
-                            <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="#">Videos</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Tango Classes</a>
                         </div>
                     </li>
                     <li class="nav-item">
@@ -118,19 +116,19 @@
                     <li class="nav-item">
                         <a class="nav-link text-white" href="#">Music</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Member</a>
-                        <div class="dropdown-menu bg-light" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Text 1</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Text 2</a>
-                        </div>
-                    </li>
                     <li class="nav-item">
                         <a class="nav-link text-white" href="#">Contact Us</a>
                     </li>
-                </ul>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Username</a>
+                        <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Edit Profile</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Logout</a>
+                        </div>
+                    </li>
+                <!-- </ul><i class="fas fa-user-circle fa-2x" id="profile"></i> -->
                 <div class="navsearch">
                     <form class="form-inline my-1 my-lg-0 searchbardiv">
                         <input class="form-control mr-sm-2 searchbar" type="search" placeholder="Search"
@@ -142,30 +140,31 @@
         </nav>
     </header>
     <div class="banner container-fluid">
-        <img src="img/update_profile_2.png" alt="Snow" style="width:100%;">
+        <!-- <img src="img/038.jpg" alt="Snow" style="width:100%; ba"> -->
         <div class="row">
             <div class="col-md-6">
-                <div class="row">
+                <div class="row user" >
                     <div class="col-md-6">
                         <Img src="img/NoPath@2x.jpg"> </Img>
                     </div>
-                    <div class="col-md-6">
-                        <h5>This ia a headingg </h5>
-                        <p> This is gmail addres</p>
+                    <div class="col-md-6 user-detail">
+                        <h5>Username </h5>
+                        <p>usermail@mail.com</p>
                     </div>
 
                 </div>
-                <div class="col-md-6"> </div>
-                <div class="about-right text-center">
-
-                    <div class="abouttext">
-                        <h4 class="text-danger">Update Profile</h4>
-                    </div>
-                </div>
+                
             </div>
         </div>
     </div>
+    <!-- <div class="col-md-6"> </div>
+        <div class="about-right text-center">
 
+            <div class="abouttext">
+                <h4 class="text-danger">Update Profile</h4>
+            </div>
+        </div>
+    </div>
     <div class="container text-dark">
         <h3>Centered Tabs</h3>
         <p>To center/justify the tabs and pills, use the .nav-justified class. Note that on screens that are smaller
@@ -184,8 +183,70 @@
             <li><a href="#">Menu 2</a></li>
             <li><a href="#">Menu 3</a></li>
         </ul>
+    </div> -->
+
+    <div class="container-1">
+        
+        <div class="tabs">
+            
+            <button class="tablinks active" onclick="contentPanel(event, 'content-1')">Update Profile</button>
+            <button class="tablinks" onclick="contentPanel(event, 'content-2')">Events Booking</button>
+            <button class="tablinks" onclick="contentPanel(event, 'content-3')">Saved Events</button>
+            <button class="tablinks" onclick="contentPanel(event, 'content-4')">Classes Booking</button>
+
+        </div>
+
+        <div id="content-1" class="tab-content">
+                
+            <form action="" method="POST">
+                
+                <p>Profile Image</p>
+                <input type="text" name="upload" placeholder="Upload Image"> <br> <br>
+
+                <p>Display Name</p>
+                <input type="text" name='firstname' placeholder="First Name">
+                <input type="text" name="lastname" placeholder="Last Name" class="input-right"> <br> <br>
+
+                <p>Change Email</p>
+                <input type="email" name="email" placeholder="usermail@mail.com"> <br> <br>
+
+                <p>Change Password</p>
+                <input type="text" name="newpassword" placeholder="New Password">
+                <input type="text" name="confirmpassword" placeholder="Confirm Password" class="input-right"> <br> <br>
+
+                <p>Address Details</p>
+                <input type="text" name="street" placeholder="Street">
+                <input type="text" name="city" placeholder="City" class="input-right"> <br>
+                <input type="text" name="country" placeholder="Country">
+                <input type="text" name="" class="input-right"> <br> <br>
+
+                <button type="submit" class="btn btn-danger" id="expand">Update</button>
+
+            </form>
+
+        </div>
+
+        <div id="content-2" class="tab-content">
+                
+            <p>dummy2</p>
+        </div>
+
+        <div id="content-3" class="tab-content">
+                
+            <p>hello</p>
+        </div>
+
+        <div id="content-4" class="tab-content">
+                
+            <p>MAxlence Consulting</p>
+        </div>
+            
+        </div>
+
     </div>
 
+    
+        
     <footer>
         <div class="container-fluid footer">
             <div class="row text-white footer">
@@ -285,6 +346,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
         integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
     </script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

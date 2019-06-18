@@ -1,26 +1,23 @@
-/* Navbar Css */
+ /*Navbar Css */
 .navbar {
     font-size: 14px;
-    background-color: black !important;
+    background-color: #000 !important;
     height: 55px;
-
 }
 
 /* Logo CSS */
 .logotop {
-
+    margin-left: 33.5px;
     position: fixed;
     z-index: 99;
     padding-top: 50px;
 }
-
 
 /* Top Nav Search Bar */
 .navsearch {
     padding-left: 20px;
     padding-right: 30px;
 }
-
 
 .fa-search {
     color: #E14848;
@@ -31,7 +28,6 @@
     background-color: #E14848;
     border-radius: 4.5px;
 }
-
 
 .h7 {
     padding-left: 10px !important;
@@ -48,17 +44,10 @@ body {
     font-style: normal;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5
-    {
+h1,h2,h3,h4,h5{
     font-family: 'Helvetica', sans-serif;
     font-weight: bold;
 }
-
-
 
 /* Carousel CSS */
 .carousel-caption {
@@ -76,8 +65,6 @@ h5
 
 /* Section1 CSS */
 .section2 {
-
-
     height: auto;
     width: auto;
     background-repeat: no-repeat;
@@ -86,10 +73,8 @@ h5
 .section2head {}
 
 .sechtion2text {
-
     padding-top: 160px;
     padding-left: 647px;
-
 }
 
 .sectionbody {
@@ -118,14 +103,6 @@ h5
 }
 
 
-
-
-.viewmoreclass {
-        padding-bottom: 30px;
-    padding-top: 30px;
-}
-
-
 .viewmorenews {
     padding-bottom: 30px;
     padding-top: 30px;
@@ -135,8 +112,6 @@ h5
     padding-bottom: 30px;
     padding-top: 30px;
 }
-
-
 
 .eventbtnarea {
     height: 30px;
@@ -152,14 +127,10 @@ h5
     background-color: black;
 }
 
-
-
 .gallreydiv {
     padding-right: 0px;
     padding-left: 0px;
 }
-
-
 
 .gallrey {
     padding-bottom: 30px;
@@ -177,10 +148,8 @@ h5
 }
 
 /* Upcoming Events */
-
 .eventimg {
     padding: 10px;
-
 }
 
 .eventimgbg {
@@ -196,7 +165,6 @@ h5
 }
 
 /*News Section */
-
 .newssection {
     background-color: black;
 }
@@ -214,8 +182,6 @@ h5
 
 .card {
     width: auto !important;
-
-
 }
 
 /*.card:hover {
@@ -253,9 +219,7 @@ hr {
     margin: auto;
     padding-left: 480px;
     margin-bottom: 25px;
-
 }
-
 
 /*.img1 {
     padding-left: 20px;
@@ -264,9 +228,7 @@ hr {
     background-image: url("https://i.imgur.com/nLeQdrV.png");
     background-position: center bottom, left top;
   background-repeat: no-repeat;
- 
-
-}*/
+ }*/
 
 .sectionhead3 {
     padding-top: 25px;
@@ -284,33 +246,24 @@ hr {
 .fa-user-friends,
 .fa-clock,
 .fa-map-marker-alt {
-
     color: #E14848;
 }
-
 
 .fa-paper-plane {
     color: white;
 }
-
 
 .fa-map-marker-alt {
     color: white;
 }
 
 /* Mini Footer Css */
-
-
 .galdiv {
     position: relative;
     display: inline-block;
-   
     box-shadow:  0 0 10px 0 #000;
-    
     padding: 0;
 }
-
-
 
 .text {
     color: white;
@@ -717,6 +670,8 @@ h6.footerhead.text-center {font-weight: bold;
 
 /* ------------- date 17 June 2019 start ---------------------- */
 
+/* Index.html updates*/
+
 .dropdown, .dropdown-item{
     opacity: 0.8;
     color: #fff;
@@ -744,6 +699,7 @@ h6.footerhead.text-center {font-weight: bold;
     height: 25px;
     width: 134px !important;
     border: none;
+    padding: 1em 0em 1em 0.5em;
 }
 
 .searchbtn {
@@ -771,6 +727,17 @@ h6.footerhead.text-center {font-weight: bold;
     text-align: center;
 }
 
+.card{
+    box-shadow: -10px 10.5px 0.5px 0 #c30101;
+    border-radius: 0px;
+}
+
+.viewmoreclass {
+    margin: 2em;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
 .musicbtn {
     /* width: 100%; */
     /* height: 35px; */
@@ -787,13 +754,106 @@ h6.footerhead.text-center {font-weight: bold;
     color: #fff;
 }
 
+.input-group-addon{
+    background: transparent;
+    border-color: #fff;
+    color: #fff;
+}
+
 .copyrights{
     background-color: #000;
-    opacity: 1;
 }
 
 .copyrighttext a{
     text-decoration: none;
     color: green;
 }
-/* ------------- date 17 June 2019 end ---------------------- */
+
+/* update_profile.html updates*/
+
+/*#profile{
+    margin: 0;
+    background-color: #000;
+    color: #fff;
+    padding: 0 auto;
+}
+*/
+.user{
+    margin: 4em 0em 5em 6em;
+}
+
+.user-detail{
+    margin: 3em 0em 0em -7em;
+}
+
+.tabs{
+    display: grid;
+    grid: 3em/ auto auto auto auto;
+    margin-bottom: 1em;
+}
+
+.tabs a{
+    text-decoration: none;
+    color: #000;
+    padding: 0.5em 6em;
+    font-weight: bold;
+}
+
+.container-1 .tabs button{
+    border: none 0px #fff;
+}
+
+
+/* ------------- date 17 June 2019 end ---------------------- 
+
+/* ------------- date 18 June 2019 start ---------------------- */
+
+#content-1 form{
+    background-color: #fff;
+}
+
+#content-1 form input{
+    border-radius: 5px;
+    border: solid 0.5px #707070;
+    height: 30px;
+    width: 300px;
+    margin-bottom: 0.5em;
+    line-height: 0.5em;
+    font-size: 0.75em;
+    padding: 0.5em;
+}
+
+.input-right{
+    margin-left: 1.5em;
+}
+
+#expand{
+    margin-bottom: 3em;
+    padding: 0.25em 4em 0.25em 4em;
+    border-radius: 12px;
+}
+
+.tabs{
+    border: solid 1px #fff;
+    border-bottom-color: grey;
+}
+
+.tabs button{
+    outline: none;
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+}
+.tabs button.active{
+    border: none;
+    background-color: #ee2225;
+}
+
+#content-2, #content-3, #content-4{
+    display: none;
+}
+
+.tab-content{
+    margin: 4em 0em 5em 10em;
+}
+/* ------------- date 18 June 2019 end ---------------------- */
