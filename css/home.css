@@ -1,3 +1,8 @@
+
+*{
+    font-family: Helevetica, sans-serif;
+}
+
  /*Navbar Css */
 .navbar {
     font-size: 14px;
@@ -57,9 +62,9 @@ h1,h2,h3,h4,h5{
     bottom: 91px;
     /* left: 15%; */
     z-index: 10;
-    padding-top: 20px;
+    padding-top: 15px;
     padding-bottom: 85px;
-    color: #ed0000 !important;
+    color: /*#ed0000*/ #d91e18 !important;
     text-align: left;
 }
 
@@ -95,6 +100,43 @@ h1,h2,h3,h4,h5{
 
 .section3 {
     background-color: black;
+}
+
+.banner {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+.top-right {
+    position: absolute;
+    top: 90px;
+    right: 170px;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .viewmoreevent {
@@ -234,7 +276,7 @@ hr {
     padding-top: 25px;
     text-transform: uppercase;
     font-weight: bold;
-    color: #E14848;
+    color: #d91e18;
     font-size: 26px;
 }
 /* Font awesome Icons */
@@ -672,13 +714,13 @@ h6.footerhead.text-center {font-weight: bold;
 
 /* Index.html updates*/
 
-.dropdown, .dropdown-item{
+.dropdown-menu {
     opacity: 0.8;
-    color: #fff;
 }
 
 .dropdown-item{
     padding: 0.25em;
+    color: #fff;
 }
 
 .dropdown-divider{
@@ -778,31 +820,10 @@ h6.footerhead.text-center {font-weight: bold;
     padding: 0 auto;
 }
 */
-.user{
-    margin: 4em 0em 5em 6em;
-}
-
-.user-detail{
-    margin: 3em 0em 0em -7em;
-}
-
-.tabs{
-    display: grid;
-    grid: 3em/ auto auto auto auto;
-    margin-bottom: 1em;
-}
-
-.tabs a{
-    text-decoration: none;
-    color: #000;
-    padding: 0.5em 6em;
-    font-weight: bold;
-}
 
 .container-1 .tabs button{
     border: none 0px #fff;
 }
-
 
 /* ------------- date 17 June 2019 end ---------------------- 
 
@@ -814,13 +835,21 @@ h6.footerhead.text-center {font-weight: bold;
 
 #content-1 form input{
     border-radius: 5px;
-    border: solid 0.5px #707070;
-    height: 30px;
+    border: solid 1.5px #e17055;
+    height: 40px;
     width: 300px;
     margin-bottom: 0.5em;
-    line-height: 0.5em;
     font-size: 0.75em;
+    font-weight: bolder;
     padding: 0.5em;
+    outline: none;
+}
+
+#content-1 form p{
+    font-weight: bolder;
+    font-size: small;
+    margin-bottom: 0.75em;
+    color: /*#2d3436*/ #96281b;
 }
 
 .input-right{
@@ -843,10 +872,12 @@ h6.footerhead.text-center {font-weight: bold;
     cursor: pointer;
     background-color: #000;
     color: #fff;
+    font-weight: bold;
+
 }
 .tabs button.active{
     border: none;
-    background-color: #ee2225;
+    background-color: /*#ee2225*/ #c0392b;
 }
 
 #content-2, #content-3, #content-4{
@@ -854,6 +885,244 @@ h6.footerhead.text-center {font-weight: bold;
 }
 
 .tab-content{
-    margin: 4em 0em 5em 10em;
+    margin: 4em 10em 5em 10em;
 }
+
 /* ------------- date 18 June 2019 end ---------------------- */
+
+/* ------------- date 19 June 2019 start ---------------------- */
+
+.tabs{
+    display: grid;
+    grid: 2.25em/ auto auto auto auto;
+    margin: 0em 5em 1em 5em;
+}
+
+#content-2 .event-tab{
+    background-color: /*#ee2225*/ #ff5252 ;
+    color: #fff;
+    padding: 0.25em;
+    margin-top: -3.5em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#content-2 #add-events-button, #content-2 #delete-events {
+    background-color: /*#ee2225*/ #b33939;
+    color: #fff;
+    border-radius: 6px;
+    padding: 0.5em 1em;
+    margin: 1em 0em 1.5em 1em;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#add-events{
+    display: none;
+}
+
+#add-events form{
+    margin: 1em;
+    padding: 1em;
+}
+
+#add-events input, #add-events select{
+    margin-right: 1.5em;
+    border-radius: 5px;
+    border: solid 1.5px #e17055;
+    height: 40px;
+    width: 300px;
+    margin-bottom: 0.5em;
+    font-size: 0.75em;
+    font-weight: bolder;
+    padding: 0.5em;
+    outline: none;
+    color: #707070;
+
+}
+
+#add-events input{
+    font-size: small;
+    padding: 0.5em;
+}
+
+#add-events .file, #content-1 .file{
+    padding: 0.5em;
+    font-size: small;
+    color: #707070;
+}
+
+.red{
+    color: #ee2225;
+}
+
+#add-events form p{
+    font-weight: bolder;
+    font-size: small;
+    color: #2F4F4F;
+    margin: 1em 0em;
+
+}
+
+#content-2 .btn-danger{
+    margin-right: 1em;
+}
+
+/* ------------- date 19 June 2019 end ---------------------- */
+
+/* ------------- date 20 June 2019 end ---------------------- */
+
+#content-2 .btn-primary{
+    margin-bottom: 1em;
+    background-color: blue;
+    color: #fff;
+}
+
+#content-2 #maxFiles{
+    display: inline;
+}
+
+    /* Index.html*/
+
+.section2btn:hover{
+    background-color: #96281b;
+    transition: 0.7s;
+}
+
+.announcement{
+    background-color: #cf000f;
+}
+
+    /* update_profile.html */
+
+#banner-cover{
+    width: 90%;
+    height: 300px;
+    margin-bottom: 0em;
+}
+
+.profilePic img{
+    margin: -20em 0em 5em 9em;
+    border-radius: 4em;
+    opacity: 0.75;
+
+}
+
+.user-detail{
+    margin: -13em 0em 0em -6em;
+    color: #22313f;
+}
+
+#addFile{
+    margin-top: 1em;
+}
+
+#extraFile-2, #extraFile-3, #extraFile-4, #extraFile-5{
+    max-width: 100%;
+    margin-top: 1em;
+    display: none;
+}
+
+.col-sm-4 .btn-danger{
+    margin-top: 1em;
+}
+
+table{
+    table-layout: fixed;
+    width: 990px; 
+    border: solid 1px #ddd;
+    margin: 1em;
+}
+
+table th{
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    font-size: small;
+    border-right: solid 1px #fff;
+    padding: 0.25em 2em 0.25em 0.5em;
+}
+
+table td {
+    padding: 1em;
+    border-right: solid 1px #fff;
+    font-size: small;
+}
+
+tr:nth-child(odd) {
+  background-color: #ddd;
+}
+
+tr:nth-child(even):hover {
+  background-color: #ddd;
+}
+
+#data-entry, #search-data{
+    color: #2F4F4F;
+    font-weight: bold;
+    margin: 0.5em 1em 0.5em 1em;
+}
+
+#data-entry select, #search-data input{
+    padding: 0.25em 1.5em;
+    border-radius: 5px;
+    border: solid 1px #2F4F4F;
+    outline: none;
+}
+
+#search-data {
+    float: right;
+    display: inline;
+}
+
+/* ------------- date 20 June 2019 end ---------------------- */
+
+/* ------------- date 21 June 2019 start ---------------------- */
+
+#search-data input {
+    box-shadow: none;
+}
+
+.long-text {
+    white-space: nowrap;
+    overflow: hidden;
+    width: 10px;
+    height: 10px;
+    text-overflow: ellipsis;
+    text-align: left;
+}
+
+.col-sm-4 .close {
+    display: none;
+    cursor: pointer;
+}
+
+.edit, .copy, .trash {
+    padding: 0em 0.15em;
+    cursor: pointer;
+    transition: 0.2s;
+    border: none 0px #fff;
+}
+
+.edit:hover, .copy:hover, .trash:hover {
+    font-size: 1.25em;
+    transition: 0.2s;
+}
+
+#content-2 #add-events-button:hover, #content-2 #delete-events:hover{
+    padding: 0.5em 1.5em 0.5em 1em;
+}
+
+/* ------------- date 21 June 2019 end ---------------------- */
+
+/* ------------- date 24 June 2019 start ---------------------- */
+
+.modal-footer button{
+    margin: 1em;
+}
+
+#extraFile-2 input, #extraFile-3 input, #extraFile-4 input, #extraFile-5 input {
+    max-width: 70%;
+}
+/* ------------- date 24 June 2019 end ---------------------- */
