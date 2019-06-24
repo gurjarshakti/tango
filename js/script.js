@@ -56,29 +56,6 @@ function addEvent(evt, eventId) {
 
 // ------------- 19 June End------------------
 
-// -------------20 June Start ----------------
-
-// Code to make Add button work in Event section.
-
-// let addButton = document.getElementById('addFile');
-// let remove = document.getElementsByClassName('close');
-// let fileUpload = document.getElementsByClassName('extraFile');
-
-// addButton.onclick = function() {
-  
-//     fileUpload.style.display = 'block';
-//     remove.style.display = 'block';
-
-// }
-
-// remove.onclick = function() {
-  
-//     fileUpload.style.display = 'none';
-
-// }
-
-// ------------- 20 June End----------------
-
 // ------------- 21 June Start--------------
 
 let tableRow = document.getElementsByClassName('table-row');
@@ -153,10 +130,5 @@ extraFileFive.onclick = function() {
     extraFileFive.style.display = 'none';
     
 }
-
-
-
-
-
 
 // ------------- 24 June End---------------

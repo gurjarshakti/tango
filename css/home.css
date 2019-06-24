@@ -1095,6 +1095,7 @@ tr:nth-child(even):hover {
 
 .col-sm-4 .addedFiles .close {
     cursor: pointer;
+    font-size: 2em;
 }
 
 .edit, .copy, .trash {
