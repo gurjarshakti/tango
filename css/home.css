@@ -1,26 +1,28 @@
-/* Navbar Css */
+
+*{
+    font-family: Helevetica, sans-serif;
+}
+
+ /*Navbar Css */
 .navbar {
     font-size: 14px;
-    background-color: black !important;
+    background-color: #000 !important;
     height: 55px;
-
 }
 
 /* Logo CSS */
 .logotop {
-
+    margin-left: 33.5px;
     position: fixed;
     z-index: 99;
     padding-top: 50px;
 }
-
 
 /* Top Nav Search Bar */
 .navsearch {
     padding-left: 20px;
     padding-right: 30px;
 }
-
 
 .fa-search {
     color: #E14848;
@@ -31,7 +33,6 @@
     background-color: #E14848;
     border-radius: 4.5px;
 }
-
 
 .h7 {
     padding-left: 10px !important;
@@ -48,17 +49,10 @@ body {
     font-style: normal;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5
-    {
+h1,h2,h3,h4,h5{
     font-family: 'Helvetica', sans-serif;
     font-weight: bold;
 }
-
-
 
 /* Carousel CSS */
 .carousel-caption {
@@ -68,16 +62,14 @@ h5
     bottom: 91px;
     /* left: 15%; */
     z-index: 10;
-    padding-top: 20px;
+    padding-top: 15px;
     padding-bottom: 85px;
-    color: #ed0000 !important;
+    color: /*#ed0000*/ #d91e18 !important;
     text-align: left;
 }
 
 /* Section1 CSS */
 .section2 {
-
-
     height: auto;
     width: auto;
     background-repeat: no-repeat;
@@ -86,10 +78,8 @@ h5
 .section2head {}
 
 .sechtion2text {
-
     padding-top: 160px;
     padding-left: 647px;
-
 }
 
 .sectionbody {
@@ -112,16 +102,45 @@ h5
     background-color: black;
 }
 
-.viewmoreevent {
-    padding-bottom: 30px;
-    padding-top: 30px;
+.banner {
+    position: relative;
+    text-align: center;
+    color: white;
 }
 
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
 
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
 
+.top-right {
+    position: absolute;
+    top: 90px;
+    right: 170px;
+}
 
-.viewmoreclass {
-        padding-bottom: 30px;
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.viewmoreevent {
+    padding-bottom: 30px;
     padding-top: 30px;
 }
 
@@ -135,8 +154,6 @@ h5
     padding-bottom: 30px;
     padding-top: 30px;
 }
-
-
 
 .eventbtnarea {
     height: 30px;
@@ -152,14 +169,10 @@ h5
     background-color: black;
 }
 
-
-
 .gallreydiv {
     padding-right: 0px;
     padding-left: 0px;
 }
-
-
 
 .gallrey {
     padding-bottom: 30px;
@@ -177,10 +190,8 @@ h5
 }
 
 /* Upcoming Events */
-
 .eventimg {
     padding: 10px;
-
 }
 
 .eventimgbg {
@@ -196,7 +207,6 @@ h5
 }
 
 /*News Section */
-
 .newssection {
     background-color: black;
 }
@@ -214,8 +224,6 @@ h5
 
 .card {
     width: auto !important;
-
-
 }
 
 /*.card:hover {
@@ -253,9 +261,7 @@ hr {
     margin: auto;
     padding-left: 480px;
     margin-bottom: 25px;
-
 }
-
 
 /*.img1 {
     padding-left: 20px;
@@ -264,15 +270,13 @@ hr {
     background-image: url("https://i.imgur.com/nLeQdrV.png");
     background-position: center bottom, left top;
   background-repeat: no-repeat;
- 
-
-}*/
+ }*/
 
 .sectionhead3 {
     padding-top: 25px;
     text-transform: uppercase;
     font-weight: bold;
-    color: #E14848;
+    color: #d91e18;
     font-size: 26px;
 }
 /* Font awesome Icons */
@@ -284,33 +288,24 @@ hr {
 .fa-user-friends,
 .fa-clock,
 .fa-map-marker-alt {
-
     color: #E14848;
 }
-
 
 .fa-paper-plane {
     color: white;
 }
-
 
 .fa-map-marker-alt {
     color: white;
 }
 
 /* Mini Footer Css */
-
-
 .galdiv {
     position: relative;
     display: inline-block;
-   
     box-shadow:  0 0 10px 0 #000;
-    
     padding: 0;
 }
-
-
 
 .text {
     color: white;
@@ -717,13 +712,15 @@ h6.footerhead.text-center {font-weight: bold;
 
 /* ------------- date 17 June 2019 start ---------------------- */
 
-.dropdown, .dropdown-item{
+/* Index.html updates*/
+
+.dropdown-menu {
     opacity: 0.8;
-    color: #fff;
 }
 
 .dropdown-item{
     padding: 0.25em;
+    color: #fff;
 }
 
 .dropdown-divider{
@@ -744,6 +741,7 @@ h6.footerhead.text-center {font-weight: bold;
     height: 25px;
     width: 134px !important;
     border: none;
+    padding: 1em 0em 1em 0.5em;
 }
 
 .searchbtn {
@@ -771,6 +769,17 @@ h6.footerhead.text-center {font-weight: bold;
     text-align: center;
 }
 
+.card{
+    box-shadow: -10px 10.5px 0.5px 0 #c30101;
+    border-radius: 0px;
+}
+
+.viewmoreclass {
+    margin: 2em;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
 .musicbtn {
     /* width: 100%; */
     /* height: 35px; */
@@ -787,13 +796,333 @@ h6.footerhead.text-center {font-weight: bold;
     color: #fff;
 }
 
+.input-group-addon{
+    background: transparent;
+    border-color: #fff;
+    color: #fff;
+}
+
 .copyrights{
     background-color: #000;
-    opacity: 1;
 }
 
 .copyrighttext a{
     text-decoration: none;
     color: green;
 }
-/* ------------- date 17 June 2019 end ---------------------- */
+
+/* update_profile.html updates*/
+
+/*#profile{
+    margin: 0;
+    background-color: #000;
+    color: #fff;
+    padding: 0 auto;
+}
+*/
+
+.container-1 .tabs button{
+    border: none 0px #fff;
+}
+
+/* ------------- date 17 June 2019 end ---------------------- 
+
+/* ------------- date 18 June 2019 start ---------------------- */
+
+#content-1 form{
+    background-color: #fff;
+}
+
+#content-1 form input{
+    border-radius: 5px;
+    border: solid 1.5px #e17055;
+    height: 40px;
+    width: 300px;
+    margin-bottom: 0.5em;
+    font-size: 0.75em;
+    font-weight: bolder;
+    padding: 0.5em;
+    outline: none;
+}
+
+#content-1 form p{
+    font-weight: bolder;
+    font-size: small;
+    margin-bottom: 0.75em;
+    color: /*#2d3436*/ #96281b;
+}
+
+.input-right{
+    margin-left: 1.5em;
+}
+
+#expand{
+    margin-bottom: 3em;
+    padding: 0.25em 4em 0.25em 4em;
+    border-radius: 12px;
+}
+
+.tabs{
+    border: solid 1px #fff;
+    border-bottom-color: grey;
+}
+
+.tabs button{
+    outline: none;
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+
+}
+.tabs button.active{
+    border: none;
+    background-color: /*#ee2225*/ #c0392b;
+}
+
+#content-2, #content-3, #content-4{
+    display: none;
+}
+
+.tab-content{
+    margin: 4em 10em 5em 10em;
+}
+
+/* ------------- date 18 June 2019 end ---------------------- */
+
+/* ------------- date 19 June 2019 start ---------------------- */
+
+.tabs{
+    display: grid;
+    grid: 2.25em/ auto auto auto auto;
+    margin: 0em 5em 1em 5em;
+}
+
+#content-2 .event-tab{
+    background-color: /*#ee2225*/ #ff5252 ;
+    color: #fff;
+    padding: 0.25em;
+    margin-top: -3.5em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#content-2 #add-events-button, #content-2 #delete-events {
+    background-color: /*#ee2225*/ #b33939;
+    color: #fff;
+    border-radius: 6px;
+    padding: 0.5em 1em;
+    margin: 1em 0em 1.5em 1em;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#add-events{
+    display: none;
+}
+
+#add-events form{
+    margin: 1em;
+    padding: 1em;
+}
+
+#add-events input, #add-events select{
+    margin-right: 1.5em;
+    border-radius: 5px;
+    border: solid 1.5px #e17055;
+    height: 40px;
+    width: 300px;
+    margin-bottom: 0.5em;
+    font-size: 0.75em;
+    font-weight: bolder;
+    padding: 0.5em;
+    outline: none;
+    color: #707070;
+
+}
+
+#add-events input{
+    font-size: small;
+    padding: 0.5em;
+}
+
+#add-events .file, #content-1 .file{
+    padding: 0.5em;
+    font-size: small;
+    color: #707070;
+}
+
+.red{
+    color: #ee2225;
+}
+
+#add-events form p{
+    font-weight: bolder;
+    font-size: small;
+    color: #2F4F4F;
+    margin: 1em 0em;
+
+}
+
+#content-2 .btn-danger{
+    margin-right: 1em;
+}
+
+/* ------------- date 19 June 2019 end ---------------------- */
+
+/* ------------- date 20 June 2019 end ---------------------- */
+
+#content-2 .btn-primary{
+    margin-bottom: 1em;
+    background-color: blue;
+    color: #fff;
+}
+
+#content-2 #maxFiles{
+    display: inline;
+}
+
+    /* Index.html*/
+
+.section2btn:hover{
+    background-color: #96281b;
+    transition: 0.7s;
+}
+
+.announcement{
+    background-color: #cf000f;
+}
+
+    /* update_profile.html */
+
+#banner-cover{
+    width: 90%;
+    height: 300px;
+    margin-bottom: 0em;
+}
+
+.profilePic img{
+    margin: -20em 0em 5em 9em;
+    border-radius: 4em;
+    opacity: 0.75;
+
+}
+
+.user-detail{
+    margin: -13em 0em 0em -6em;
+    color: #22313f;
+}
+
+#addFile{
+    margin-top: 1em;
+}
+
+#extraFile-2, #extraFile-3, #extraFile-4, #extraFile-5{
+    max-width: 100%;
+    margin-top: 1em;
+    display: none;
+}
+
+.col-sm-4 .btn-danger{
+    margin-top: 1em;
+}
+
+table{
+    table-layout: fixed;
+    width: 990px; 
+    border: solid 1px #ddd;
+    margin: 1em;
+}
+
+table th{
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    font-size: small;
+    border-right: solid 1px #fff;
+    padding: 0.25em 2em 0.25em 0.5em;
+}
+
+table td {
+    padding: 1em;
+    border-right: solid 1px #fff;
+    font-size: small;
+}
+
+tr:nth-child(odd) {
+  background-color: #ddd;
+}
+
+tr:nth-child(even):hover {
+  background-color: #ddd;
+}
+
+#data-entry, #search-data{
+    color: #2F4F4F;
+    font-weight: bold;
+    margin: 0.5em 1em 0.5em 1em;
+}
+
+#data-entry select, #search-data input{
+    padding: 0.25em 1.5em;
+    border-radius: 5px;
+    border: solid 1px #2F4F4F;
+    outline: none;
+}
+
+#search-data {
+    float: right;
+    display: inline;
+}
+
+/* ------------- date 20 June 2019 end ---------------------- */
+
+/* ------------- date 21 June 2019 start ---------------------- */
+
+#search-data input {
+    box-shadow: none;
+}
+
+.long-text {
+    white-space: nowrap;
+    overflow: hidden;
+    width: 10px;
+    height: 10px;
+    text-overflow: ellipsis;
+    text-align: left;
+}
+
+.col-sm-4 .close {
+    display: none;
+    cursor: pointer;
+}
+
+.edit, .copy, .trash {
+    padding: 0em 0.15em;
+    cursor: pointer;
+    transition: 0.2s;
+    border: none 0px #fff;
+}
+
+.edit:hover, .copy:hover, .trash:hover {
+    font-size: 1.25em;
+    transition: 0.2s;
+}
+
+#content-2 #add-events-button:hover, #content-2 #delete-events:hover{
+    padding: 0.5em 1.5em 0.5em 1em;
+}
+
+/* ------------- date 21 June 2019 end ---------------------- */
+
+/* ------------- date 24 June 2019 start ---------------------- */
+
+.modal-footer button{
+    margin: 1em;
+}
+
+#extraFile-2 input, #extraFile-3 input, #extraFile-4 input, #extraFile-5 input {
+    max-width: 70%;
+}
+/* ------------- date 24 June 2019 end ---------------------- */
