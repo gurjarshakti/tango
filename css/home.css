@@ -667,21 +667,16 @@ h6.footerhead.text-center {font-weight: bold;
 }
 
 .bookbtn {
-   border-radius: 10px;
+    border-radius: 10px;
     background-color: #ee2225;
-   
     color: #fff;
     padding:8px 15px 8px 15px;
     font-size: 13px;
 }
 .bookbtn:hover {
-   
-   
     color: #fff;
     text-decoration: none;
-    
 }
-
 
 .btnlist {
     padding-right: 50px;
@@ -691,17 +686,14 @@ h6.footerhead.text-center {font-weight: bold;
 .activitybtn {
     border-radius: 10px;
     background-color: #ee2225;
-   
     color: #fff;
     padding:8px 15px 8px 15px;
     font-size: 13px;
 }
+
 .activitybtn:hover {
-   
-   
     color: #fff;
     text-decoration: none;
-    
 }
 
 .event_description p { font-size:14px; margin-bottom:15px; text-align:justify;}
@@ -835,7 +827,7 @@ h6.footerhead.text-center {font-weight: bold;
 
 #content-1 form input{
     border-radius: 5px;
-    border: solid 1.5px #e17055;
+    border: solid 1px #94908f;
     height: 40px;
     width: 300px;
     margin-bottom: 0.5em;
@@ -843,6 +835,7 @@ h6.footerhead.text-center {font-weight: bold;
     font-weight: bolder;
     padding: 0.5em;
     outline: none;
+    box-shadow: 2px 2px 4px #94908f;
 }
 
 #content-1 form p{
@@ -898,12 +891,12 @@ h6.footerhead.text-center {font-weight: bold;
     margin: 0em 5em 1em 5em;
 }
 
-#content-2 .event-tab{
+#content-2 .event-tab, #content-3 .event-tab, #content-4 .event-tab{
     background-color: /*#ee2225*/ #ff5252 ;
     color: #fff;
     padding: 0.25em;
     margin-top: -3.5em;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Helvetica', sans-serif;
 }
 
 #content-2 #add-events-button, #content-2 #delete-events {
@@ -916,21 +909,13 @@ h6.footerhead.text-center {font-weight: bold;
     outline: none;
     cursor: pointer;
     transition: 0.2s;
-}
-
-#add-events{
-    display: none;
-}
-
-#add-events form{
-    margin: 1em;
-    padding: 1em;
+    box-shadow: 2px 2px 4px #000;
 }
 
 #add-events input, #add-events select{
     margin-right: 1.5em;
     border-radius: 5px;
-    border: solid 1.5px #e17055;
+    border: solid 1px #94908f;
     height: 40px;
     width: 300px;
     margin-bottom: 0.5em;
@@ -939,7 +924,7 @@ h6.footerhead.text-center {font-weight: bold;
     padding: 0.5em;
     outline: none;
     color: #707070;
-
+    box-shadow: 2px 2px 4px #94908f;
 }
 
 #add-events input{
@@ -967,6 +952,7 @@ h6.footerhead.text-center {font-weight: bold;
 
 #content-2 .btn-danger{
     margin-right: 1em;
+    box-shadow: 2px 2px 4px #000;
 }
 
 /* ------------- date 19 June 2019 end ---------------------- */
@@ -977,6 +963,7 @@ h6.footerhead.text-center {font-weight: bold;
     margin-bottom: 1em;
     background-color: blue;
     color: #fff;
+    box-shadow: 2px 2px 4px #000;
 }
 
 #content-2 #maxFiles{
@@ -1031,7 +1018,7 @@ h6.footerhead.text-center {font-weight: bold;
 table{
     table-layout: fixed;
     width: 990px; 
-    border: solid 1px #ddd;
+    border: solid 1px #94908f;
     margin: 1em;
 }
 
@@ -1046,7 +1033,7 @@ table th{
 
 table td {
     padding: 1em;
-    border-right: solid 1px #fff;
+    /*border-right: solid 1px #fff;*/
     font-size: small;
 }
 
@@ -1067,8 +1054,9 @@ tr:nth-child(even):hover {
 #data-entry select, #search-data input{
     padding: 0.25em 1.5em;
     border-radius: 5px;
-    border: solid 1px #2F4F4F;
     outline: none;
+    border: solid 1px #94908f;
+    box-shadow: 2px 2px 4px #94908f;
 }
 
 #search-data {
@@ -1079,10 +1067,6 @@ tr:nth-child(even):hover {
 /* ------------- date 20 June 2019 end ---------------------- */
 
 /* ------------- date 21 June 2019 start ---------------------- */
-
-#search-data input {
-    box-shadow: none;
-}
 
 .long-text {
     white-space: nowrap;
@@ -1126,3 +1110,50 @@ tr:nth-child(even):hover {
     max-width: 70%;
 }
 /* ------------- date 24 June 2019 end ---------------------- */
+
+/* ------------- date 25 June 2019 start ---------------------- */
+
+#content-1 #expand {
+    box-shadow: 2px 2px 4px #000;
+}
+
+.event-add {
+    max-width: 90%;
+    background-color: /*#ee2225*/ #ff5252 ;
+    color: #fff;
+    padding: 0.25em;
+    margin: 0em 5em 1em 5em;
+    font-family: 'Helvetica', sans-serif;
+
+}
+
+#add-events form{
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 0em 4em 3em 7em;
+    padding: 1em;
+}
+
+.col-sm-4 #addFile {
+    background-color: #132e9a;
+    color: #fff;
+    box-shadow: 2px 2px 4px #000;
+}
+
+#add-events #maxFiles{
+    display: inline;
+    margin-left: 1.5em;
+}
+
+#add-events .btn-danger{
+    margin-right: 1em;
+    padding: 0.25em 3em;
+    box-shadow: 2px 2px 4px #000;
+}
+
+#content-3 input{
+    color: #000;
+    font-weight: bolder;
+    font-size: 1em;
+}
+/* ------------- date 25 June 2019 end ---------------------- */

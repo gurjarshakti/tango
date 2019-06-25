@@ -34,25 +34,25 @@ function contentPanel(evt, contentId) {
 
 // Code to toggle between event tabs.
 
-function addEvent(evt, eventId) {
+// function addEvent(evt, eventId) {
 
-    let tabEvent = document.getElementById('add-events');
-    let deleteEvent = document.getElementById('delete-events');
-    let addEvent = document.getElementById('add-events-button');
-    let eventHead = document.getElementById('event-head');
-    let dataEntry = document.getElementById('data-entry');  
-    let searchData = document.getElementById('search-data');
-    let eventTable = document.getElementById('event-table');
+//     let tabEvent = document.getElementById('add-events');
+//     let deleteEvent = document.getElementById('delete-events');
+//     let addEvent = document.getElementById('add-events-button');
+//     let eventHead = document.getElementById('event-head');
+//     let dataEntry = document.getElementById('data-entry');  
+//     let searchData = document.getElementById('search-data');
+//     let eventTable = document.getElementById('event-table');
       
-    tabEvent.style.display = 'block';
-    deleteEvent.style.display = 'none';
-    addEvent.style.display = 'none';
-    eventHead.style.display = 'none';
-    dataEntry.style.display = 'none';
-    searchData.style.display = 'none';
-    eventTable.style.display = 'none';
+//     tabEvent.style.display = 'block';
+//     deleteEvent.style.display = 'none';
+//     addEvent.style.display = 'none';
+//     eventHead.style.display = 'none';
+//     dataEntry.style.display = 'none';
+//     searchData.style.display = 'none';
+//     eventTable.style.display = 'none';
 
-}
+// }
 
 // ------------- 19 June End------------------
 
@@ -80,55 +80,3 @@ function deleteRow(tableRow) {
 // let copyIcon = document.getElementsByClassName('copy');
 
 // ------------- 21 June End---------------
-
-// ------------- 24 June Start---------------
-
-let closeIcon = document.getElementsByClassName('close');
-let extraFileTwo = document.getElementById('extraFile-2');
-let extraFileThree = document.getElementById('extraFile-3');
-let extraFileFour = document.getElementById('extraFile-4');
-let extraFileFive = document.getElementById('extraFile-5');
-let addedFiles = document.getElementsByClassName('addedFiles');
-let addButton = document.getElementById('addFile');
-let remove = document.getElementsByClassName('close');
-
-
-let i = 0;
-
-addButton.onclick = function() {
-
-    if(i < addedFiles.length && i < remove.length){
-
-        addedFiles[i].style.display = 'block';
-        remove[i].style.display = 'block';
-
-        i++;
-    }
-
-}
-
-extraFileTwo.onclick = function() {
-
-    extraFileTwo.style.display = 'none';
-
-}
-
-extraFileThree.onclick = function() {
-
-    extraFileThree.style.display = 'none';
-    
-}
-
-extraFileFour.onclick = function() {
-
-    extraFileFour.style.display = 'none';
-    
-}
-
-extraFileFive.onclick = function() {
-
-    extraFileFive.style.display = 'none';
-    
-}
-
-// ------------- 24 June End---------------

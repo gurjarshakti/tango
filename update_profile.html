@@ -88,10 +88,12 @@
             
             <nav class="navbar">
                     
-                    <a class="navbar-brand logotop logocss" href="Index.html">
+                <a class="navbar-brand logotop logocss" href="Index.html">
                     
-                        <img src="images/Tango_Logo.png" width="100" height="100" alt="">
-                    </a>
+                    <img src="images/Tango_Logo.png" width="100" height="100" alt="">
+
+                </a>
+
             </nav>
             
             <!-- Logo -->
@@ -243,6 +245,8 @@
         </div>
 
         <div class="container-1">
+
+            <!-- Tab nav -->
             
             <div class="tabs">
                 
@@ -252,6 +256,8 @@
                 <button class="tablinks" onclick="contentPanel(event, 'content-4')">Saved Event</button>
 
             </div>
+
+            <!-- Tab Contents -->
 
             <div id="content-1" class="tab-content">
                     
@@ -309,7 +315,7 @@
 
                 <div>
                     
-                    <button id="add-events-button" onclick="addEvent(event,'add-events')"><i class="fas fa-plus"></i>Add New Events</button>
+                    <button id="add-events-button" onclick="window.open('add_events.html')"><i class="fas fa-plus"></i>Add New Events</button>
                     <button id="delete-events" value='delete' type="button" data-toggle="modal" data-target="#myModal"><i class="fas fa-trash-alt"></i>Delete</button>
 
                 </div>
@@ -322,6 +328,7 @@
                         <option value="25">25</option>
                         <option value="50">50</option>
                         <option value="100">100</option>
+
                     </select>
 
                     entries
@@ -340,7 +347,6 @@
                             
                         <tr>
 
-                            <!-- <th><input type="checkbox" name="checkbox" id="delete-table"></th> -->
                             <th>Category <br> Name</th>
                             <th>Image</th>
                             <th>Event Name</th>
@@ -353,7 +359,6 @@
 
                         <tr class="table-row">
                             
-                            <!-- <td><input type="checkbox" name="checkbox" class="delete-row"></td> -->
                             <td>Milonga</td>
                             <td>img1.jpg</td>
                             <td class="long-text">Lorem ipsum dolor sit amet.</td>
@@ -392,7 +397,6 @@
 
                         <tr class="table-row">
                             
-                            <!-- <td><input type="checkbox" name="checkbox" class="delete-row"></td> -->
                             <td>Practica</td>
                             <td>img2.jpg</td>
                             <td class="long-text">Lorem ipsum dolor sit amet.</td>
@@ -425,14 +429,12 @@
                                     </div>
                                 </div>
 
-
                             </td>
 
                         </tr>
 
                         <tr class="table-row">
                             
-                            <!-- <td><input type="checkbox" name="checkbox" class="delete-row"></td> -->
                             <td>Classes</td>
                             <td>img3.jpg</td>
                             <td class="long-text">Lorem ipsum dolor sit ame.</td>
@@ -465,14 +467,12 @@
                                     </div>
                                 </div>
 
-
                             </td>
 
                         </tr>
 
                         <tr class="table-row">
                             
-                            <!-- <td><input type="checkbox" name="checkbox" class="delete-row"></td> -->
                             <td>Tango</td>
                             <td>img4.jpg</td>
                             <td class="long-text">Lorem ipsum dolor sit amet.</td>
@@ -505,14 +505,12 @@
                                     </div>
                                 </div>
 
-
                             </td>
 
                         </tr>
 
                         <tr class="table-row">
                             
-                            <!-- <td><input type="checkbox" name="checkbox" class="delete-row"></td> -->
                             <td>Milonga</td>
                             <td>img5.jpg</td>
                             <td class="long-text">Lorem ipsum dolor sit amet.</td>
@@ -545,172 +543,257 @@
                                     </div>
                                 </div>
 
-
                             </td>
 
                         </tr>
 
                     </table>
 
-
-                </div>
-
-                <div id="add-events">
-                    
-                    <div class="event-tab">ADD NEW EVENTS</div>
-                    
-                    <form action="" method="POST">
-                        
-                        <div class="row">
-                            
-                            <div class="col-sm-4">
-                                
-                                <p>Category <span class="red">(required)</span></p>
-                                <select value="category" required>
-                                    
-                                    <option value="">-- select category --</option>
-                                    <option value="Milonga">Milonga</option>
-                                    <option value="Classes">Classes</option>
-                                    <option value="Practica">Practica</option>
-                                    <option value="Practilonga">Practilonga</option>
-                                    <option value="Workshops">Workshops</option>
-                                    <option value="Marathon">Marathon</option>
-                                    <option value="Festival">Festival</option>
-                                    <option value="Special Event">Special Event</option>
-
-                                </select>
-
-                                <p>Name <span class="red">(required)</span></p>
-                                <input type="text" name="name" required>
-
-                                <p>Slug URL Name</p>
-                                <input type="text" name="url" id="">
-
-                                <p>Online Price <span class="red">(required)</span></p>
-                                <input type="Number" name="online price" required>
-
-                                <p>Early Bird Price <span class="red">(required)</span></p>
-                                <input type="Number" name="early bird price" required>
-
-                                <p>Offline Price <span class="red">(required)</span></p>
-                                <input type="Number" name="offline price"required>
-
-                                <p>Start Date <span class="red">(required)</span></p>
-                                <input type="date" name="start date" required>
-
-                                <p>End Date <span class="red">(required)</span></p>
-                                <input type="date" name="end date" required>
-
-                            </div>
-
-                            <div class="col-sm-4">
-                                
-                                <p>Start Time <span class="red">(required)</span></p>
-                                <input type="time" name="start time" required>
-
-                                <p>End Time <span class="red">(required)</span></p>
-                                <input type="time" name="end time" required>
-
-                                <p>Upload Event Pdf File in pdf format</p>
-                                <input type="file" name="fileToUpload" class="file" id="addModal" required>
-
-                                <p>Upload Image (Multiple images up to 5 )</p>
-                                <input type="file" name="fileToUpload" class="file" required>
-
-                                <button type="button" class="btn btn-primary" id="addFile">Add More</button> 
-                                <p id="maxFiles">(Maximum : 5 files)</p>
-
-                                <div id="extraFile-2" class="addedFiles">
-                                    
-                                    <input type="file" name="fileToUpload">
-                                    <span class="close">&times;</span>
-
-                                </div>
-
-                                <div id="extraFile-3" class="addedFiles">
-                                    
-                                    <input type="file" name="fileToUpload">
-                                    <span class="close">&times;</span>
-                                    
-                                </div>
-
-                                <div id="extraFile-4" class="addedFiles">
-                                    
-                                    <input type="file" name="fileToUpload">
-                                    <span class="close">&times;</span>
-                                    
-                                </div>
-
-                                <div id="extraFile-5" class="addedFiles">
-                                    
-                                    <input type="file" name="fileToUpload">
-                                    <span class="close">&times;</span>
-                                    
-                                </div>
-
-                                <p>Organisation</p>
-                                <input type="text" name="organisation">
-
-                                <p>Email Address</p>
-                                <input type="email" name="email">
-
-                                <p>Phone No</p>
-                                <input type="Number" name="phone">
-
-                                
-
-                            </div>
-
-                            <div class="col-sm-4">
-                                
-                                <p>Venue</p>
-                                <input type="text" name="venue">
-
-                                <p>Address</p>
-                                <input type="text" name="address">
-
-                                <p>Website URL</p>
-                                <input type="text" name="website url">
-
-                                <p>Facebook URL</p>
-                                <input type="text" name="facebook url">
-
-                                <p>Description <span class="red">(required)</span></p>
-
-                                <p>Member Name</p>
-                                <select name="member">
-                                    
-                                    <option value="">-- select member --</option>
-                                    <option value=""></option>
-                                    <option value=""></option>
-
-                                </select> <br>
-
-                                <button class="btn btn-danger" type="submit" name="submit">Submit</button>
-                                <button class="btn btn-danger" name="back" onclick="window.location.href = 'update_profile.html';">Back</button>
-
-                            </div>
-
-                        </div>
-                        
-                    </form>
-                    
                 </div>
 
             </div>
 
             <div id="content-3" class="tab-content">
+
+               <!-- Modal -->
+                <div class="modal fade" id="ModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Your Event Details</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        
+                      </div>
+                      <div class="modal-footer">
+                        <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="event-tab" id="event-head">
+
+                    EVENTS BOOKING DETAILS
+
+                </div>
                     
-                <p>hello</p>
+                <div id="data-entry">Show
+                        
+                    <select name="entry" id="data-entry">
+                            
+                        <option value="10">10</option>
+                        <option value="25">25</option>
+                        <option value="50">50</option>
+                        <option value="100">100</option>
+
+                    </select>
+
+                    entries
+
+                    <span id="search-data">
+                        
+                        Search <input type="text">
+
+                    </span>
+
+                </div>
+
+                <div id="event-table">
+                        
+                    <table class="gridtable" id="view-table">
+                                
+                        <tr>
+
+                            <th>Category <br> Name</th>
+                            <th>Image</th>
+                            <th>Event Name</th>
+                            <th>Online Price</th>
+                            <th>Status <br> (Active/Inactive)</th>
+                            <th>Featured (Home Page) <br> (Active/Inactive)</th>
+                            <th>View Details</th>
+
+                        </tr>
+
+                        <tr class="table-row">
+                            
+                            <td>Milonga</td>
+                            <td>img1.jpg</td>
+                            <td class="long-text">Lorem ipsum dolor sit amet.</td>
+                            <td>234.00</td>
+                            <td></td>
+                            <td></td>
+                            <td><input type="button" id="bt" value="View Details" onclick="showTableData()" data-toggle="modal" data-target="#ModalCenter"/></p></td>
+
+                        </tr>
+
+                        <tr class="table-row">
+                                
+                            <td>Practica</td>
+                            <td>img2.jpg</td>
+                            <td class="long-text">Lorem ipsum dolor sit amet.</td>
+                            <td>454.00</td>
+                            <td></td>
+                            <td></td>
+                            <td><input type="button" id="bt" value="View Details" onclick="return showTableData()" /></p></td>
+
+                        </tr>
+
+                        <tr class="table-row">
+                            
+                            <td>Classes</td>
+                            <td>img3.jpg</td>
+                            <td class="long-text">Lorem ipsum dolor sit ame.</td>
+                            <td>343.00</td>
+                            <td></td>
+                            <td></td>
+                            <td><input type="button" id="bt" value="View Details" onclick="showTableData()" /></p></td>
+
+                        </tr>
+
+                        <tr class="table-row">
+                            
+                            <td>Tango</td>
+                            <td>img4.jpg</td>
+                            <td class="long-text">Lorem ipsum dolor sit amet.</td>
+                            <td>676.00</td>
+                            <td></td>
+                            <td></td>
+                            <td type><input type="button" id="bt" value="View Details" onclick="showTableData()" /></p></td>
+
+                        </tr>
+
+                        <tr class="table-row">
+                            
+                            <td>Milonga</td>
+                            <td>img5.jpg</td>
+                            <td class="long-text">Lorem ipsum dolor sit amet.</td>
+                            <td>877.00</td>
+                            <td></td>
+                            <td></td>
+                            <td><input type="button" id="bt" value="View Details" onclick="showTableData()" /></p></td>
+
+                        </tr>
+
+                    </table>
+
+                </div>
 
             </div>
 
             <div id="content-4" class="tab-content">
                     
-                <p>Maxlence Consulting</p>
+                <div class="event-tab" id="event-head">
 
-            </div>
-                
+                    SAVED BOOKING DETAILS
+
+                </div>
+                    
+                <div id="data-entry">Show
+                        
+                    <select name="entry" id="data-entry">
+                            
+                        <option value="10">10</option>
+                        <option value="25">25</option>
+                        <option value="50">50</option>
+                        <option value="100">100</option>
+
+                    </select>
+
+                    entries
+
+                    <span id="search-data">
+                        
+                        Search <input type="text">
+
+                    </span>
+
+                </div>
+
+                <div id="event-table">
+                        
+                    <table class="gridtable">
+                                
+                        <tr>
+
+                            <th>Category <br> Name</th>
+                            <th>Image</th>
+                            <th>Event Name</th>
+                            <th>Online Price</th>
+                            <th>Status <br> (Active/Inactive)</th>
+                            <th>Featured (Home Page) <br> (Active/Inactive)</th>
+                            <th>Edit/<br>Clone/ Delete</th>
+
+                        </tr>
+
+                        <tr class="table-row">
+                            
+                            <td>Milonga</td>
+                            <td>img1.jpg</td>
+                            <td class="long-text">Lorem ipsum dolor sit amet.</td>
+                            <td>234.00</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+
+                        </tr>
+
+                        <tr class="table-row">
+                            
+                            <td>Practica</td>
+                            <td>img2.jpg</td>
+                            <td class="long-text">Lorem ipsum dolor sit amet.</td>
+                            <td>454.00</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+
+                        </tr>
+
+                        <tr class="table-row">
+                            
+                            <td>Classes</td>
+                            <td>img3.jpg</td>
+                            <td class="long-text">Lorem ipsum dolor sit ame.</td>
+                            <td>343.00</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+
+                        </tr>
+
+                        <tr class="table-row">
+                            
+                            <td>Tango</td>
+                            <td>img4.jpg</td>
+                            <td class="long-text">Lorem ipsum dolor sit amet.</td>
+                            <td>676.00</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+
+                        </tr>
+
+                        <tr class="table-row">
+                            
+                            <td>Milonga</td>
+                            <td>img5.jpg</td>
+                            <td class="long-text">Lorem ipsum dolor sit amet.</td>
+                            <td>877.00</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+
+                        </tr>
+
+                    </table>
+
+                </div>
+
             </div>
 
         </div>
@@ -749,7 +832,7 @@
                                     
                                         <form name="news" method="post" action="index.php">
                                          
-                                           <input class="form-control" id="email" type="email" placeholder="Email"
+                                           <input class="form-control" id="email" type="email" value="Email"
                                                 aria-label="Search">
                                         
                                             <div class="input-group-addon">
