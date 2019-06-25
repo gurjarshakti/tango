@@ -395,7 +395,7 @@ hr {
 
 
 .musiccard {
-    background: black;
+    background: #313131;
 }
 
 .musicbtndiv {
@@ -1126,3 +1126,5 @@ tr:nth-child(even):hover {
     max-width: 70%;
 }
 /* ------------- date 24 June 2019 end ---------------------- */
+
+
