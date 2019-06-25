@@ -395,7 +395,7 @@ hr {
 
 
 .musiccard {
-    background: black;
+    background: #313131;
 }
 
 .musicbtndiv {
@@ -1111,6 +1111,7 @@ tr:nth-child(even):hover {
 }
 /* ------------- date 24 June 2019 end ---------------------- */
 
+<<<<<<< HEAD
 /* ------------- date 25 June 2019 start ---------------------- */
 
 #content-1 #expand {
@@ -1157,3 +1158,6 @@ tr:nth-child(even):hover {
     font-size: 1em;
 }
 /* ------------- date 25 June 2019 end ---------------------- */
+=======
+
+>>>>>>> f8de510dcf437f79d78d0f25ede207b937728083
