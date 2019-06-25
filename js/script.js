@@ -56,29 +56,6 @@ function addEvent(evt, eventId) {
 
 // ------------- 19 June End------------------
 
-// -------------20 June Start ----------------
-
-// Code to make Add button work in Event section.
-
-let addButton = document.getElementById('addFile');
-let remove = document.getElementsByClassName('close');
-let fileUpload = document.getElementsByClassName('extraFile');
-
-addButton.onclick = function() {
-  
-    fileUpload.style.display = 'block';
-    remove.style.display = 'block';
-
-}
-
-remove.onclick = function() {
-  
-    fileUpload.style.display = 'none';
-
-}
-
-// ------------- 20 June End----------------
-
 // ------------- 21 June Start--------------
 
 let tableRow = document.getElementsByClassName('table-row');
@@ -90,8 +67,6 @@ deleteTable.onclick = function() {
         
         tableRow[i].remove();
     }
-
-
 
 }
 
@@ -113,6 +88,24 @@ let extraFileTwo = document.getElementById('extraFile-2');
 let extraFileThree = document.getElementById('extraFile-3');
 let extraFileFour = document.getElementById('extraFile-4');
 let extraFileFive = document.getElementById('extraFile-5');
+let addedFiles = document.getElementsByClassName('addedFiles');
+let addButton = document.getElementById('addFile');
+let remove = document.getElementsByClassName('close');
+
+
+let i = 0;
+
+addButton.onclick = function() {
+
+    if(i < addedFiles.length && i < remove.length){
+
+        addedFiles[i].style.display = 'block';
+        remove[i].style.display = 'block';
+
+        i++;
+    }
+
+}
 
 extraFileTwo.onclick = function() {
 
@@ -137,7 +130,5 @@ extraFileFive.onclick = function() {
     extraFileFive.style.display = 'none';
     
 }
-
-
 
 // ------------- 24 June End---------------
