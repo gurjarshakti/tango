@@ -4,7 +4,7 @@
 
 function contentPanel(evt, contentId) {
     
-    var i, tabcontent, tablinks;
+    let i, tabcontent, tablinks;
     
     tabcontent = document.getElementsByClassName("tab-content");
     
@@ -63,7 +63,7 @@ let deleteTable = document.getElementById('deleteTable');
 
 deleteTable.onclick = function() {
 
-    for (var i = tableRow.length - 1; i >= 0; i--) {
+    for (let i = tableRow.length - 1; i >= 0; i--) {
         
         tableRow[i].remove();
     }

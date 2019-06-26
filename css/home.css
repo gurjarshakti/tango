@@ -96,6 +96,7 @@ h1,h2,h3,h4,h5{
     text-decoration: none;
     /*margin-top: 30px;*/
     /* margin-bottom: 15px; */
+    box-shadow: 2px 2px 4px #000;
 }
 
 .section3 {
@@ -759,6 +760,7 @@ h6.footerhead.text-center {font-weight: bold;
 .expand-button{
     padding: 14px 50px;
     text-align: center;
+    box-shadow: 2px 2px 4px #000;
 }
 
 .card{
@@ -853,6 +855,8 @@ h6.footerhead.text-center {font-weight: bold;
     margin-bottom: 3em;
     padding: 0.25em 4em 0.25em 4em;
     border-radius: 12px;
+    box-shadow: 2px 2px 4px #000;
+
 }
 
 .tabs{
@@ -1020,6 +1024,7 @@ table{
     width: 990px; 
     border: solid 1px #94908f;
     margin: 1em;
+    box-shadow: 2px 2px 4px #94908f; 
 }
 
 table th{
@@ -1038,11 +1043,12 @@ table td {
 }
 
 tr:nth-child(odd) {
-  background-color: #ddd;
+  background-color: #ff7979;
 }
 
-tr:nth-child(even):hover {
-  background-color: #ddd;
+tr:hover {
+  background-color: #eb4d4b;
+  transition: 0.2s;
 }
 
 #data-entry, #search-data{
@@ -1158,6 +1164,14 @@ tr:nth-child(even):hover {
     font-size: 1em;
 }
 /* ------------- date 25 June 2019 end ---------------------- */
+
+/* ------------- date 26 June 2019 start -------------------- */
+
+.view {
+    padding: 0.5em 1em;
+}
+
+/* ------------- date 26 June 2019 end -------------------- */
 =======
 
 >>>>>>> f8de510dcf437f79d78d0f25ede207b937728083
