@@ -1019,14 +1019,6 @@ h6.footerhead.text-center {font-weight: bold;
     margin-top: 1em;
 }
 
-table{
-    table-layout: fixed;
-    width: 990px; 
-    border: solid 1px #94908f;
-    margin: 1em;
-    box-shadow: 2px 2px 4px #94908f; 
-}
-
 table th{
     background-color: #000;
     color: #fff;
@@ -1038,17 +1030,20 @@ table th{
 
 table td {
     padding: 1em;
-    /*border-right: solid 1px #fff;*/
+    border-right: solid 0.5px #fff;
     font-size: small;
+}
+
+table{
+    table-layout: fixed;
+    width: 990px; 
+    border-right: 0em;
+    margin: 1em;
+    box-shadow: 3px 3px 4px #94908f; 
 }
 
 tr:nth-child(odd) {
   background-color: #ff7979;
-}
-
-tr:hover {
-  background-color: #eb4d4b;
-  transition: 0.2s;
 }
 
 #data-entry, #search-data{
@@ -1171,6 +1166,36 @@ tr:hover {
     padding: 0.5em 1em;
 }
 
+strong{
+    color: #333945;
+}
+
+tr:nth-child(even) {
+  background-color: #dff9fb;
+}
+
+tr:hover {
+  background-color: #eb4d4b;
+  transition: 0.2s;
+}
+
+strong i, strong h6, #ModalCenter1 p, #ModalCenter2 p, #ModalCenter3 p, #ModalCenter4 p, #ModalCenter5 p {
+    display: inline;
+    margin-bottom: 0.5em;
+}
+
+strong h6{
+    font-weight: bold;
+    padding: 0.25em;
+}
+
+.about-event {
+    margin: 1em;
+}
+
+strong i{
+    color: #ff3838;
+}
 /* ------------- date 26 June 2019 end -------------------- */
 =======
 
