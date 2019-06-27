@@ -96,7 +96,8 @@ h1,h2,h3,h4,h5{
     text-decoration: none;
     /*margin-top: 30px;*/
     /* margin-bottom: 15px; */
-    box-shadow: 2px 2px 4px #000;
+    box-shadow: 2px 3px 4px #000;
+    transition: 0.2s;
 }
 
 .section3 {
@@ -294,6 +295,7 @@ hr {
 
 .fa-paper-plane {
     color: white;
+    cursor: pointer;
 }
 
 .fa-map-marker-alt {
@@ -335,7 +337,7 @@ hr {
 
 .galdiv:hover .overlay,
 .galdiv:hover .overlayFade {
-    opacity: .5;
+    opacity: .75;
 }
 
 .overlayLeft {
@@ -439,9 +441,10 @@ i.fas.fa-paper-plane {
 }
 
 button.newslatterbtn {
-    background-color: black;
-    border: none;
-    height: 40px;
+    background-color: transparent;
+    border: solid 1px #fff;
+    border-left: none;
+    height: 38px;
 }
 
 /* Example div css */
@@ -760,12 +763,14 @@ h6.footerhead.text-center {font-weight: bold;
 .expand-button{
     padding: 14px 50px;
     text-align: center;
-    box-shadow: 2px 2px 4px #000;
+    box-shadow: 2px 3px 4px #000;
+    transition: 0.2s;
 }
 
 .card{
-    box-shadow: -10px 10.5px 0.5px 0 #c30101;
+    box-shadow: -5px 5px 10px #000/*#c30101*/;
     border-radius: 0px;
+    transition: 0.2s;
 }
 
 .viewmoreclass {
@@ -778,16 +783,18 @@ h6.footerhead.text-center {font-weight: bold;
     /* width: 100%; */
     /* height: 35px; */
     border-radius: 12px;
-    border: solid 1px #ee2225;
+    border: solid 1.5px #ee2225;
     background: transparent;
     padding: 10px 35px;
     text-align: center;
     font-size: 13px;
+    transition: 0.2s;
 }
 
 #email{
     background: transparent;
     color: #fff;
+    border-right: none;
 }
 
 .input-group-addon{
@@ -837,31 +844,31 @@ h6.footerhead.text-center {font-weight: bold;
     font-weight: bolder;
     padding: 0.5em;
     outline: none;
-    box-shadow: 2px 2px 4px #94908f;
+    box-shadow: 2px 3px 4px #94908f;
 }
 
 #content-1 form p{
     font-weight: bolder;
     font-size: small;
     margin-bottom: 0.75em;
-    color: /*#2d3436*/ #96281b;
+    color: #2d3436 /*#96281b*/;
 }
 
 .input-right{
     margin-left: 1.5em;
 }
 
-#expand{
+#content-1 #expand{
     margin-bottom: 3em;
     padding: 0.25em 4em 0.25em 4em;
     border-radius: 12px;
-    box-shadow: 2px 2px 4px #000;
-
+    box-shadow: 2px 3px 4px #000;
 }
 
 .tabs{
     border: solid 1px #fff;
     border-bottom-color: grey;
+    box-shadow: 2px 3px 4px #000;
 }
 
 .tabs button{
@@ -899,7 +906,7 @@ h6.footerhead.text-center {font-weight: bold;
     background-color: /*#ee2225*/ #ff5252 ;
     color: #fff;
     padding: 0.25em;
-    margin-top: -3.5em;
+    margin-top: -2.5em;
     font-family: 'Helvetica', sans-serif;
 }
 
@@ -913,7 +920,7 @@ h6.footerhead.text-center {font-weight: bold;
     outline: none;
     cursor: pointer;
     transition: 0.2s;
-    box-shadow: 2px 2px 4px #000;
+    box-shadow: 2px 3px 4px #000;
 }
 
 #add-events input, #add-events select{
@@ -928,7 +935,7 @@ h6.footerhead.text-center {font-weight: bold;
     padding: 0.5em;
     outline: none;
     color: #707070;
-    box-shadow: 2px 2px 4px #94908f;
+    box-shadow: 2px 3px 4px #94908f;
 }
 
 #add-events input{
@@ -956,7 +963,7 @@ h6.footerhead.text-center {font-weight: bold;
 
 #content-2 .btn-danger{
     margin-right: 1em;
-    box-shadow: 2px 2px 4px #000;
+    box-shadow: 2px 3px 4px #000;
 }
 
 /* ------------- date 19 June 2019 end ---------------------- */
@@ -967,7 +974,6 @@ h6.footerhead.text-center {font-weight: bold;
     margin-bottom: 1em;
     background-color: blue;
     color: #fff;
-    box-shadow: 2px 2px 4px #000;
 }
 
 #content-2 #maxFiles{
@@ -1039,7 +1045,7 @@ table{
     width: 990px; 
     border-right: 0em;
     margin: 1em;
-    box-shadow: 3px 3px 4px #94908f; 
+    box-shadow: 4px 4px 4px #94908f; 
 }
 
 tr:nth-child(odd) {
@@ -1049,7 +1055,7 @@ tr:nth-child(odd) {
 #data-entry, #search-data{
     color: #2F4F4F;
     font-weight: bold;
-    margin: 0.5em 1em 0.5em 1em;
+    margin: 0.75em 1em 0.5em 1em;
 }
 
 #data-entry select, #search-data input{
@@ -1057,7 +1063,7 @@ tr:nth-child(odd) {
     border-radius: 5px;
     outline: none;
     border: solid 1px #94908f;
-    box-shadow: 2px 2px 4px #94908f;
+    box-shadow: 2px 3px 4px #94908f;
 }
 
 #search-data {
@@ -1139,7 +1145,7 @@ tr:nth-child(odd) {
 .col-sm-4 #addFile {
     background-color: #132e9a;
     color: #fff;
-    box-shadow: 2px 2px 4px #000;
+    box-shadow: 2px 3px 4px #000;
 }
 
 #add-events #maxFiles{
@@ -1150,7 +1156,7 @@ tr:nth-child(odd) {
 #add-events .btn-danger{
     margin-right: 1em;
     padding: 0.25em 3em;
-    box-shadow: 2px 2px 4px #000;
+    box-shadow: 2px 3px 4px #000;
 }
 
 #content-3 input{
@@ -1197,6 +1203,57 @@ strong i{
     color: #ff3838;
 }
 /* ------------- date 26 June 2019 end -------------------- */
+
+/* ------------- date 27 June 2019 start -------------------- */
+
+.fa-facebook, .fa-twitter, .fa-instagram, .fa-youtube {
+    transition: 0.2s;
+}
+
+.list-inline {
+    margin-left: -1em;
+}
+
+.fa-facebook:hover, .fa-twitter:hover, .fa-instagram:hover, .fa-youtube:hover {
+    color: #000;
+    transition: 0.2s;
+}
+
+.musicbtn:hover{
+    background-color: #ee2225;
+    color: #fff;
+    transition: 0.2s;
+    border: none;
+    padding: 10px 40px;
+    font-weight: bold;
+}
+
+.img1:hover {
+    filter: blur(2px);
+}
+
+#addFile {
+    box-shadow: 2px 3px 4px #000;
+}
+
+.card:hover {
+    transform: scaleY(1.05);
+    transition: 0.2s;
+    box-shadow: -5px 5px 15px #000;
+}
+
+.overlayBottom {
+    padding: 0.5em;
+}
+
+.card-body {
+    padding-bottom: 2.5em;
+}
+
+.viewmoreevent, .viewmorenews {
+    margin-top: 1em;
+}
+/* ------------- date 27 June 2019 end -------------------- */
 =======
 
 >>>>>>> f8de510dcf437f79d78d0f25ede207b937728083
