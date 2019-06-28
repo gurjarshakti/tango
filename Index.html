@@ -25,8 +25,6 @@
     <!-- Font Awesome Css-->
     
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    
-    <link rel="stylesheet" type="text/css" href="fonts">
 
 </head>
 
@@ -66,39 +64,15 @@
                     
                     </li>
                     
-                    <li class="nav-item dropdown">
-                        
-                        <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Events</a>
-                        
-                        <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-                            
-                            <a class="dropdown-item" href="event_details.html">Events</a>
-                            
-                            <div class="dropdown-divider"></div>
-                            
-                            <a class="dropdown-item" href="#">Classes</a>
-                            
-                            <div class="dropdown-divider"></div>
-                            
-                            <a class="dropdown-item" href="#">Videos</a>
-                            
-                            <div class="dropdown-divider"></div>
-                            
-                            <a class="dropdown-item" href="#">Tango Classes</a>
-                        
-                        </div>
+                    <li class="nav-item">
+
+                        <a class="nav-link text-white" href="#">Events</a>
                     
                     </li>
                     
                     <li class="nav-item">
                         
                         <a class="nav-link text-white" href="news_list.html">News</a>
-                    
-                    </li>
-                    
-                    <li class="nav-item">
-                        
-                        <a class="nav-link text-white" href="#">Store</a>
                     
                     </li>
                     
@@ -113,10 +87,16 @@
                         <a class="nav-link text-white" href="music_list.html">Music</a>
                     
                     </li>
+                    
+                    <li class="nav-item">
+                        
+                        <a class="nav-link text-white" href="#">Store</a>
+                    
+                    </li>
 
                     <li class="nav-item active">
                         
-                        <a class="nav-link text-white" href="about_us.html">About Us <span class="sr-only">(current)</span></a>
+                        <a class="nav-link text-white" href="about_us.html">About Us</a>
                     
                     </li>
                     
@@ -127,18 +107,8 @@
                     </li>
                     
                     <li class="nav-item dropdown">
-                        
-                        <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Username</a>
-                        
-                        <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-                            
-                            <a class="dropdown-item" href="update_profile.html">Edit Profile</a>
-                            
-                            <div class="dropdown-divider"></div>
-                            
-                            <a class="dropdown-item" href="#">Log Out</a>
-                        
-                        </div>
+
+                        <a class="nav-link text-white" href="#">Sign Up</a>
                     
                     </li>
             
@@ -170,18 +140,6 @@
         
         <div>
             
-            <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
-                
-                <ol class="carousel-indicators">
-                
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active bg-dark"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1" class="bg-dark"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2" class="bg-dark"></li>
-            
-                </ol>
-
-            </div>
-            
             <div class="carousel-inner">
                 
                 <div class="carousel-item active">
@@ -192,7 +150,7 @@
                         
                         <h3>Welcome to Perth Tango Society</h3>
                         
-                        <hr>
+                        <hr id="imgOne">
                         
                         <br>
                         
@@ -251,10 +209,22 @@
                     </div>
                
                 </div>
+
+                <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+                
+                    <ol class="carousel-indicators">
+                    
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active bg-dark"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1" class="bg-dark"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2" class="bg-dark"></li>
+                
+                    </ol>
+
+                </div>
             
             </div>
             
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <!--   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                 
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 
@@ -268,7 +238,7 @@
                 
                 <span class="sr-only">Next</span>
             
-            </a>
+            </a> -->
         
         </div>
     
@@ -329,7 +299,7 @@
                 <h4 class="text-center sectionhead3">Upcoming Events</h4>
                 
                 <div class="hrline test_center">
-                    <hr>
+                    <hr class="hrimg2">
                 </div>
             
             </div>
@@ -338,11 +308,11 @@
                 
                 <div class="card-deck">
                     
-                    <div class="card">
+                    <div class="card" onclick="window.open('event_details.html')">
                         
                         <div class="eventimg">
                           
-                            <a href="event_details.html">  <img class="card-img-top" src="images/upevent1.png" alt="Card image cap" /></a>
+                            <img class="card-img-top" src="images/upevent1.png" alt="Card image cap" />
                         
                         </div>
                         
@@ -374,11 +344,11 @@
                     
                     </div>
                    
-                    <div class="card">
+                    <div class="card" onclick="window.open('event_details.html')">
                         
                         <div class="eventimg">
                           
-                            <a href="event_details.html">  <img class="card-img-top" src="images/upevent1.png" alt="Card image cap" /></a>
+                            <img class="card-img-top" src="images/upevent1.png" alt="Card image cap" />
                         
                         </div>
                         
@@ -410,11 +380,11 @@
                     
                     </div>
                     
-                    <div class="card">
+                    <div class="card" onclick="window.open('event_details.html')">
                         
                         <div class="eventimg">
                             
-                            <a href="event_details.html">  <img class="card-img-top" src="images/upevent1.png" alt="Card image cap" /></a>
+                            <img class="card-img-top" src="images/upevent1.png" alt="Card image cap" />
                         
                         </div>
                         
@@ -446,11 +416,11 @@
                     
                     </div>
                     
-                    <div class="card">
+                    <div class="card" onclick="window.open('event_details.html')">
                         
                         <div class="eventimg">
                           
-                            <a href="event_details.html">  <img class="card-img-top" src="images/upevent1.png" alt="Card image cap" /></a>
+                            <img class="card-img-top" src="images/upevent1.png" alt="Card image cap" />
                         
                         </div>
                         
@@ -506,7 +476,7 @@
                 
                 <div class="text-center hrimg">
                     
-                    <img src="images/hrline_white.png">
+                    <img src="images/hrline_white.png" class="class-hr">
                 
                 </div>
                 
@@ -598,7 +568,7 @@
                 
                 <div class="hrline">
                     
-                    <hr>
+                    <hr class="hrimg3">
                 
                 </div>
                 
@@ -608,25 +578,9 @@
                     
                     <div class="card-deck">
                         
-                        <div class="card">
+                        <div class="card" onclick="window.open('news_details.html')">
                             
-                            <a href="news_details.html"><img class="card-img-top" src="images/blog1.png" alt="Card image cap"></a>
-                            
-                            <div class="card-body">
-                                
-                                <div class="card-title">Title of the Blog </div>
-                                
-                                <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi maximus, magna a mattis dapibus, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi maximus, magna a mattis dapibus</div>
-                                
-                                <span class="clnewsdate"><i class="fas fa-clock text-muted"></i>12/12/2019, 1h ago</span>
-                            
-                            </div>
-                        
-                        </div>
-                        
-                        <div class="card">
-                            
-                            <a href="news_details.html"><img class="card-img-top" src="images/blog2.png" alt="Card image cap"></a>
+                            <img class="card-img-top" src="images/blog1.png" alt="Card image cap">
                             
                             <div class="card-body">
                                 
@@ -640,9 +594,25 @@
                         
                         </div>
                         
-                        <div class="card">
+                        <div class="card" onclick="window.open('news_details.html')">
                             
-                            <a href="new_details.html"><img class="card-img-top" src="images/blog3.png" alt="Card image cap"></a>
+                            <img class="card-img-top" src="images/blog2.png" alt="Card image cap">
+                            
+                            <div class="card-body">
+                                
+                                <div class="card-title">Title of the Blog </div>
+                                
+                                <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi maximus, magna a mattis dapibus, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi maximus, magna a mattis dapibus</div>
+                                
+                                <span class="clnewsdate"><i class="fas fa-clock text-muted"></i>12/12/2019, 1h ago</span>
+                            
+                            </div>
+                        
+                        </div>
+                        
+                        <div class="card" onclick="window.open('news_details.html')">
+                            
+                            <img class="card-img-top" src="images/blog3.png" alt="Card image cap">
                             
                             <div class="card-body">
                               
@@ -834,7 +804,7 @@
                 
                 <div class="hrline">
                     
-                    <hr>
+                    <hr class="hrimg4">
                 
                 </div>
                 
@@ -842,7 +812,7 @@
                     
                     <div class="card-deck text-white">
                         
-                        <div class="card stretched-link">
+                        <div class="card stretched-link music-card" onclick="window.open('music_details.html')">
                             
                             <img class="card-img-top" src="images/music1.png" alt="Card image cap">
                             
@@ -854,7 +824,7 @@
                                 
                                 <div class="musicbtndiv">
                                     
-                                    <a href="#" class="musicbtn">View Album</a>
+                                    <a href="music_details.html" class="musicbtn">View Album</a>
                                     
                                 </div>
                             
@@ -862,7 +832,7 @@
                         
                         </div>
                         
-                        <div class="card">
+                        <div class="card music-card" onclick="window.open('music_details.html')">
                             
                             <img class="card-img-top" src="images/music2.png" alt="Card image cap">
                             
@@ -874,7 +844,7 @@
                                 
                                 <div class="musicbtndiv">
                                   
-                                  <a href="#" class="musicbtn">View Album</a>
+                                  <a href="music_details.html" class="musicbtn">View Album</a>
                                 
                                 </div>
                             
@@ -882,7 +852,7 @@
                         
                         </div>
                         
-                        <div class="card text-white">
+                        <div class="card text-white music-card" onclick="window.open('music_details.html')">
                             
                             <img class="card-img-top" src="images/music1.png" alt="Card image cap">
                             
@@ -894,7 +864,7 @@
                                 
                                 <div class="musicbtndiv">
                                     
-                                    <a href="#" class="musicbtn">View Album</a>
+                                    <a href="music_details.html" class="musicbtn">View Album</a>
                                 
                                 </div>
                             
@@ -902,7 +872,7 @@
                         
                         </div>
                         
-                        <div class="card">
+                        <div class="card music-card" onclick="window.open('music_details.html')">
                             
                             <img class="card-img-top" src="images/music2.png" alt="Card image cap">
                             
@@ -914,33 +884,13 @@
                                 
                                 <div class="musicbtndiv">
                                     
-                                    <a href="#" class="musicbtn">View Album</a>
+                                    <a href="music_details.html" class="musicbtn">View Album</a>
                                 
                                 </div>
                             
                             </div>
                         
                         </div>
-                        
-                        <!-- <div class="card">
-                            
-                            <img class="card-img-top" src="images/music2.png" alt="Card image cap">
-                            
-                            <div class="card-body musiccard">
-                                
-                                <div class="card-title">Music Album Name</div>
-                                
-                                <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi maximus, magna a mattis dapibus,</div>
-                                
-                                <div class="musicbtndiv">
-                                    
-                                    <a href="#" class="musicbtn">View Album</a>
-                                
-                                </div>
-                            
-                            </div>
-                        
-                        </div> -->
                     
                     </div>
                 
@@ -1086,6 +1036,7 @@
     <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="js/index_script.js" ></script>
 
 </body>
 

@@ -80,3 +80,4 @@ function deleteRow(tableRow) {
 // let copyIcon = document.getElementsByClassName('copy');
 
 // ------------- 21 June End---------------
+
