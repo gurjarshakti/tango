@@ -750,7 +750,10 @@ h6.footerhead.text-center {font-weight: bold;
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon{
-    opacity: 0.8;
+    opacity: 0.7;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 12px;
+    background-color: #000;
 }
 
 .expand-button{
@@ -856,13 +859,13 @@ h6.footerhead.text-center {font-weight: bold;
     margin-bottom: 3em;
     padding: 0.25em 4em 0.25em 4em;
     border-radius: 12px;
-    box-shadow: 2px 3px 4px #000;
+    box-shadow: /*2px 3px 4px #000;*/ 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .tabs{
     border: solid 1px #fff;
     border-bottom-color: grey;
-    box-shadow: 2px 3px 4px #000;
+    box-shadow: /*2px 3px 4px #000;*/0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .tabs button{
@@ -914,7 +917,7 @@ h6.footerhead.text-center {font-weight: bold;
     outline: none;
     cursor: pointer;
     transition: 0.2s;
-    box-shadow: 2px 3px 4px #000;
+    box-shadow: /*2px 3px 4px #000;*/0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #add-events input, #add-events select{
@@ -957,7 +960,7 @@ h6.footerhead.text-center {font-weight: bold;
 
 #content-2 .btn-danger{
     margin-right: 1em;
-    box-shadow: 2px 3px 4px #000;
+    box-shadow: /*2px 3px 4px #000;*/0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* ------------- date 19 June 2019 end ---------------------- */
@@ -1039,7 +1042,7 @@ table{
     width: 990px; 
     border-right: 0em;
     margin: 1em;
-    box-shadow: 4px 4px 4px #94908f; 
+    box-shadow: /*4px 4px 4px #94908f; */0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 tr:nth-child(odd) {
@@ -1057,7 +1060,7 @@ tr:nth-child(odd) {
     border-radius: 5px;
     outline: none;
     border: solid 1px #94908f;
-    box-shadow: 2px 3px 4px #94908f;
+    box-shadow: /*2px 3px 4px #94908f;*/0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #search-data {
@@ -1116,7 +1119,7 @@ tr:nth-child(odd) {
 /* ------------- date 25 June 2019 start ---------------------- */
 
 #content-1 #expand {
-    box-shadow: 2px 2px 4px #000;
+    box-shadow: /*2px 2px 4px #000;*/0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .event-add {
@@ -1139,7 +1142,7 @@ tr:nth-child(odd) {
 .col-sm-4 #addFile {
     background-color: #132e9a;
     color: #fff;
-    box-shadow: 2px 3px 4px #000;
+    box-shadow: /*2px 3px 4px #000;*/0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #add-events #maxFiles{
@@ -1150,7 +1153,7 @@ tr:nth-child(odd) {
 #add-events .btn-danger{
     margin-right: 1em;
     padding: 0.25em 3em;
-    box-shadow: 2px 3px 4px #000;
+    box-shadow: /*2px 3px 4px #000*/0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #content-3 input{
@@ -1226,9 +1229,9 @@ strong i{
     filter: blur(2px);
 }
 
-#addFile:hover {
+/*#addFile:hover {
     box-shadow: 2px 3px 4px #000;
-}
+}*/
 
 .card:hover {
     transform: scaleY(1.05);
@@ -1256,7 +1259,7 @@ strong i{
     padding: 0.5em;
 }
 
-.carousel-item #imgOne{
+.carousel-item .imgOne{
     margin-left: 2.5em;
 }
 
@@ -1288,9 +1291,22 @@ strong i{
 .carousel-indicators li{
     padding: 0.25em;
     width: 3.5em;
-    opacity: 0.6;
+    opacity: 1;
+    background-color: #000;
+    z-index: -1;
 }
 /* ------------- date 28 June 2019 end -------------------- */
+
+/* ------------- date 30 June 2019 start -------------------- */
+
+.carousel-indicators .active {
+    background-color: #ff7979;
+}
+
+/*.carousel-caption {
+    padding-top: 4em;
+}*/
+/* ------------- date 30 June 2019 end -------------------- */
 =======
 
 >>>>>>> f8de510dcf437f79d78d0f25ede207b937728083
