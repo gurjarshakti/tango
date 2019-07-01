@@ -1280,12 +1280,11 @@ strong i{
 }
 
 .carousel-indicators li{
-    padding: 0.25em;
-    width: 3.5em;
-    opacity: 1;
+    width: 12px;
+    height: 12px;
     background-color: #8F1D21/*#003171*/;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
-
+    border-radius: 50%;
 }
 /* ------------- date 28 June 2019 end -------------------- */
 
@@ -1325,7 +1324,7 @@ strong i{
 }
 
 .form-register .head {
-    background-color: #5B3256;/*ee2225;*/
+    background-color: #ee2225;
     color: #fff;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;

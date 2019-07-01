@@ -11,11 +11,8 @@ window.onscroll = function() {
     if(window.pageYOffset > a) {
 
         head.setAttribute('style', 'position: fixed; z-index: 1; width: 100%; top: 0; box-shadow: 0px 2px 15px #000;');
-        caption.setAttribute('style', 'padding-top: 50px;');
-        carouselImage.setAttribute('style', 'margin-top: 50px');
 
     }
-    
-
+  
 }
 // ------------- 28 June End---------------
