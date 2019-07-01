@@ -2,26 +2,34 @@
 <html>
 
 <head>
+
     <title>Register</title>
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
     <!-- Homepage css-->
     <link rel="stylesheet" href="css/home.css">
+
     <!-- Slick css-->
     <link rel="stylesheet" type="text/css" href="./slick/slick.css">
     <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+
     <!-- Font Awesome Css-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
     <!-- Google Font-->
     <!-- <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet"> -->
     <link rel="stylesheet" type="text/css" href="fonts">
 
     <style>
+
         .about-right {
             position: absolute;
             top: 90px;
@@ -47,8 +55,6 @@
             padding-bottom: 22px;
         }
 
-
-
         .card-deck.cardrow {
             padding-bottom: 20px;
         }
@@ -64,8 +70,9 @@
         .registerbox {
             box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16);
         }
+
     </style>
-</head>
+
 </head>
 
 <body>
@@ -148,7 +155,7 @@
                     
                     <li class="nav-item dropdown">
 
-                        <a class="nav-link text-white" href="#">Sign Up</a>
+                        <a class="nav-link text-white" href="register.html">Sign Up</a>
                     
                     </li>
             
@@ -173,87 +180,88 @@
     </header>
     
     <div class="banner">
+
         <img src="images/sign_up_banner@2x.png" alt="Snow" style="width:100%;">
+
         <div class="text-center">
+
             <div class="about-right text-center">
+
                 <div class="text-center">
+
                     <img src="images/decorline.png">
+
                     <div class="abouttext">
+
                         <h4 class="text-danger">LOGIN & REGISTER</h4>
+
                     </div>
+
                 </div>
+
             </div>
+
         </div>
+
     </div>
 
     <section>
-        <div class="container">
+
+        <div class="container" style="margin-top: 2em;">
+
             <div class="row">
-                <div class="col-sm-6" style="padding: 30px;">
-                    <div class="registerbox" style="padding: 20px 20px 20px 20px;
-                    box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16);
-                    border: solid 0.3px #707070;
-                    background-color: #ffffff;">
-                        <h4 class="text-danger">Sign In</h4>
-                        <form action="/action_page.php">
-                            <div class="form-group">
-                                <label for="email">Email address</label>
-                                <input type="email" class="form-control" id="email">
-                            </div>
-                            <div class="form-group">
-                                <label for="pwd">Password:</label>
-                                <input type="password" class="form-control" id="pwd">
-                            </div>
-                            <p>Forget your password <a class="text-danger" href="#">Click Here</a></p>
-                            <div class="text-center" style="padding: 40px 40px 40px 40px;">
-                                <button type="submit" class="btn btn-primary text-white"
-                                    style="border-radius: 3px; background-color: #ee2225; padding: 10px 40px 10px 40px">Submit</button>
-                            </div>
-                    </div>
+
+                <div class="col-sm-6">
+
+                    <h4 class="text-danger">Sign In</h4>
+
+                    <form action="" method="POST" class="form-register">
+                    
+                        <p>Email</p>
+                        <input type="email" name="email" class="form-control"> <br>
+
+                        <p>Password</p>
+                        <input type="password" name='password' class="form-control">
+
+                        <p>Forget your password <a class="text-danger" href="forget_password.html">Click Here</a></p>
+
+                        <button type="submit" class="btn btn-danger" id="expand">Submit</button>
+
                     </form>
+
                 </div>
-                <div class="col-sm-6" style="padding: 30px;">
-                    <div class="registerbox" style="padding: 20px 20px 20px 20px; box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.16);
-                border: solid 0.3px #707070;
-                background-color: #ffffff;">
-                        <h4 class="text-danger">Sign Up</h4>
-                        <form action="/action_page.php">
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                        <label for="firstname">First Name</label>
-                                        <input type="text" class="form-control" id="firstname">
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                        <label for="lastname">Last Name</label>
-                                        <input type="text" class="form-control" id="lastname">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label for="email">Phone Number</label>
-                                <input type="email" class="form-control" id="email">
-                            </div>
-                            <div class="form-group">
-                                <label for="email">Email address:</label>
-                                <input type="email" class="form-control" id="email">
-                            </div>
-                            <div class="form-group">
-                                <label for="pwd">Password:</label>
-                                <input type="password" class="form-control" id="pwd">
-                            </div>
-                            <div class="text-center" style="padding: 40px 40px 40px 40px;">
-                                <button type="submit" class="btn btn-primary text-white"
-                                    style="border-radius: 3px; background-color: #ee2225; padding: 10px 40px 10px 40px">Sign
-                                    Up</button>
-                            </div>
-                        </form>
-                    </div>
+
+                <div class="col-sm-6">
+
+                    <h4 class="text-danger">Sign Up</h4>
+
+                    <form action="" method="POST" class="form-register">
+                    
+                        <p>Full Name</p>
+                        <input type="text" name="name" class="form-control"> <br>
+
+                        <p>Phone Number</p>
+                        <input type="Number" name='phone' class="form-control"><br>
+
+                        <p>Email</p>
+                        <input type="email" name="email" class="form-control"> <br>
+
+                        <p>Password</p>
+                        <input type="password" name="password" class="form-control"> <br>
+
+                        <p>Confirm Password</p>
+                        <input type="password" class="form-control" name="confirm">
+
+                        <button type="submit" class="btn btn-danger" id="expand">Sign Up</button>
+
+                    </form>
+
                 </div>
+
             </div>
+
         </div>
+
     </section>
 
     <!-- Footer Section -->

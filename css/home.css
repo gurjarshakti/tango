@@ -1115,7 +1115,7 @@ tr:nth-child(odd) {
 /* ------------- date 25 June 2019 start ---------------------- */
 
 #content-1 #expand {
-    box-shadow: /*2px 2px 4px #000;*/0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .event-add {
@@ -1225,15 +1225,10 @@ strong i{
     filter: blur(2px);
 }
 
-/*#addFile:hover {
-    box-shadow: 2px 3px 4px #000;
-}*/
-
 .card:hover {
     transform: scaleY(1.05);
     transition: 0.2s;
-    box-shadow: /*0px 0px 25px #000*/ 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .overlayBottom {
@@ -1289,7 +1284,7 @@ strong i{
     width: 3.5em;
     opacity: 1;
     background-color: #000;
-    z-index: -1;
+    z-index: -99;
 }
 /* ------------- date 28 June 2019 end -------------------- */
 
@@ -1298,7 +1293,40 @@ strong i{
 .carousel-indicators .active {
     background-color: #ff7979;
 }
+
 /* ------------- date 30 June 2019 end -------------------- */
+
+/* ------------- date 1 July 2019 start -------------------- */
+
+.form-register {
+    padding: 20px 20px 20px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #ffffff;
+    margin-bottom: 2em;
+    border: solid 1px #94908f;
+    border-radius: 12px;
+}
+
+.form-register input {
+    border-radius: 5px;
+    border: solid 1px #94908f;
+    height: 40px;
+    width: 300px;
+    margin-bottom: 0.5em;
+    font-size: 0.75em;
+    font-weight: bolder;
+    padding: 0.5em;
+    outline: none;
+    box-shadow: 2px 3px 4px #94908f;
+}
+
+.form-register .btn-danger {
+    margin-top: 1em;
+    box-shadow: 2px 3px 4px #94908f;
+}
+
+
+/* ------------- date 1 July 2019 end -------------------- */
 =======
 
 >>>>>>> f8de510dcf437f79d78d0f25ede207b937728083
