@@ -288,6 +288,7 @@ hr {
 .fa-paper-plane {
     color: white;
     cursor: pointer;
+    transition: 0.2s;
 }
 
 .fa-map-marker-alt {
@@ -1207,7 +1208,7 @@ strong i{
     margin-left: -1em;
 }
 
-.fa-facebook:hover, .fa-twitter:hover, .fa-instagram:hover, .fa-youtube:hover {
+.fa-facebook:hover, .fa-twitter:hover, .fa-instagram:hover, .fa-youtube:hover, .fa-paper-plane:hover {
     color: #000;
     transition: 0.2s;
 }
@@ -1255,8 +1256,7 @@ strong i{
 }
 
 .music-card {
-    box-shadow: 3px 6px 3px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
-
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 .hrimg {
@@ -1283,15 +1283,16 @@ strong i{
     padding: 0.25em;
     width: 3.5em;
     opacity: 1;
-    background-color: #000;
-    z-index: -99;
+    background-color: #8F1D21/*#003171*/;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
+
 }
 /* ------------- date 28 June 2019 end -------------------- */
 
 /* ------------- date 30 June 2019 start -------------------- */
 
 .carousel-indicators .active {
-    background-color: #ff7979;
+    background-color: #5D3F6A/*#ff7979*/;
 }
 
 /* ------------- date 30 June 2019 end -------------------- */
@@ -1299,12 +1300,12 @@ strong i{
 /* ------------- date 1 July 2019 start -------------------- */
 
 .form-register {
-    padding: 20px 20px 20px 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: #ffffff;
-    margin-bottom: 2em;
+    margin: 2em 3em 2em 4.5em;
     border: solid 1px #94908f;
     border-radius: 12px;
+    max-width: 70%;
 }
 
 .form-register input {
@@ -1312,10 +1313,7 @@ strong i{
     border: solid 1px #94908f;
     height: 40px;
     width: 300px;
-    margin-bottom: 0.5em;
-    font-size: 0.75em;
-    font-weight: bolder;
-    padding: 0.5em;
+    margin: 10px 10px 5px 20px;
     outline: none;
     box-shadow: 2px 3px 4px #94908f;
 }
@@ -1323,9 +1321,25 @@ strong i{
 .form-register .btn-danger {
     margin-top: 1em;
     box-shadow: 2px 3px 4px #94908f;
+    margin: 20px 20px 20px 20px;
 }
 
+.form-register .head {
+    background-color: #5B3256;/*ee2225;*/
+    color: #fff;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    height: 50px;
+    margin-bottom: 1em;
+    padding: 0.75em 0em 1.5em 1em;
+}
 
+.form-register p {
+    font-weight: bolder;
+    font-size: small;
+    margin: 0px 10px 0px 20px;
+    color: #2d3436 /*#96281b*/;
+}
 /* ------------- date 1 July 2019 end -------------------- */
 =======
 
