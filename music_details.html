@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Music List</title>
+    <title>Album Details</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -140,41 +140,99 @@
                     
                     </li>
             
-            </ul>
+                </ul>
             
-            <div class="navsearch">
-                
-                <form class="form-inline my-1 my-lg-0 searchbardiv">
+                <div class="navsearch">
                     
-                    <input class="form-control mr-sm-2 searchbar" type="search" placeholder="Search" aria-label="Search">
+                    <form class="form-inline my-1 my-lg-0 searchbardiv">
+                        
+                        <input class="form-control mr-sm-2 searchbar" type="search" placeholder="Search" aria-label="Search">
+                        
+                        <button class="searchbtn"><i class="fas fa-search"></i></button>
                     
-                    <button class="searchbtn"><i class="fas fa-search"></i></button>
+                    </form>
                 
-                </form>
+                </div>
             
             </div>
         
-        </div>
-    
-    </nav>
+        </nav>
     
     </header>
-    
-    <div class="banner">
-        <img src="images/about_us_banner.png" alt="Snow" style="width:100%;">
-        <div class="text-center">
-            <div class="about-right text-center">
-                <div class="text-center">
-                    <img src="images/decorline.png">
-                    <div class="abouttext">
-                        <h4>Music List</h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
-   
+    <section>
+        
+        <div class="album-details">
+            
+            <h4>Album Name</h4>
+            
+            <div class="row">
+
+                <div class="col-sm-6">
+
+                    <img src="img/034.jpg" alt="album-banner">
+
+                </div>
+
+                <div class="col-sm-6">
+
+                    <span>
+
+                        <ul type="none">
+                            
+                            <li><strong>Singer:</strong> bla bla</li>
+                            <li><strong>Label:</strong> hui hui</li>
+                            <li><strong>Year:</strong> 2002</li>
+
+                        </ul>
+
+                    </span>
+
+                </div>
+
+            </div>
+
+            <div class="album-playlist">
+                
+                <table>
+                    
+                    <tr>
+                        
+                        <th>Singer</th>
+                        <th>Song</th>
+                        <th>Genre</th>
+                        <th></th>
+                        <th>Download</th>
+
+                    </tr>
+
+                    <tr>
+                        
+                        <td>Dure Mere</td>
+                        <td>La conspiration des femmes jolies</td>
+                        <td>Noise, Post-Punk, Tango</td>
+                        <td><audio controls src="Songs/Dure_Mere.mp3"></audio></td>
+                        <td><a href="Songs/Dure_Mere.mp3" download><i class="fas fa-arrow-down"></i></a></td>
+
+                    </tr>
+
+                    <tr>
+                        
+                        <td>La Tabu</td>
+                        <td>Ocho Octubre #1</td>
+                        <td>Tango</td>
+                        <td><audio controls src="Songs/La_Tab.mp3"></audio></td>
+                        <td><a href="Songs/La_Tab.mp3" download><i class="fas fa-arrow-down"></i></a></td>
+
+                    </tr>
+
+                </table>
+
+            </div>
+
+        </div>
+
+    </section>
 
 
     <!-- Footer Section -->

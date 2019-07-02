@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Sniglet&display=swap');
 
 *{
     font-family: Helevetica, sans-serif;
@@ -1019,7 +1020,7 @@ h6.footerhead.text-center {font-weight: bold;
     margin-top: 1em;
 }
 
-table th{
+#event-table table th{
     background-color: #000;
     color: #fff;
     font-weight: bold;
@@ -1028,13 +1029,13 @@ table th{
     padding: 0.25em 2em 0.25em 0.5em;
 }
 
-table td {
+#event-table table td {
     padding: 1em;
     border-right: solid 0.5px #fff;
     font-size: small;
 }
 
-table{
+#event-table table{
     table-layout: fixed;
     width: 990px; 
     border-right: 0em;
@@ -1042,7 +1043,7 @@ table{
     box-shadow: /*4px 4px 4px #94908f; */0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-tr:nth-child(odd) {
+#event-table tr:nth-child(odd) {
   background-color: #ff7979;
 }
 
@@ -1170,11 +1171,11 @@ strong{
     color: #333945;
 }
 
-tr:nth-child(even) {
+#event-table tr:nth-child(even) {
   background-color: #dff9fb;
 }
 
-tr:hover {
+#event-table tr:hover {
   background-color: #eb4d4b;
   transition: 0.2s;
 }
@@ -1340,6 +1341,113 @@ strong i{
     color: #2d3436 /*#96281b*/;
 }
 /* ------------- date 1 July 2019 end -------------------- */
+
+/* ------------- date 2 July 2019 start ------------------*/
+
+.viewmoremusic {
+    margin-top: 2.5em;
+}
+
+.music img {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.music-row {
+    margin: 0em 0em 2em 7em;
+    padding: 1em;
+}
+
+.music-row .music-card {
+    margin: 0em 1em 2em 1em;
+    max-width: 30%;
+}
+
+.music-row .musiccard {
+    padding: 0em 1em 2em 1em;
+}
+
+.music .animated {
+    color: #000;
+    font-family: 'Sniglet', cursive;
+    font-size: 3.5em;
+    position: absolute;
+    bottom: 4em;
+    left: 4.5em;
+    margin: 0em 2em 2em 1.5em;
+}
+
+.album-details img {
+    float: right;
+}
+
+.album-details p{
+    line-height: 1.5em;
+    margin: 1em 1em 2em 4.75em;
+    max-width: 80%;
+    word-wrap: break-word;
+}
+
+.down-scroll{
+    position: absolute;
+    background-color: #eb4d4b;
+    max-width: 10%;
+    bottom: 5em;
+    left: 40.5em;
+    opacity: 0.8;
+}
+
+.down-scroll i {
+    padding: 1em;
+}
+
+.music a {
+    color: #fff;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.album-details ul {
+    float: left;
+    padding-top: 3em;
+}
+
+.album-playlist td audio {
+    outline: none;
+    
+}
+
+.album-playlist a{
+    color: #000;
+}
+
+.album-details h4 {
+    text-align: center;
+    margin: 3em 0em;
+}
+
+.album-playlist table {
+    background: none;
+    border: none;
+    margin: 2em 3em 4em 8em;
+    width: 80%;
+}
+
+.album-playlist th {
+    text-align: center;
+    padding: 1em;
+    border-bottom: solid 1px #000;
+}
+
+.album-playlist td {
+    padding: 1em;
+}
+.album-playlist .fa-arrow-down{
+    padding-left: 2.5em;
+}
+------------- date 2 July 2019 start ------------------*/
 =======
 
 >>>>>>> f8de510dcf437f79d78d0f25ede207b937728083
