@@ -72,7 +72,7 @@ h1,h2,h3,h4,h5{
     background-repeat: no-repeat;
 }
 
-.section2head {}
+
 
 .sechtion2text {
     padding-top: 160px;
@@ -277,7 +277,7 @@ hr {
 /* Font awesome Icons */
 
 
-.fas {}
+
 
 .far.fa-calendar-alt,
 .fa-user-friends,
@@ -372,10 +372,6 @@ hr {
 
 }
 
-.galdiv:hover .overlayTop,
-.galdiv:hover .overlayBottom {
-    
-}
 
 .overlayCross {
     width: 0%;
@@ -1061,10 +1057,7 @@ h6.footerhead.text-center {font-weight: bold;
     box-shadow: /*2px 3px 4px #94908f;*/0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#search-data {
-    float: right;
-    display: inline;
-}
+
 
 /* ------------- date 20 June 2019 end ---------------------- */
 
@@ -1113,7 +1106,6 @@ h6.footerhead.text-center {font-weight: bold;
 }
 /* ------------- date 24 June 2019 end ---------------------- */
 
-<<<<<<< HEAD
 /* ------------- date 25 June 2019 start ---------------------- */
 
 #content-1 #expand {
@@ -1181,7 +1173,6 @@ strong{
 }
 
 strong i, strong h6, #ModalCenter1 p, #ModalCenter2 p, #ModalCenter3 p, #ModalCenter4 p, #ModalCenter5 p {
-    display: inline;
     margin-bottom: 0.5em;
 }
 
@@ -1447,7 +1438,17 @@ html {
 .album-playlist .fa-arrow-down{
     padding-left: 2.5em;
 }
-------------- date 2 July 2019 start ------------------*/
-=======
+/*------------- date 2 July 2019 start ------------------*/
 
->>>>>>> f8de510dcf437f79d78d0f25ede207b937728083
+.contact_us_form {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.social-icon-content a {
+    color: rgb(243, 13, 13);
+}
+
+.contact-box-04 .list-inline {
+    margin-left: 0em;
+}
