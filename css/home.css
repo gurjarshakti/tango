@@ -703,11 +703,7 @@ h6.footerhead.text-center {font-weight: bold;
 
 .dropdown-menu {
     opacity: 0.8;
-}
-
-.dropdown-item{
-    padding: 0.25em;
-    color: #fff;
+    background-color: #000;
 }
 
 .dropdown-divider{
@@ -738,7 +734,7 @@ h6.footerhead.text-center {font-weight: bold;
 }
 
 .eventbutton{
-    margin-top: 2em;
+    margin-top: 0.5em;
     padding-bottom: 10px;
     padding-top: 20px;
 }
@@ -836,9 +832,10 @@ h6.footerhead.text-center {font-weight: bold;
     padding: 0.5em;
     outline: none;
     box-shadow: 2px 3px 4px #94908f;
+    display: block;
 }
 
-#content-1 form p{
+#content-1 form label{
     font-weight: bolder;
     font-size: small;
     margin-bottom: 0.75em;
@@ -846,10 +843,12 @@ h6.footerhead.text-center {font-weight: bold;
 }
 
 .input-right{
-    margin-left: 1.5em;
+    /*margin-left: 1.5em;*/
+    display: inline-block;
 }
 
 #content-1 #expand{
+    margin-top: 1em;
     margin-bottom: 3em;
     padding: 0.25em 4em 0.25em 4em;
     border-radius: 12px;
@@ -985,9 +984,9 @@ h6.footerhead.text-center {font-weight: bold;
     /* update_profile.html */
 
 #banner-cover{
-    width: 90%;
+    width: 102.25%;
     height: 300px;
-    margin-bottom: 0em;
+    margin-left: -1em;
 }
 
 .profilePic img{
@@ -1057,7 +1056,10 @@ h6.footerhead.text-center {font-weight: bold;
     box-shadow: /*2px 3px 4px #94908f;*/0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-
+#search-data {
+    float: right;
+    display: inline;
+}
 
 /* ------------- date 20 June 2019 end ---------------------- */
 
@@ -1106,6 +1108,7 @@ h6.footerhead.text-center {font-weight: bold;
 }
 /* ------------- date 24 June 2019 end ---------------------- */
 
+<<<<<<< HEAD
 /* ------------- date 25 June 2019 start ---------------------- */
 
 #content-1 #expand {
@@ -1173,6 +1176,7 @@ strong{
 }
 
 strong i, strong h6, #ModalCenter1 p, #ModalCenter2 p, #ModalCenter3 p, #ModalCenter4 p, #ModalCenter5 p {
+    display: inline;
     margin-bottom: 0.5em;
 }
 
@@ -1294,7 +1298,7 @@ strong i{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: #ffffff;
     margin: 2em 3em 2em 4.5em;
-    border: solid 1px #94908f;
+    /*border: solid 1px #94908f;*/
     border-radius: 12px;
     max-width: 70%;
 }
@@ -1304,11 +1308,17 @@ strong i{
     border: solid 1px #94908f;
     height: 40px;
     width: 300px;
-    margin: 10px 10px 5px 20px;
+    margin: 0px 10px 5px 20px;
     outline: none;
     box-shadow: 2px 3px 4px #94908f;
 }
 
+.form-register label{
+    margin-top: 0.5em;
+    margin-bottom: 0em;
+    margin-left: 1.25em;
+    font-size: 1em;
+}
 .form-register .btn-danger {
     margin-top: 1em;
     box-shadow: 2px 3px 4px #94908f;
@@ -1322,16 +1332,11 @@ strong i{
     border-top-right-radius: 12px;
     height: 50px;
     margin-bottom: 1em;
-    padding: 0.75em 0em 1.5em 1em;
+    padding: 0.75em 0em 1.5em 1.25em;
+    font-size: 1em;
 }
 
-.form-register p {
-    font-weight: bolder;
-    font-size: small;
-    margin: 0px 10px 0px 20px;
-    color: #2d3436 /*#96281b*/;
-}
-/* ------------- date 1 July 2019 end -------------------- */
+/* ----------- date 1 July 2019 end -------------------- */
 
 /* ------------- date 2 July 2019 start ------------------*/
 
@@ -1355,7 +1360,7 @@ strong i{
 }
 
 .music-row .musiccard {
-    padding: 0em 1em 2em 1em;
+    padding: 0em 1em 3em 1em;
 }
 
 .music .animated {
@@ -1432,13 +1437,73 @@ html {
     border-bottom: solid 1px #000;
 }
 
+/*.album-playlist td {
+    border-bottom: solid 1px #94908f;
+}*/
+
 .album-playlist td {
     padding: 1em;
 }
 .album-playlist .fa-arrow-down{
     padding-left: 2.5em;
 }
-/*------------- date 2 July 2019 start ------------------*/
+
+/* ----------------- date 2 July 2019 end ----------------- */
+
+/* ----------------- date 3 July 2019 start ---------------- */
+
+.carousel-item p {
+    margin-top: 1em;
+}
+
+.dropdown button {
+    margin-top: 0.5em;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    outline: none;
+    padding: 0.6em;
+    border-radius: 5px;
+}
+
+.dropdown button:hover{
+    background-color: #E14848;
+}
+
+.dropdown-menu a {
+    background-color: #000;
+    text-decoration: none;
+    color: #fff;
+    padding-left: 12px;
+    font-size: 14px;
+}
+
+.dropdown-menu a:hover{
+    background-color: #000;
+}
+
+.element1 label, .element2 label{
+    font-size: 0.785em;
+    margin-top: 1em;
+    margin-bottom: 0;
+}
+
+#content-1 select {
+    padding: 0.75em 0.75em 0.75em 0.25em;
+    width: 300px;
+    font-size: 0.75em;
+    color: #707070;
+    border: solid 1px #94908f;
+    border-radius: 5px;
+    box-shadow: 2px 3px 4px #94908f;
+    font-weight: bolder;
+    margin-bottom: 0.75em;
+    outline: none;
+}
+
+.element1 input, .element1 select{
+    display: block;
+}
 
 .contact_us_form {
     padding-top: 30px;
@@ -1452,4 +1517,10 @@ html {
 .contact-box-04 .list-inline {
     margin-left: 0em;
 }
+/* ------------- date 3 July 2019 end ------------------*/
+=======
+
+>>>>>>> f8de510dcf437f79d78d0f25ede207b937728083
+
+
 

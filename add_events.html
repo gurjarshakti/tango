@@ -119,6 +119,21 @@
                     
                     </li>
                     
+                    <div class="dropdown">
+
+                        <button class="dropdown-toggle" type="button" data-toggle="dropdown">Gallery</button>
+                        <ul class="dropdown-menu">
+
+                            <a href="#">Event 1</a>
+                            <hr class="dropdown-divider">
+                            <a href="#">Event 2</a>
+                            <hr class="dropdown-divider">
+                            <a href="#">Event 3</a>
+
+                        </ul>
+
+                    </div>
+
                     <li class="nav-item">
                         
                         <a class="nav-link text-white" href="news_list.html">News</a>
@@ -224,125 +239,217 @@
                     <div class="row">
                             
                         <div class="col-sm-4">
+
+                            <div class="element1">
                                 
-                            <p>Category <span class="red">(required)</span></p>
-                            <select value="category" required>
+                                <label for="Category">Category <span class="red">(required)</span></label>
+                                <select value="category" required>
                                     
-                                <option value="">-- select category --</option>
-                                <option value="Milonga">Milonga</option>
-                                <option value="Classes">Classes</option>
-                                <option value="Practica">Practica</option>
-                                <option value="Practilonga">Practilonga</option>
-                                <option value="Workshops">Workshops</option>
-                                <option value="Marathon">Marathon</option>
-                                <option value="Festival">Festival</option>
-                                <option value="Special Event">Special Event</option>
+                                    <option value="">-- select category --</option>
+                                    <option value="Milonga">Milonga</option>
+                                    <option value="Classes">Classes</option>
+                                    <option value="Practica">Practica</option>
+                                    <option value="Practilonga">Practilonga</option>
+                                    <option value="Workshops">Workshops</option>
+                                    <option value="Marathon">Marathon</option>
+                                    <option value="Festival">Festival</option>
+                                    <option value="Special Event">Special Event</option>
 
-                            </select>
+                                </select>
 
-                            <p>Name <span class="red">(required)</span></p>
-                            <input type="text" name="name" required>
+                            </div>
+                                
+                            <div class="element1">
+                                
+                                <label for="Name">Full Name <span class="red">(required)</span></label>
+                                <input type="text" name="name" required>
 
-                            <p>Slug URL Name</p>
-                            <input type="text" name="url" id="">
+                            </div>                            
 
-                            <p>Online Price <span class="red">(required)</span></p>
-                            <input type="Number" name="online price" required>
+                            <div class="element1">
+                                
+                                <label for="Slug URL">Slug URL Name</label>
+                                <input type="text" name="url" id="">
 
-                            <p>Early Bird Price <span class="red">(required)</span></p>
-                            <input type="Number" name="early bird price" required>
+                            </div>
+                            
+                            <div class="element1">
+                                
+                                <label for="Online price">Online Price <span class="red">(required)</span></label>
+                                <input type="Number" name="online price" required>
 
-                            <p>Offline Price <span class="red">(required)</span></p>
-                            <input type="Number" name="offline price"required>
+                            </div>
 
-                            <p>Start Date <span class="red">(required)</span></p>
-                            <input type="date" name="start date" required>
+                            <div class="element1">
+                                
+                                <label for="Early Bird price">Early Bird Price <span class="red">(required)</span></label>
+                                <input type="Number" name="early bird price" required>
+                                
+                            </div>
 
-                            <p>End Date <span class="red">(required)</span></p>
-                            <input type="date" name="end date" required>
+                            <div class="element1">
+                                
+                                <label for="Offline price">Offline Price <span class="red">(required)</span></label>
+                                <input type="Number" name="offline price"required>
+                                
+                            </div>
+
+                            <div class="element1">
+                                
+                                <label for="Start date">Start Date <span class="red">(required)</span></label>
+                                <input type="date" name="start date" required>
+                                
+                            </div>
+
+                            <div class="element1">
+                                
+                                <label for="End Date">End Date <span class="red">(required)</span></label>
+                                <input type="date" name="end date" required>
+                                
+                            </div>
+
+                        </div>
+
+                        <div class="col-sm-4">
+
+                            <div class="element1">
+                                
+                                <label for="Start Time">Start Time <span class="red">(required)</span></label>
+                                <input type="time" name="start time" required>
+                                
+                            </div>
+
+                            <div class="element1">
+                                
+                                <label for="End time">End Time <span class="red">(required)</span></label>
+                                <input type="time" name="end time" required>
+                                
+                            </div>
+
+                            <div class="element1">
+                                
+                                <label for="pdf">Upload Event Pdf File in pdf format</label>
+                                <input type="file" name="fileToUpload" class="file" id="addModal" required>
+                                
+                            </div>
+
+                            <div class="element1">
+                                
+                                <label for="image">Upload Image (Multiple images up to 5 )</label>
+                                <input type="file" name="fileToUpload" class="file" required>
+                                
+                            </div>
+
+                            <div class="element1">
+                                
+                                <button type="button" class="btn btn-primary" id="addFile">Add More</button>
+                                <label for="add" id="maxFiles">(Maximum : 5 files)</label>
+
+                                <div id="extraFile-2" class="addedFiles">
+                                    
+                                <input type="file" name="fileToUpload">
+                                <span class="close">&times;</span>
+
+                                </div>
+
+                                <div id="extraFile-3" class="addedFiles">
+                                        
+                                    <input type="file" name="fileToUpload">
+                                    <span class="close">&times;</span>
+                                        
+                                </div>
+
+                                <div id="extraFile-4" class="addedFiles">
+                                        
+                                    <input type="file" name="fileToUpload">
+                                    <span class="close">&times;</span>
+                                        
+                                </div>
+
+                                <div id="extraFile-5" class="addedFiles">
+                                        
+                                    <input type="file" name="fileToUpload">
+                                    <span class="close">&times;</span>
+                                        
+                                </div>
+                                
+                            </div>
+
+                            <div class="element1">
+                                
+                                <label for="organisation">Organisation</label>
+                                <input type="text" name="organisation">
+                                
+                            </div>
+
+                            <div class="element1">
+                                
+                                <label for="email">Email Address</label>
+                                <input type="email" name="email">
+                                
+                            </div>
+
+                            <div class="element1">
+                                
+                                <label for="phone">Phone No</label>
+                                <input type="Number" name="phone">
+                                
+                            </div>
 
                         </div>
 
                         <div class="col-sm-4">
                                 
-                            <p>Start Time <span class="red">(required)</span></p>
-                            <input type="time" name="start time" required>
-
-                            <p>End Time <span class="red">(required)</span></p>
-                            <input type="time" name="end time" required>
-
-                            <p>Upload Event Pdf File in pdf format</p>
-                            <input type="file" name="fileToUpload" class="file" id="addModal" required>
-
-                            <p>Upload Image (Multiple images up to 5 )</p>
-                            <input type="file" name="fileToUpload" class="file" required>
-
-                            <button type="button" class="btn btn-primary" id="addFile">Add More</button> 
-                            <p id="maxFiles">(Maximum : 5 files)</p>
-
-                            <div id="extraFile-2" class="addedFiles">
-                                    
-                                <input type="file" name="fileToUpload">
-                                <span class="close">&times;</span>
-
-                            </div>
-
-                            <div id="extraFile-3" class="addedFiles">
-                                    
-                                <input type="file" name="fileToUpload">
-                                <span class="close">&times;</span>
-                                    
-                            </div>
-
-                            <div id="extraFile-4" class="addedFiles">
-                                    
-                                <input type="file" name="fileToUpload">
-                                <span class="close">&times;</span>
-                                    
-                            </div>
-
-                            <div id="extraFile-5" class="addedFiles">
-                                    
-                                <input type="file" name="fileToUpload">
-                                <span class="close">&times;</span>
-                                    
-                            </div>
-
-                            <p>Organisation</p>
-                            <input type="text" name="organisation">
-
-                            <p>Email Address</p>
-                            <input type="email" name="email">
-
-                            <p>Phone No</p>
-                            <input type="Number" name="phone">
-
-                        </div>
-
-                        <div class="col-sm-4">
+                            <div class="element1">
                                 
-                            <p>Venue</p>
-                            <input type="text" name="venue">
+                                <label for="Venue">Venue</label>
+                                <input type="text" name="venue">
 
-                            <p>Address</p>
-                            <input type="text" name="address">
+                            </div>
 
-                            <p>Website URL</p>
-                            <input type="text" name="website url">
+                            <div class="element1">
+                                
+                                <label for="Address">Address</label>
+                                <input type="text" name="address">
 
-                            <p>Facebook URL</p>
-                            <input type="text" name="facebook url">
+                            </div>
 
-                            <p>Description <span class="red">(required)</span></p>
+                            <div class="element1">
+                                
+                                <label for="Website url">Website URL</label>
+                                <input type="text" name="website url">
 
-                            <p>Member Name</p>
-                            <select name="member">
+                            </div>
+
+                            <div class="element1">
+                                
+                                <label for="Facebook URL">Facebook URL</label>
+                                <input type="text" name="facebook url">
+
+                            </div>
+
+                            <div class="element1">
+                                
+                                <label for="">Description <span class="red">(required)</span></label>
+                                
+
+                            </div>
+
+                            <p></p>
+                            
+
+                            <div class="element1">
+                                
+                                <label for="Member">Member Name</label>
+                                <select name="member">
                                     
-                                <option value="">-- select member --</option>
-                                <option value=""></option>
-                                <option value=""></option>
+                                    <option value="">-- select member --</option>
+                                    <option value=""></option>
+                                    <option value=""></option>
 
-                            </select> <br>
+                                </select>
+
+                            </div>
 
                             <button class="btn btn-danger" type="submit" name="submit">Submit</button>
                             <!-- <button class="btn btn-danger" name="back" id="backToEvents" onclick="history go(-1);">Back</button> -->
@@ -492,7 +599,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
     <script src="js/index_script.js" ></script>
-    <script src="add_events_scripts.js"></script>
+    <script src="js/add_events_script.js"></script>
 
 </body>
 

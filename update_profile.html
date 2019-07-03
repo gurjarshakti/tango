@@ -119,6 +119,21 @@
                         <a class="nav-link text-white" href="#">Events</a>
                     
                     </li>
+
+                    <div class="dropdown">
+
+                        <button class="dropdown-toggle" type="button" data-toggle="dropdown">Gallery</button>
+                        <ul class="dropdown-menu">
+
+                            <a href="#">Event 1</a>
+                            <hr class="dropdown-divider">
+                            <a href="#">Event 2</a>
+                            <hr class="dropdown-divider">
+                            <a href="#">Event 3</a>
+
+                        </ul>
+
+                    </div>
                     
                     <li class="nav-item">
                         
@@ -156,11 +171,18 @@
                     
                     </li>
                     
-                    <li class="nav-item dropdown">
+                    <div class="dropdown">
 
-                        <a class="nav-link text-white" href="register.html">Sign Up</a>
-                    
-                    </li>
+                        <button class="dropdown-toggle" type="button" data-toggle="dropdown">Username</button>
+                        <ul class="dropdown-menu">
+
+                            <a href="#">Edit Profile</a>
+                            <hr class="dropdown-divider">
+                            <a href="#">Log Out</a>
+
+                        </ul>
+
+                    </div>
             
             </ul>
             
@@ -184,9 +206,9 @@
     
     <section>
         
-        <div class="banner container-fluid">
+        <div class="banner">
 
-            <img src="img/037.jpg" alt="banner-cover" id="banner-cover">
+            <img src="img/037.jpg" alt="banner-cover" id="banner-cover">>
             
             <div class="row">
                 
@@ -232,31 +254,78 @@
             <!-- Tab Contents -->
 
             <div id="content-1" class="tab-content">
-                    
+
                 <form action="" method="POST">
+                        
+                    <div class="row">
+                            
+                        <div class="col-sm-6">
+
+                            <div class="element2">
+                            
+                                <label for="profile image">Profile Image</label>
+                                <input type="file" name="fileToUpload" class="file">
+
+                            </div>
+                                
+                            <div class="element2">
+                            
+                                <label for="Name">Name</label>
+                                <input type="text" name='firstname' placeholder="First Name">
+                                <input type="text" name='lastname' placeholder="Last Name">
+
+                            </div>                            
+
+                            <div class="element2">
+                            
+                                <label for="Number">Phone Number</label>
+                                <input type="Number" name='phone' class="form-control">
+
+                            </div>
+
+                            <div class="element2">
+                                
+                                <label for="change email">Change Email</label>
+                                <input type="email" name="email" placeholder="usermail@mail.com">
+
+                            </div>
+
+                        </div>
+
+                        <div class="col-sm-4">
+
+                            <div class="element2">
+                                
+                                <label for="Change Password">Change Password</label>
+                                <input type="text" name="newpassword" placeholder="New Password">
+                                <input type="text" name="confirmpassword" placeholder="Confirm Password" class="input-right">
+
+                            </div>
+
+                            <div class="element2">
+                                
+                                <label for="address details">Address Details</label>
+                                <input type="text" name="street" placeholder="Street">
+                                <input type="text" name="city" placeholder="City" class="input-right">
+                                <input type="text" name="country" placeholder="State">
+                                <select value="category" required>
+                                    
+                                    <option value="">Country</option>
+                                    <option value="Milonga">Country1</option>
+                                    <option value="Classes">Country2</option>
+                                    <option value="Practica">Country3</option>
+                                    <option value="Practilonga">Country4</option>
+
+                                </select>
+
+                            </div>
+                            
+                            <button type="submit" class="btn btn-danger" id="expand">Update</button>
+
+                        </div>
+
+                    </div>
                     
-                    <p>Profile Image</p>
-                    <input type="file" name="fileToUpload" class="file"> <br> <br>
-
-                    <p>Display Name</p>
-                    <input type="text" name='firstname' placeholder="First Name">
-                    <input type="text" name="lastname" placeholder="Last Name" class="input-right"> <br> <br>
-
-                    <p>Change Email</p>
-                    <input type="email" name="email" placeholder="usermail@mail.com"> <br> <br>
-
-                    <p>Change Password</p>
-                    <input type="text" name="newpassword" placeholder="New Password">
-                    <input type="text" name="confirmpassword" placeholder="Confirm Password" class="input-right"> <br> <br>
-
-                    <p>Address Details</p>
-                    <input type="text" name="street" placeholder="Street">
-                    <input type="text" name="city" placeholder="City" class="input-right"> <br>
-                    <input type="text" name="country" placeholder="State">
-                    <input type="text" name="" placeholder="Country" class="input-right"> <br> <br>
-
-                    <button type="submit" class="btn btn-danger" id="expand">Update</button>
-
                 </form>
 
             </div>

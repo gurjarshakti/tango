@@ -1,0 +1,236 @@
+* Slideshow Styling
+*********************************/
+        #slideshow {
+            width: 100%;
+            height: 100%;
+            margin: 100px auto;
+
+            position: relative;
+
+            overflow: hidden;
+        }
+
+        #slideshow.fullscreen {
+            position: relative;
+            top: 0;
+            left: 0;
+
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+
+            overflow: hidden;
+        }
+
+        .img-wrapper {
+            min-width: 100%;
+            min-height: 100%;
+
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+
+            margin: auto;
+            overflow: hidden;
+
+            z-index: 8;
+
+            background-size: cover;
+            background-position: center center;
+        }
+
+        #slideshow .img-wrapper.active {
+            z-index: 10;
+        }
+
+        #slideshow .img-wrapper.last-active {
+            z-index: 9;
+        }
+
+        /*********************************
+	* Thumbnail Styling
+	*********************************/
+        .thumbs-container {
+            width: 100%;
+            height: 85px;
+            position: absolute;
+            left: 0;
+
+            z-index: 11;
+
+            background: #e4d9d9;
+            opacity: .7;
+        }
+
+        .thumbs-container.top {
+            top: 0;
+        }
+
+        .thumbs-container.bottom {
+            bottom: 0;
+        }
+
+        .prev,
+        .next {
+            width: 3%;
+            min-width: 40px;
+            height: 48px;
+            padding: 24px 1%;
+
+            color: #999999;
+            cursor: pointer;
+        }
+
+        .prev {
+            float: left;
+        }
+
+        .next {
+            float: right;
+        }
+
+        .prev:hover,
+        .next:hover {
+            color: #555555;
+        }
+
+        ul.thumbs {
+            position: absolute;
+            top: 0;
+            left: 5%;
+            right: 5%;
+            height: 100px;
+            padding: 0;
+            margin: 0 5%;
+            overflow: hidden;
+            white-space: nowrap;
+            text-align: center;
+        }
+
+        .thumbs li {
+            list-style: none !important;
+        }
+
+        .thumb {
+            display: inline-block;
+            width: 120px;
+            height: 65px;
+            margin: 10px;
+
+            overflow: hidden;
+            background-size: cover;
+            background-position: center center;
+
+            cursor: pointer;
+        }
+
+        .thumb:first-of-type {
+            margin-left: 0px;
+        }
+
+        .thumb.active {
+            width: 116px;
+            height: 65px;
+            border: 2px solid #FFF;
+        }
+
+        #popupBox {
+            background: #fff;
+            display: none;
+            border: 3px solid #ccc
+        }
+
+        .contentBox {
+            overflow-y: scroll;
+            height: 270px
+        }
+
+        .popupContent {
+            background: #fff;
+        }
+
+        .popupContent .popClose {
+            float: right;
+            display: block;
+            height: 16px;
+            width: 16px;
+            background: url(img/closeBut.jpg) no-repeat;
+            text-indent: -9000px
+        }
+
+        .popupClose {
+            display: block;
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            height: 16px;
+            width: 16px;
+            text-indent: -9000px;
+            background: url(img/closeBut.jpg) no-repeat
+        }
+
+        .galleryTitle {
+            font-size: 1.3em;
+            text-align: center;
+        }
+
+        .popupContent .pop2 {
+            font-size: 1.2em;
+            text-align: center;
+            padding: 30px
+        }
+
+        .popupContent .galleryTitle {
+            position: relative
+        }
+
+        .galleryControls {
+            overflow: hidden;
+            line-height: 40px
+        }
+
+        .galleryControls a {
+            font-size: 1.2em;
+            font-weight: bold;
+            text-decoration: none;
+            color: #333;
+            text-transform: uppercase
+        }
+
+        .galleryControls .prev {
+            float: left;
+            margin-left: 20px
+        }
+
+        .galleryControls .next {
+            float: right;
+            margin-right: 20px
+        }
+
+        .galleryControls p {
+            text-align: center;
+        }
+
+        .imageDesc {
+            min-height: 50px;
+            line-height: 15px;
+            text-align: left
+        }
+
+        .imageDesc p {
+            padding: 5px 10px;
+            color: #fff;
+            font-size: 12px
+        }
+
+        .popupBtns {
+            padding: 20px
+        }
+
+        .popupBtns input {
+            margin-right: 20px;
+            font-size: 14px;
+        }

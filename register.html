@@ -116,6 +116,21 @@
                         <a class="nav-link text-white" href="#">Events</a>
                     
                     </li>
+
+                    <div class="dropdown">
+
+                        <button class="dropdown-toggle" type="button" data-toggle="dropdown">Gallery</button>
+                        <ul class="dropdown-menu">
+
+                            <a href="#">Event 1</a>
+                            <hr class="dropdown-divider">
+                            <a href="#">Event 2</a>
+                            <hr class="dropdown-divider">
+                            <a href="#">Event 3</a>
+
+                        </ul>
+
+                    </div>
                     
                     <li class="nav-item">
                         
@@ -215,15 +230,23 @@
 
                     <form action="" method="POST" class="form-register">
 
-                        <h5 class="head">Sign In</h4>
+                        <h5 class="head">Sign In</h5>
                     
-                        <p>Email</p>
-                        <input type="email" name="email" class="form-control"> <br>
+                        <div class="element">
+                            
+                            <label for="Email">Email</label>
+                            <input type="email" name="email" class="form-control">
 
-                        <p>Password</p>
-                        <input type="password" name='password' class="form-control">
+                        </div>
 
-                        <p>Forget your password?<a class="text-danger" href="forget_password.html"> Click here</a></p>
+                        <div class="element">
+                            
+                            <label for="Password">Password</label>
+                            <input type="password" name='password' class="form-control">
+
+                        </div>
+
+                        <label for="Forget password">Forget your password?<a class="text-danger" href="forget_password.html"> Click here</a></label>
 
                         <button type="button" class="btn btn-danger" id="expand" onclick="window.location.href='update_profile.html'">Sign In</button>
 
@@ -235,23 +258,43 @@
 
                     <form action="" method="POST" class="form-register">
 
-                        <h5 class="head">Sign Up</h4>
+                        <h5 class="head">Sign Up</h5>
+
+                        <div class="element">
+                            
+                            <label for="Name">Full Name</label>
+                            <input type="text" name="name" class="form-control">
+
+                        </div>
                     
-                        <p>Full Name</p>
-                        <input type="text" name="name" class="form-control"> <br>
+                        <div class="element">
+                            
+                            <label for="Number">Phone Number</label>
+                            <input type="Number" name='phone' class="form-control">
 
-                        <p>Phone Number</p>
-                        <input type="Number" name='phone' class="form-control"><br>
+                        </div>
+                        
+                        <div class="element">
+                            
+                            <label for="Email">Email</label>
+                            <input type="email" name="email" class="form-control">
 
-                        <p>Email</p>
-                        <input type="email" name="email" class="form-control"> <br>
+                        </div>
 
-                        <p>Password</p>
-                        <input type="password" name="password" class="form-control"> <br>
+                        <div class="element">
+                            
+                            <label for="Password">Password</label>
+                            <input type="password" name="password" class="form-control">
 
-                        <p>Confirm Password</p>
-                        <input type="password" class="form-control" name="confirm">
+                        </div>
 
+                        <div class="element">
+                            
+                            <label for="Confirm Password">Confirm Password</label>
+                            <input type="password" class="form-control" name="confirm">
+
+                        </div>
+                        
                         <button type="submit" class="btn btn-danger" id="expand">Sign Up</button>
 
                     </form>
