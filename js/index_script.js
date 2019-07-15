@@ -16,4 +16,17 @@ window.onscroll = function() {
     }
   
 }
+
+let dropdownbtn = document.getElementsByClassName('dropdown');
+let dropdownmenu = document.getElementsByClassName('dropdown-menu');
+
+function showMenu() {
+
+	if(dropdownmenu.style.display === 'none') {
+		dropdownmenu.style.display = 'block';
+	}
+
+	else
+		dropdownmenu.style.display = 'none';
+}
 // ------------- 28 June End---------------

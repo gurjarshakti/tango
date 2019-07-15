@@ -1,22 +1,30 @@
-/*/* Reesponsive queries for Index.html*/
+/* Reesponsive queries for Index.html*/
 
 /* -------------------5 July 2019---------------------- */
 
 @media (max-width: 320px) {
 
-	.logotop {
-		margin-left: -0.5em;
-		margin-top: -0.5em;
+	html{
+		width: 100%;
 	}
 
-	.logotop img {
-		width: 3.5em;
-		height: 3.5em;
+	.navbar-2 .logotop {
+		margin-left: -0.5em;
+		margin-top: -3.75em;
+	}
+
+	.navbar-2 .logotop img {
+		width: 3.75em;
+		height: 3.75em;
 	}
 	
-	.carousel-item .carousel-image{
-		height: 9em;
+	.navbar-2{
+		flex-wrap: nowrap;
 	}
+	
+	/*.carousel-item .carousel-image{
+		height: 6em;
+	}*/
 
 	.carousel-caption {
 		bottom: 0px;
@@ -25,16 +33,14 @@
 		grid: auto/ 1fr;
 	}
 
-	.carousel-caption #hr-3 {
-		width: 8em;
-		margin-left: 0.5em;
-		margin-top: 0em;	
+	.carousel-item .carousel-image {
+		height: 9em !important;
 	}
 
 	.carousel-caption .imgOne {
-		width: 4em;
+		width: 8em !important;
 		margin-top: -0.5em;
-		margin-left: 0.5em;
+		margin-left: 0%;
 	}
 
 	.carousel-caption h3{
@@ -73,26 +79,22 @@
 		z-index: -99;
 	}
 
-	.banner img {
-		height: 9em;
-	}
-
 	.aboutUs-col {
 		display: grid;
 		grid: auto/1fr;
-		margin-top: 2em;
+		margin-top: 2em !important;
 	}
 
 	.aboutUs-col h4{
-		font-size: 0.75em;
-		margin-left: 20.5em;
+		font-size: 0.85em !important;
+		margin-left: 17.75em !important;
 		margin-top: 0.25em
 	}
 
-	.aboutUs-col img{
-		width: 12em;
+	.aboutUs-col .hrimg{
+		width: 16.5em;
 		height: 1em;
-		margin-left: 16.5em;
+		margin-left: 14.85em;
 	}
 
 	.aboutUs-col .abouttext {
@@ -102,7 +104,7 @@
 	}
 
 	.aboutUs-col h6{
-		font-size: 0.75em;
+		font-size: 0.75em !important;
 		margin-left: 10em;
 		
 	}
@@ -114,14 +116,20 @@
 		margin-left: 20.5em;
 		margin-top: -4em;
 		margin-bottom: 1.5em;
+		border-radius: 5px;
 	}
 
 	.event_section h4, .classsec h4, .newsandarticles h4, .gallreysec h2, .musicalbum h4{
-		font-size: 1.25em;
+		font-size: 1em !important;
 	}
 
 	.card-deck {
 		margin-top: -2em;
+	}
+	
+	.card{
+		width: 50vh;
+		height: 65vh;
 	}
 
 	.card-title {
@@ -136,8 +144,12 @@
 		font-size: 0.75em;
 	}
 
+	.event_section .class-hr {
+		width: 	70%;
+	}
+
 	.classsec .class-hr {
-		width: 6em;
+		width: 6em !important;
 		height: 0.5em;
 		margin-bottom: 20px;
 	}
@@ -152,15 +164,22 @@
 	}
 
 	.gallreysec .class-hr-2 {
-		width: 6em;
+		width: 6em !important;
 		height: 0.5em;
 		margin-bottom: 20px;
+	}
+	
+	.newsandarticles .class-hr {
+		width: 60%;
 	}
 
 	.gallreysec .img1 {
 		padding: 0.5em;
 	}
-
+	
+	.musicalbum .class-hr {
+		width: 60%;
+	}
 	.overlay {
 		opacity: 0.7;
 	}
@@ -194,13 +213,13 @@
 
 @media (max-width: 375px) {
 
-	.navbar {
+	/*.navbar {
 		width: 100%;
-	}
+	}*/
 
-	html {
+	/*html {
 		margin-right: auto;
-	}
+	}*/
 
 	.logotop {
 		margin-left: -0.5em;
@@ -212,9 +231,9 @@
 		height: 3.5em;
 	}
 
-	.carousel-item .carousel-image{
+	/*.carousel-item .carousel-image{
 		height: 9em;
-	}
+	}*/
 
 	.carousel-caption {
 		bottom: 0px;
@@ -404,7 +423,7 @@
 
 @media (max-width: 1440px) {
 
-}*/
+}
 
 /*@media (max-width: 1400px) {
 
@@ -432,7 +451,139 @@
 	}
 }*/
 
-@media (max-width: 2560px)  {
+/*@media (max-width: 2722px) {
+
+	.carousel-caption{
+		bottom: 20em;
+	}
+
+	.carousel-caption .imgOne {
+		margin-left: 0%;
+		width: 35%;
+	}
+}
+
+@media (min-width: 1446px) {
+	
+	.carousel-caption{
+		bottom: 28em;
+	}
+
+	.carousel-caption .imgOne {
+		margin-left: 0%;
+		width: 30%;
+	}	
+
+}
+
+@media (max-width: 2660px) {
+
+	.logotop {
+		margin-left: 1em;
+		margin-top: 0.75em;
+	}
+
+	.logotop img {
+		width: 7.5em;
+		height: 7.5em;
+	}
+
+	.navbar {
+		height: 70px;
+		padding-bottom: 1.5em;
+		padding-top: 1.5em;
+	}
+
+	.navbar .ml-auto {
+		font-size: 25px;
+		margin-right: 2em;
+		margin-left: -1em;
+	}
+
+	.dropdown button {
+		margin-top: 0.25em;
+	}
+
+	.navsearch{
+		margin-top: 0.75em;
+	}
+
+	.navsearch input {
+		font-size: 20px;
+	}
+
+	.carousel-caption {
+		bottom: 20em;
+	}
+
+	.carousel-caption h3 {
+		font-size: 2.75em;
+	}
+
+	.carousel-caption .imgOne {
+		width: 49%;
+		margin-left: 0em;
+	}
+
+	.carousel-caption p{
+		font-size: 1.75em;
+		margin-bottom: 1.5em;
+	}
+
+	.carousel-caption #carousel-button {
+		font-size: 1.75em;
+		padding: 20px 20px;
+		border-radius: 8px;
+	}
+
+	.carousel-control-prev-icon, .carousel-control-next-icon {
+		width: 45px;
+		height: 45px;
+		border-radius: 50px;
+	}
+
+	.carousel-indicators li{
+		width: 30px;
+		height: 30px;
+	}
+
+	.announcement {
+		font-size: 1.75em;
+	}
+
+	.aboutUs-col {
+		margin-top: 6em;
+		margin-left: -4em;
+	}
+
+	.aboutUs-col h4{
+		font-size: 2em;
+	}
+
+	.aboutUs-col .hrimg {
+		width: 87%;
+		margin-left: 0em;
+	}
+
+	.aboutUs-col h6{
+		font-size: 1.5em;
+		word-spacing: 0.25em;
+		margin-bottom: 2em;
+	}
+
+	.aboutUs-col .expand-button {
+		font-size: 1.5em;
+		padding-top: 0.75em;
+		padding-bottom: 0.75em;
+		border-radius: 10px;
+	}
+
+	.event_section .card {
+
+	}
+}*/
+
+/*@media (max-width: 2560px)  {*/
 
 	/*.logotop {
 		margin-left: 1em;
@@ -540,7 +691,7 @@
 		font-size: 3em;
 	}*/
 
-	.event_section hr, .newsandarticles hr, .musicalbum hr {
+	/*.event_section hr, .newsandarticles hr, .musicalbum hr {
 		width: 100%;
 		margin-left: 29.40%;
 	}
@@ -549,12 +700,212 @@
 		width: 20%;
 	}*/
 
-	.col-sm-3.footer-widget3 {
+	/*.col-sm-3.footer-widget3 {
 		padding-left: 20em;
 	}
 
 	.col-sm-3.footer-widget4 {
 		padding-left: 18em;
+	}
+}
+
+@media (max-width: 2100px) {
+
+	.navbar .ml-auto {
+		font-size: 1.5em;
+	}
+
+	.navbar .dropdown-toggle {
+		margin-top: 0.5em;
+	}
+
+	.carousel-caption {
+		bottom: 7em;
+	}
+
+	.carousel-caption .imgOne{
+		width: 68%;
+	}
+
+	.carousel-control-prev-icon, .carousel-control-next-icon {
+		width: 30px;
+		height: 30px;
+		border-radius: 25px;
+	}
+
+	.carousel-indicators li{
+		width: 20px;
+		height: 20px;
+	}
+
+	.aboutUs-col{
+		margin-top: 2em !important;
+		margin-right: -5em !important;
+	}
+}
+
+@media (max-width: 1088px) {
+
+	.logotop img {
+		width: 3.5em;
+		height: 3.5em;
+	}
+
+	.logotop {
+		margin-left: -0.5em;
+		margin-top: -0.5em;
+	}
+
+	.navbar {
+		height: 30px !important;
+	}
+
+	.navbar .ml-auto {
+		font-size: 0.75em;
+		margin-right: -1em;		
+	}
+
+	.navbar .dropdown-toggle {
+
+		margin-top: 0.75em;
+	}
+
+	.navsearch .searchbar {
+		width: 110px !important;	
+	}
+
+	.carousel-caption h3{
+		font-size: 1.25em !important;
+	}
+
+	.carousel-caption p, .carousel-caption .eventbutton a{
+		font-size: 1em !important;
+	}
+
+	.carousel-caption .eventbutton a {
+		padding: 0.75em 1em;
+	}
+
+	.carousel-caption {
+		bottom: 2em !important;
+	}
+
+	.carousel-control-prev-icon, .carousel-control-next-icon {
+		width: 20px;
+		height: 20px;
+		border-radius: 25px;
+	}
+
+	.carousel-indicators li{
+		width: 15px;
+		height: 15px;
+	}
+
+	.announcement {
+		font-size: 1em;
+	}
+
+	.aboutUs-col{
+		margin-top: -1.5em !important;
+		margin-right: -5em !important;
+	}
+
+	.banner h4 {
+		font-size: 1em;
+	}
+
+	.banner .hrimg {
+		width:80%;
+	}
+
+	.banner .abouttext h6, .banner .expand-button{
+		font-size: 0.75em;
+	}
+
+	.banner .expand-button {
+		border-radius: 5px;
+	}
+}
+
+@media (max-width: 1451px) {
+
+	.logotop img {
+		width: 3.5em;
+		height: 3.5em;
+	}
+
+	.logotop {
+		margin-left: -0.5em;
+		margin-top: -0.5em;
+	}
+
+	.navbar {
+		height: 30px !important;
+	}
+
+	.navbar .ml-auto {
+		font-size: 0.75em;
+		margin-right: -1em;		
+	}
+
+	.navbar .dropdown-toggle {
+		margin-top: 0.75em;
+	}
+
+	.navsearch .searchbar {
+		width: 110px !important;	
+	}
+
+	.carousel-caption h3{
+		font-size: 1.25em !important;
+	}
+
+	.carousel-caption p, .carousel-caption .eventbutton a{
+		font-size: 1em !important;
+	}
+
+	.carousel-caption .eventbutton a {
+		padding: 0.75em 1em;
+	}
+
+	.carousel-caption {
+		bottom: 2em !important;
+	}
+
+	.carousel-control-prev-icon, .carousel-control-next-icon {
+		width: 20px;
+		height: 20px;
+		border-radius: 25px;
+	}
+
+	.carousel-indicators li{
+		width: 15px;
+		height: 15px;
+	}
+
+	.announcement {
+		font-size: 1em;
+	}
+
+	.aboutUs-col{
+		margin-top: -1.5em !important;
+		margin-right: -5em !important;
+	}
+
+	.banner h4 {
+		font-size: 1em;
+	}
+
+	.banner .hrimg {
+		width:80%;
+	}
+
+	.banner .abouttext h6, .banner .expand-button{
+		font-size: 0.75em;
+	}
+
+	.banner .expand-button {
+		border-radius: 5px;
 	}
 }
 
@@ -696,7 +1047,7 @@
 		width: 100%;
 	}*/
 
-	.navsearch .searchbar {
+	/*.navsearch .searchbar {
 		width: 50%;	
 	}
 
@@ -789,8 +1140,8 @@
 
 	.musicbtn {
 		padding: 10px 26px;
-	}
-
+	}*/
+*/*/
 	/*.col-sm-3.footer-widget1 {
 		padding-left: 5px;
 	}
@@ -808,7 +1159,7 @@
 	}*/
 }
 
-@media (max-width: 425px) {
+/*@media (max-width: 425px) {
 
 	.logotop {
 		margin-left: -0.75em;
@@ -981,12 +1332,199 @@
 	.copyrighttext {
 		margin: 0.5em;
 	}
-}
+}*/
 
-@media (max-width: 320px) {
+/*@media (max-width: 320px){
 
 	.event_section .expand-button, .classsec .expand-button, .gallreysec .expand-button, .newsandarticles .expand-button, .musicalbum .expand-button {
 		padding: 14px 30px;
 		font-size: 0.75em;
 	}
-}
+
+	.logotop{
+		margin-right: 7em !important;
+		margin-top: -6.25em !important;
+	}
+
+	.logocss {
+		width: 40px;
+		height: 40px;
+	}
+
+	.carousel-item .carousel-image{
+		height: 9em;
+	}
+
+	.carousel-caption {
+		bottom: 0px;
+		top: 0em;
+		display: grid;
+		grid: auto/ 1fr;
+	}
+
+	.carousel-caption #hr-3 {
+		width: 8em;
+		margin-left: 0.5em;
+		margin-top: 0em;	
+	}
+
+	.carousel-caption .imgOne {
+		width: 4em;
+		margin-top: -0.5em;
+		margin-left: 0.5em;
+	}
+
+	.carousel-caption h3{
+		font-size: 0.75em;
+	}
+	
+	.eventbutton #carousel-button{
+		margin-top: -4em;
+		width: 12em;
+		font-size: 0.5em;
+		padding: 0.75em 0.75em;
+		border-radius: 4px;
+	}
+
+	.carousel-caption p{
+		margin-top: 0em;
+		font-size: 0.5em;
+		margin-bottom: -4em;
+		word-spacing: 0.25em;
+	}
+
+	.carousel-caption img{
+		margin-bottom: 0.25em;
+		margin-top: -2em;
+	}
+	
+	.carousel-control-prev-icon, .carousel-control-next-icon {
+		width: 10px;
+		height: 10px;
+	}
+
+	.carousel-indicators li{
+		top: 1.25em;
+		width: 8px;
+		height: 8px;
+		z-index: -99;
+	}
+
+	.banner img {
+		height: 9em;
+	}
+
+	.aboutUs-col {
+		display: grid;
+		grid: auto/1fr;
+		margin-top: 2em;
+	}
+
+	.aboutUs-col h4{
+		font-size: 0.75em;
+		margin-left: 20.5em;
+		margin-top: 0.25em
+	}
+
+	.aboutUs-col img{
+		width: 12em;
+		height: 1em;
+		margin-left: 16.5em;
+	}
+
+	.aboutUs-col .abouttext {
+		margin-top: -2em;
+		margin-left: 7.75em;
+		padding-top: 0.75em;	
+	}
+
+	.aboutUs-col h6{
+		font-size: 0.75em;
+		margin-left: 10em;
+		
+	}
+
+	.aboutUs-col .expand-button {
+		width: 12em;
+		font-size: 0.75em;
+		padding: 0.5em 0.75em;
+		margin-left: 20.5em;
+		margin-top: -4em;
+		margin-bottom: 1.5em;
+	}
+
+	.event_section h4, .classsec h4, .newsandarticles h4, .gallreysec h2, .musicalbum h4{
+		font-size: 1.25em;
+	}
+
+	.card-deck {
+		margin-top: -2em;
+	}
+
+	.card-title {
+		font-size: 0.85em;
+	}
+
+	.viewmoreevent {
+		padding-top: 10px;
+	}
+
+	.expand-button {
+		font-size: 0.75em;
+	}
+
+	.classsec .class-hr {
+		width: 6em;
+		height: 0.5em;
+		margin-bottom: 20px;
+	}
+
+	.viewmoreclass {
+		margin: 0.75em;
+		padding-top: 10px;
+	}
+
+	.viewmorenews {
+		padding-top: 10px;
+	}
+
+	.gallreysec .class-hr-2 {
+		width: 6em;
+		height: 0.5em;
+		margin-bottom: 20px;
+	}
+
+	.gallreysec .img1 {
+		padding: 0.5em;
+	}
+
+	.overlay {
+		opacity: 0.7;
+	}
+
+	.viewmoremusic {
+		margin-top: 1.5em;
+	}
+	
+	.footer {
+		padding-bottom: 0px;
+	}
+	.col-sm-3.footer-widget1, .col-sm-3.footer-widget2, .col-sm-3.footer-widget3, .col-sm-3.footer-widget4 {
+		padding-left: 0em;
+		margin-bottom: 1em;
+		top: -1em;
+	}
+
+	.col-sm-3.footer-widget1 p {
+		font-size: 1em;
+		color: #fff;
+	}
+
+	.col-sm-3.footer-widget2 h6 {
+		margin-left: -9.25em;
+	}
+
+	.copyrighttext {
+		margin: 1em;
+	}
+}*/
