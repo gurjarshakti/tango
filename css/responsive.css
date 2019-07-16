@@ -2,10 +2,14 @@
 
 /* -------------------5 July 2019---------------------- */
 
-@media (max-width: 320px) {
+@media (min-width: 320px) {
 
 	html{
 		width: 100%;
+	}
+
+	.nav-link {
+		padding: 0.5rem 0.5rem;
 	}
 
 	.navbar-2 .logotop {
@@ -21,10 +25,20 @@
 	.navbar-2{
 		flex-wrap: nowrap;
 	}
+
+	.navsearch {
+		width: 100%;
+		padding-left: 13px;
+	}
+
+	.fa-search {
+	    font-size: 1em;
+	    padding-left: 6em;
+	}
 	
-	/*.carousel-item .carousel-image{
-		height: 6em;
-	}*/
+	.banner img {
+		height: 9em;
+	}
 
 	.carousel-caption {
 		bottom: 0px;
@@ -45,10 +59,10 @@
 
 	.carousel-caption h3{
 		font-size: 0.75em;
+		margin-bottom: 1em;
 	}
 	
 	.eventbutton #carousel-button{
-		margin-top: -4em;
 		width: 12em;
 		font-size: 0.5em;
 		padding: 0.75em 0.75em;
@@ -56,15 +70,15 @@
 	}
 
 	.carousel-caption p{
-		margin-top: 0em;
+		margin-top: 0.75em;
 		font-size: 0.5em;
-		margin-bottom: -4em;
+		margin-bottom: -3.5em;
 		word-spacing: 0.25em;
 	}
 
 	.carousel-caption img{
 		margin-bottom: 0.25em;
-		margin-top: -2em;
+		margin-top: 1em;
 	}
 	
 	.carousel-control-prev-icon, .carousel-control-next-icon {
@@ -116,18 +130,30 @@
 		margin-left: 20.5em;
 		margin-top: -4em;
 		margin-bottom: 1.5em;
-		border-radius: 5px;
+		border-radius: 4px;
 	}
 
 	.event_section h4, .classsec h4, .newsandarticles h4, .gallreysec h2, .musicalbum h4{
 		font-size: 1em !important;
+	}
+	
+	.event_section .class-hr, .classsec .class-hr, .newsandarticles .class-hr, .musicalbum .class-hr {
+		margin-bottom: 1em;
+	}
+
+	.card-img-top {
+		height: 60vw;
+	}
+
+	.card-body{
+		padding: 2em 1em;
 	}
 
 	.card-deck {
 		margin-top: -2em;
 	}
 	
-	.card{
+	.event_section .card{
 		width: 50vh;
 		height: 65vh;
 	}
@@ -145,7 +171,7 @@
 	}
 
 	.event_section .class-hr {
-		width: 	70%;
+		width: 70%;
 	}
 
 	.classsec .class-hr {
@@ -162,11 +188,14 @@
 	.viewmorenews {
 		padding-top: 10px;
 	}
+	
+	.newsandarticles .card {
+		height: 70vh;
+	}
 
 	.gallreysec .class-hr-2 {
 		width: 6em !important;
 		height: 0.5em;
-		margin-bottom: 20px;
 	}
 	
 	.newsandarticles .class-hr {
@@ -180,8 +209,14 @@
 	.musicalbum .class-hr {
 		width: 60%;
 	}
+
 	.overlay {
 		opacity: 0.7;
+		margin-bottom: 0.5em;
+	}
+
+	.overlay .card-text {
+		margin-top: 1em;
 	}
 
 	.viewmoremusic {
@@ -191,6 +226,7 @@
 	.footer {
 		padding-bottom: 0px;
 	}
+
 	.col-sm-3.footer-widget1, .col-sm-3.footer-widget2, .col-sm-3.footer-widget3, .col-sm-3.footer-widget4 {
 		padding-left: 0em;
 		margin-bottom: 1em;
@@ -211,219 +247,231 @@
 	}
 }
 
-@media (max-width: 375px) {
+@media (min-width: 375px) {
 
-	/*.navbar {
-		width: 100%;
-	}*/
-
-	/*html {
-		margin-right: auto;
-	}*/
-
-	.logotop {
-		margin-left: -0.5em;
-		margin-top: -0.5em;
+	.fa-search {
+	    padding-left: 10em;
 	}
 
-	.logotop img {
-		width: 3.5em;
-		height: 3.5em;
-	}
-
-	/*.carousel-item .carousel-image{
-		height: 9em;
-	}*/
-
-	.carousel-caption {
-		bottom: 0px;
-		top: 0em;
-		display: grid;
-		grid: auto/ 1fr;
-	}
-
-	.carousel-caption #hr-3 {
-		width: 8em;
-		margin-left: 0.5em;
-		margin-top: 0em;	
+	.carousel-item .carousel-image{
+		height: 9em !important;
 	}
 
 	.carousel-caption .imgOne {
-		width: 4em;
+		width: 12em !important;
 		margin-top: -0.5em;
-		margin-left: 0.5em;
+		margin-left: 0%;
+	}
+
+	.eventbutton #carousel-button{
+		font-size: 0.6em;
+	}
+
+	.carousel-caption p{
+		font-size: 0.55em;
+		margin-bottom: -3em;
+	}
+
+	.aboutUs-col .expand-button {
+		font-size: 0.8em;
+		margin-left: 19.25em;
+		margin-top: -3em;
+	}
+
+	.card{
+		margin-left: 1.5em;
+		margin-right: 1.5em;
+	}
+
+	.event_section .card{
+		height: 70vh;
+	}
+
+	.gallreysec .img1 {
+		padding: 1em;
+	}
+
+	.overlay {
+		margin-bottom: 1em;
+	}
+
+	.overlayBottom {
+		left: 4%;
+		width: 92%;
+	}
+	
+	.col-sm-3.footer-widget2 h6 {
+	    margin-left: -12.5em;
+	}
+
+
+}
+
+@media (min-width: 425px) {
+
+	.fa-search {
+		padding-left: 13em;
+	}
+
+	.card-img-top{
+		height: 55vw;
+	}
+
+	.card {
+		margin-left: 1em;
+		margin-right: 1em;
+	}
+
+	.gallreysec .img1 {
+		padding: 1em 2em;
+	}
+
+	.overlayBottom {
+		left: 7.5%;
+		width: 85%;
+	}
+
+	.col-sm-3.footer-widget2 h6 {
+	    margin-left: -15.5em;
+	}
+
+}
+
+@media (min-width: 768px) {
+
+	.carousel-item .carousel-image{
+		height: 15em !important;
+	}
+
+	.banner img {
+		height: 15em;
+	}
+	
+	.carousel-caption {
+		margin-top: 2em;
+	}
+
+	.carousel-caption .imgOne {
+		width: 20em !important;
+		margin-top: -2.5em;
+		margin-left: 0%;
 	}
 
 	.carousel-caption h3{
-		font-size: 0.75em;
+		font-size: 1.25em;
+		margin-bottom: 1em;
 	}
 	
 	.eventbutton #carousel-button{
-		margin-top: -4em;
 		width: 12em;
-		font-size: 0.5em;
-		padding: 0.75em 0.75em;
+		font-size: 0.75em;
+		padding: 0.75em 1em;
 		border-radius: 4px;
 	}
 
 	.carousel-caption p{
-		margin-top: 0em;
-		font-size: 0.5em;
-		margin-bottom: -4em;
+		margin-top: -1em;
+		font-size: 0.75em;
+		margin-bottom: -1em;
 		word-spacing: 0.25em;
 	}
 
 	.carousel-caption img{
 		margin-bottom: 0.25em;
-		margin-top: -2em;
+		margin-top: 1em;
 	}
 	
 	.carousel-control-prev-icon, .carousel-control-next-icon {
-		width: 10px;
-		height: 10px;
+		width: 15px;
+		height: 15px;
 	}
 
 	.carousel-indicators li{
 		top: 1.25em;
-		width: 8px;
-		height: 8px;
+		width: 10px;
+		height: 10px;
 		z-index: -99;
-	}
-
-	.banner img {
-		height: 9em;
 	}
 
 	.aboutUs-col {
 		display: grid;
 		grid: auto/1fr;
-		margin-top: 2em;
+		margin-top: -2.5em !important;
+		margin-left: 5em;
+		margin-right: -7em;
 	}
 
 	.aboutUs-col h4{
-		font-size: 0.75em;
-		margin-left: 20.5em;
+		font-size: 0.85em !important;
+		margin-left: 17.75em !important;
 		margin-top: 0.25em
 	}
 
-	.aboutUs-col img{
-		width: 12em;
+	.aboutUs-col .hrimg{
+		width: 16.5em;
 		height: 1em;
-		margin-left: 16.5em;
+		margin-left: 14.85em;
 	}
 
 	.aboutUs-col .abouttext {
-		margin-top: -2em;
+		margin-top: -1em;
 		margin-left: 7.75em;
 		padding-top: 0.75em;	
 	}
 
 	.aboutUs-col h6{
-		font-size: 0.75em;
-		margin-left: 10em;
-		
+		font-size: 0.75em !important;
+		margin-left: 10em;		
 	}
 
 	.aboutUs-col .expand-button {
 		width: 12em;
 		font-size: 0.75em;
 		padding: 0.5em 0.75em;
-		margin-left: 20.5em;
-		margin-top: -4em;
+		margin-left: 20.35em;
+		margin-top: -1.5em;
 		margin-bottom: 1.5em;
+		border-radius: 4px;
 	}
 
 	.event_section h4, .classsec h4, .newsandarticles h4, .gallreysec h2, .musicalbum h4{
-		font-size: 1.25em;
+		font-size: 1.25em !important;
+	}
+	
+	.event_section .class-hr, .classsec .class-hr, .newsandarticles .class-hr, .musicalbum .class-hr, .gallreysec .class-hr {
+		width: 50%;
+	}
+
+	.card-img-top {
+		height: 35vh;
+	}
+
+	.event_section .card{
+		height: 65vh;
+	}
+	
+	.card{
+		margin-top: 1.5em;
 	}
 
 	.card-deck {
-		margin-top: -2em;
-	}
-
-	.card-title {
-		font-size: 0.85em;
-	}
-
-	.viewmoreevent {
-		padding-top: 10px;
-	}
-
-	.expand-button {
-		font-size: 0.75em;
-	}
-
-	.classsec .class-hr {
-		width: 6em;
-		height: 0.5em;
-		margin-bottom: 20px;
-	}
-
-	.viewmoreclass {
-		margin: 0.75em;
-		padding-top: 10px;
-	}
-
-	.viewmorenews {
-		padding-top: 10px;
-	}
-
-	.gallreysec .class-hr-2 {
-		width: 6em;
-		height: 0.5em;
-		margin-bottom: 20px;
-	}
-
-	.gallreysec .img1 {
-		padding: 0.5em;
-	}
-
-	.overlay {
-		opacity: 0.7;
-	}
-
-	.viewmoremusic {
-		margin-top: 1.5em;
-	}
-	
-	.footer {
-		padding-bottom: 0px;
-	}
-	.col-sm-3.footer-widget1, .col-sm-3.footer-widget2, .col-sm-3.footer-widget3, .col-sm-3.footer-widget4 {
-		padding-left: 0em;
-		margin-bottom: 1em;
-		top: -1em;
-	}
-
-	.col-sm-3.footer-widget1 p {
-		font-size: 1em;
-		color: #fff;
+		display: grid;
+		grid: auto/ auto auto;
 	}
 
 	.col-sm-3.footer-widget2 h6 {
-		margin-left: -9.25em;
+	    margin-left: -3em;
 	}
 
-	.copyrighttext {
-		margin: 1em;
-	}
 }
 
-/*@media (max-width: 425px) {
-
-}
-
-@media (max-width: 768px) {
-
-}
-
-@media (max-width: 1024px) {
+/*@media (max-width: 1024px) {
 
 }
 
 @media (max-width: 1440px) {
 
-}
+}*/
 
 /*@media (max-width: 1400px) {
 
@@ -449,7 +497,7 @@
 	.carousel-caption {
 		bottom: 2em;
 	}
-}*/
+}
 
 /*@media (max-width: 2722px) {
 
