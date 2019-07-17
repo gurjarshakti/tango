@@ -1,457 +1,205 @@
-/* Reesponsive queries for Index.html*/
 
-/* -------------------5 July 2019---------------------- */
+@media screen and (max-width:1450px) {
 
-@media (min-width: 320px) {
-
-	html{
+	header{
 		width: 100%;
 	}
 
-	.nav-link {
-		padding: 0.5rem 0.5rem;
+	.logotop{
+		margin-top: -3.5em;
+		margin-left: 0em;
 	}
 
-	.navbar-2 .logotop {
-		margin-left: -0.5em;
-		margin-top: -3.75em;
+	.navsearch{
+		margin-top: 0.75em;	
 	}
 
-	.navbar-2 .logotop img {
-		width: 3.75em;
-		height: 3.75em;
-	}
-	
-	.navbar-2{
-		flex-wrap: nowrap;
-	}
-
-	.navsearch {
-		width: 100%;
-		padding-left: 13px;
-	}
-
-	.fa-search {
-	    font-size: 1em;
-	    padding-left: 6em;
-	}
-	
-	.banner img {
-		height: 9em;
-	}
-
-	.carousel-caption {
-		bottom: 0px;
-		top: 0em;
-		display: grid;
-		grid: auto/ 1fr;
-	}
-
-	.carousel-item .carousel-image {
-		height: 9em !important;
+	.carousel-caption h3 {
+		font-size: 1.5em;
 	}
 
 	.carousel-caption .imgOne {
-		width: 8em !important;
+		width: 24em !important;
 		margin-top: -0.5em;
 		margin-left: 0%;
 	}
-
-	.carousel-caption h3{
-		font-size: 0.75em;
-		margin-bottom: 1em;
-	}
 	
-	.eventbutton #carousel-button{
-		width: 12em;
-		font-size: 0.5em;
-		padding: 0.75em 0.75em;
-		border-radius: 4px;
-	}
-
-	.carousel-caption p{
-		margin-top: 0.75em;
-		font-size: 0.5em;
-		margin-bottom: -3.5em;
-		word-spacing: 0.25em;
-	}
-
-	.carousel-caption img{
-		margin-bottom: 0.25em;
-		margin-top: 1em;
-	}
-	
-	.carousel-control-prev-icon, .carousel-control-next-icon {
-		width: 10px;
-		height: 10px;
-	}
-
-	.carousel-indicators li{
-		top: 1.25em;
-		width: 8px;
-		height: 8px;
-		z-index: -99;
-	}
-
-	.aboutUs-col {
-		display: grid;
-		grid: auto/1fr;
-		margin-top: 2em !important;
+	.aboutUs-col{
+		margin-top: 4em;
 	}
 
 	.aboutUs-col h4{
-		font-size: 0.85em !important;
-		margin-left: 17.75em !important;
-		margin-top: 0.25em
+		font-size: 1.25em !important;
+		margin-left: 14.25em !important;
+		margin-top: 0.25em*/
 	}
 
 	.aboutUs-col .hrimg{
-		width: 16.5em;
-		height: 1em;
-		margin-left: 14.85em;
+		width: 23.5em;
+		margin-left: 18em;
 	}
 
 	.aboutUs-col .abouttext {
-		margin-top: -2em;
+		margin-top: -1.5em;
 		margin-left: 7.75em;
 		padding-top: 0.75em;	
 	}
 
 	.aboutUs-col h6{
-		font-size: 0.75em !important;
+		font-size: 1em !important;
 		margin-left: 10em;
 		
 	}
 
 	.aboutUs-col .expand-button {
 		width: 12em;
-		font-size: 0.75em;
+		font-size: 1em;
 		padding: 0.5em 0.75em;
-		margin-left: 20.5em;
+		margin-left: 18em;
 		margin-top: -4em;
 		margin-bottom: 1.5em;
 		border-radius: 4px;
 	}
 
-	.event_section h4, .classsec h4, .newsandarticles h4, .gallreysec h2, .musicalbum h4{
-		font-size: 1em !important;
-	}
-	
-	.event_section .class-hr, .classsec .class-hr, .newsandarticles .class-hr, .musicalbum .class-hr {
-		margin-bottom: 1em;
-	}
-
-	.card-img-top {
-		height: 60vw;
-	}
-
-	.card-body{
-		padding: 2em 1em;
-	}
-
-	.card-deck {
-		margin-top: -2em;
-	}
-	
-	.event_section .card{
-		width: 50vh;
-		height: 65vh;
-	}
-
-	.card-title {
-		font-size: 0.85em;
-	}
-
-	.viewmoreevent {
-		padding-top: 10px;
-	}
-
-	.expand-button {
-		font-size: 0.75em;
-	}
-
-	.event_section .class-hr {
-		width: 70%;
-	}
-
-	.classsec .class-hr {
-		width: 6em !important;
-		height: 0.5em;
-		margin-bottom: 20px;
-	}
-
-	.viewmoreclass {
-		margin: 0.75em;
-		padding-top: 10px;
-	}
-
-	.viewmorenews {
-		padding-top: 10px;
-	}
-	
-	.newsandarticles .card {
-		height: 70vh;
-	}
-
-	.gallreysec .class-hr-2 {
-		width: 6em !important;
-		height: 0.5em;
-	}
-	
-	.newsandarticles .class-hr {
-		width: 60%;
-	}
-
-	.gallreysec .img1 {
-		padding: 0.5em;
-	}
-	
-	.musicalbum .class-hr {
-		width: 60%;
-	}
-
-	.overlay {
-		opacity: 0.7;
-		margin-bottom: 0.5em;
-	}
-
-	.overlay .card-text {
-		margin-top: 1em;
-	}
-
-	.viewmoremusic {
-		margin-top: 1.5em;
-	}
-	
-	.footer {
-		padding-bottom: 0px;
-	}
-
-	.col-sm-3.footer-widget1, .col-sm-3.footer-widget2, .col-sm-3.footer-widget3, .col-sm-3.footer-widget4 {
-		padding-left: 0em;
-		margin-bottom: 1em;
-		top: -1em;
-	}
-
-	.col-sm-3.footer-widget1 p {
-		font-size: 1em;
-		color: #fff;
-	}
-
-	.col-sm-3.footer-widget2 h6 {
-		margin-left: -9.25em;
-	}
-
-	.copyrighttext {
-		margin: 1em;
-	}
 }
 
-@media (min-width: 375px) {
+@media screen and (max-width:1600px) {
 
-	.fa-search {
-	    padding-left: 10em;
+	header{
+		width: 100%;
 	}
 
-	.carousel-item .carousel-image{
-		height: 9em !important;
+	.logotop{
+		margin-top: -3.5em;
+		margin-left: 0em;
 	}
 
-	.carousel-caption .imgOne {
-		width: 12em !important;
-		margin-top: -0.5em;
-		margin-left: 0%;
-	}
-
-	.eventbutton #carousel-button{
-		font-size: 0.6em;
-	}
-
-	.carousel-caption p{
-		font-size: 0.55em;
-		margin-bottom: -3em;
-	}
-
-	.aboutUs-col .expand-button {
-		font-size: 0.8em;
-		margin-left: 19.25em;
-		margin-top: -3em;
-	}
-
-	.card{
-		margin-left: 1.5em;
-		margin-right: 1.5em;
-	}
-
-	.event_section .card{
-		height: 70vh;
-	}
-
-	.gallreysec .img1 {
-		padding: 1em;
-	}
-
-	.overlay {
-		margin-bottom: 1em;
-	}
-
-	.overlayBottom {
-		left: 4%;
-		width: 92%;
-	}
-	
-	.col-sm-3.footer-widget2 h6 {
-	    margin-left: -12.5em;
-	}
-
-
-}
-
-@media (min-width: 425px) {
-
-	.fa-search {
-		padding-left: 13em;
-	}
-
-	.card-img-top{
-		height: 55vw;
-	}
-
-	.card {
-		margin-left: 1em;
-		margin-right: 1em;
-	}
-
-	.gallreysec .img1 {
-		padding: 1em 2em;
-	}
-
-	.overlayBottom {
-		left: 7.5%;
-		width: 85%;
-	}
-
-	.col-sm-3.footer-widget2 h6 {
-	    margin-left: -15.5em;
+	.navsearch{
+		margin-top: 0.75em;	
 	}
 
 }
 
-@media (min-width: 768px) {
+@media screen and (max-width:1200px) {
 
-	.carousel-item .carousel-image{
-		height: 15em !important;
+	.ml-auto {
+		font-size: 0.9em;
 	}
 
-	.banner img {
-		height: 15em;
+	.dropdown {
+		margin-top: 0.15em;
 	}
-	
+
 	.carousel-caption {
-		margin-top: 2em;
-	}
-
-	.carousel-caption .imgOne {
-		width: 20em !important;
-		margin-top: -2.5em;
-		margin-left: 0%;
-	}
-
-	.carousel-caption h3{
-		font-size: 1.25em;
-		margin-bottom: 1em;
+		bottom: 2em;
 	}
 	
-	.eventbutton #carousel-button{
-		width: 12em;
-		font-size: 0.75em;
-		padding: 0.75em 1em;
-		border-radius: 4px;
-	}
-
-	.carousel-caption p{
-		margin-top: -1em;
-		font-size: 0.75em;
-		margin-bottom: -1em;
-		word-spacing: 0.25em;
-	}
-
-	.carousel-caption img{
-		margin-bottom: 0.25em;
-		margin-top: 1em;
-	}
-	
-	.carousel-control-prev-icon, .carousel-control-next-icon {
-		width: 15px;
-		height: 15px;
-	}
-
-	.carousel-indicators li{
-		top: 1.25em;
-		width: 10px;
-		height: 10px;
-		z-index: -99;
-	}
-
-	.aboutUs-col {
-		display: grid;
-		grid: auto/1fr;
-		margin-top: -2.5em !important;
-		margin-left: 5em;
-		margin-right: -7em;
+	.banner .top-right {
+		margin-top: -3.5em;
 	}
 
 	.aboutUs-col h4{
-		font-size: 0.85em !important;
-		margin-left: 17.75em !important;
-		margin-top: 0.25em
+		font-size: 1em !important;
+		margin-left: 14.25em !important;
+		margin-top: 0.25em*/
 	}
 
 	.aboutUs-col .hrimg{
-		width: 16.5em;
-		height: 1em;
-		margin-left: 14.85em;
+		width: 18.75em;
+		margin-left: 14.5em;
 	}
 
 	.aboutUs-col .abouttext {
-		margin-top: -1em;
+		margin-top: -1.5em;
 		margin-left: 7.75em;
 		padding-top: 0.75em;	
 	}
 
 	.aboutUs-col h6{
 		font-size: 0.75em !important;
-		margin-left: 10em;		
+		margin-left: 8.75em;
+		
 	}
 
 	.aboutUs-col .expand-button {
 		width: 12em;
 		font-size: 0.75em;
-		padding: 0.5em 0.75em;
-		margin-left: 20.35em;
-		margin-top: -1.5em;
+		padding: 0.75em 0.75em;
+		margin-left: 19em;
+		margin-top: -4em;
 		margin-bottom: 1.5em;
 		border-radius: 4px;
+	}
+}
+
+@media screen and (max-width:1024px) {
+
+	.ml-auto{
+		font-size: 0.75em;
+	}
+
+	.logotop img {
+		height: 4em;
+		width: 4em;
+	}
+
+	.searchbar {
+		width: 105px !important;
+	}
+
+	.carousel-caption {
+		bottom: 0em !important;
+	}
+
+	.carousel-caption h3 {
+		font-size: 1.25em;
+	}
+
+	.carousel-caption p {
+		font-size: 0.8em;
+	}
+
+	.carousel-caption .imgOne {
+		width: 20em !important;
+		margin-top: -0.5em;
+		margin-left: 0%;
+	}
+
+	.carousel-caption #carousel-button {
+		font-size: 0.75em !important;
+	}
+
+	.aboutUs-col {
+		margin-top: 2em;
+		margin-right: -3.5em;
+	}
+}
+
+@media screen and (max-width:992px) {
+
+	.searchbar {
+		font-size: 1em;
+		margin-right: -3em !important;
 	}
 
 	.event_section h4, .classsec h4, .newsandarticles h4, .gallreysec h2, .musicalbum h4{
 		font-size: 1.25em !important;
 	}
-	
-	.event_section .class-hr, .classsec .class-hr, .newsandarticles .class-hr, .musicalbum .class-hr, .gallreysec .class-hr {
-		width: 50%;
+
+	.event_section .class-hr, .newsandarticles .class-hr, .musicalbum .class-hr {
+		width: 30% !important;
 	}
 
-	.card-img-top {
-		height: 35vh;
+	.classsec .class-hr, .gallreysec .class-hr-2 {
+		width: 20% !important;
 	}
+}
 
-	.event_section .card{
-		height: 65vh;
-	}
-	
-	.card{
-		margin-top: 1.5em;
+@media screen and (max-width:991px) {
+
+	.nav {
+		background-color: #000;
+		opacity: 0.8;
 	}
 
 	.card-deck {
@@ -459,1120 +207,161 @@
 		grid: auto/ auto auto;
 	}
 
-	.col-sm-3.footer-widget2 h6 {
-	    margin-left: -3em;
+	.card{
+		margin-top: 1.5em;
 	}
 
+	.card-img-top {
+		height: 40vh;
+	}
 }
 
-/*@media (max-width: 1024px) {
-
-}
-
-@media (max-width: 1440px) {
-
-}*/
-
-/*@media (max-width: 1400px) {
+@media screen and (max-width:800px) {
 
 	.carousel-caption {
-		bottom: 3.5em;
-	}
-}
-@media (max-width: 1272px) {
-
-	.navbar li {
-		padding-left: 0.25em;
-	}
-
-}
-
-@media (max-width: 1238px) {
-
-	.navbar li , .nabar button {
-		
-		padding-right: 0em;
-	}
-
-	.carousel-caption {
-		bottom: 2em;
-	}
-}
-
-/*@media (max-width: 2722px) {
-
-	.carousel-caption{
-		bottom: 20em;
-	}
-
-	.carousel-caption .imgOne {
-		margin-left: 0%;
-		width: 35%;
-	}
-}
-
-@media (min-width: 1446px) {
-	
-	.carousel-caption{
-		bottom: 28em;
-	}
-
-	.carousel-caption .imgOne {
-		margin-left: 0%;
-		width: 30%;
-	}	
-
-}
-
-@media (max-width: 2660px) {
-
-	.logotop {
-		margin-left: 1em;
-		margin-top: 0.75em;
-	}
-
-	.logotop img {
-		width: 7.5em;
-		height: 7.5em;
-	}
-
-	.navbar {
-		height: 70px;
-		padding-bottom: 1.5em;
-		padding-top: 1.5em;
-	}
-
-	.navbar .ml-auto {
-		font-size: 25px;
-		margin-right: 2em;
-		margin-left: -1em;
-	}
-
-	.dropdown button {
-		margin-top: 0.25em;
-	}
-
-	.navsearch{
-		margin-top: 0.75em;
-	}
-
-	.navsearch input {
-		font-size: 20px;
-	}
-
-	.carousel-caption {
-		bottom: 20em;
+		bottom: -1.5em !important;
 	}
 
 	.carousel-caption h3 {
-		font-size: 2.75em;
+		font-size: 1.25em;
+		margin-bottom: 0em;
+	}
+
+	.carousel-caption p {
+		font-size: 0.8em;
+		margin-bottom: -1em;
 	}
 
 	.carousel-caption .imgOne {
-		width: 49%;
-		margin-left: 0em;
-	}
-
-	.carousel-caption p{
-		font-size: 1.75em;
-		margin-bottom: 1.5em;
+		width: 20em !important;
+		margin-top: -0.5em;
+		margin-left: 0%;
+		margin-bottom: -0.75em;
 	}
 
 	.carousel-caption #carousel-button {
-		font-size: 1.75em;
-		padding: 20px 20px;
-		border-radius: 8px;
+		font-size: 0.75em !important;
+		padding: 1em 0.75em;
 	}
 
 	.carousel-control-prev-icon, .carousel-control-next-icon {
-		width: 45px;
-		height: 45px;
-		border-radius: 50px;
-	}
-
-	.carousel-indicators li{
-		width: 30px;
-		height: 30px;
-	}
-
-	.announcement {
-		font-size: 1.75em;
-	}
-
-	.aboutUs-col {
-		margin-top: 6em;
-		margin-left: -4em;
-	}
-
-	.aboutUs-col h4{
-		font-size: 2em;
-	}
-
-	.aboutUs-col .hrimg {
-		width: 87%;
-		margin-left: 0em;
-	}
-
-	.aboutUs-col h6{
-		font-size: 1.5em;
-		word-spacing: 0.25em;
-		margin-bottom: 2em;
-	}
-
-	.aboutUs-col .expand-button {
-		font-size: 1.5em;
-		padding-top: 0.75em;
-		padding-bottom: 0.75em;
-		border-radius: 10px;
-	}
-
-	.event_section .card {
-
-	}
-}*/
-
-/*@media (max-width: 2560px)  {*/
-
-	/*.logotop {
-		margin-left: 1em;
-		margin-top: 1.5em;
-	}
-
-	.logotop img {
-		width: 7.5em;
-		height: 7.5em;
-	}
-	
-	.navbar {
-		height: 80px;
-	}
-
-	.navbar li{
-		font-size: 2em;
-		padding: 1em;
-	}
-
-	.navbar .dropdown-toggle {
-		margin-top: 0.75em;
-		font-size: 2em;
-	}
-
-	.dropdown-menu a{
-		font-size: 1.25em;
-	}
-
-	.navbar input {
-		font-size: 1.75em;
-		max-width: 6em;
-	}*/
-
-	.navsearch {
-		margin-top: 0.75em;
-	}
-
-	.carousel-caption{
-		bottom: 20em;
-	}
-
-	/*.carousel-caption h3{
-		font-size: 3.5em;
-	}
-
-	.carousel-caption p{
-		font-size: 2em;
-	}
-
-	.carousel-caption .eventbutton a {
-		font-size: 2em;
-		padding: 1em;
-		border-radius: 10px;
-	}
-
-	.carousel-caption .eventbutton {
-		margin-top: 1.5em;
-	}*/
-
-	/*.carousel-caption .imgOne{
-		margin-left: 0%;
-		width: 64%;
-	}
-
-	.carousel-control-prev-icon, .carousel-control-next-icon {
-		width: 50px;
-		height: 50px;
-		border-radius: 25px;
-	}
-
-	.carousel-indicators li{
-		width: 40px;
-		height: 40px;
-	}
-
-	.announcement {
-		font-size: 1.75em;
-	}*/
-
-	.aboutUs-col {
-		margin-top: 10em;
-	}
-/*	.aboutUs-col h4{
-		font-size: 2.5em;
-	}
-
-	.aboutUs-col .hrimg {
-		width: 100%;
-		margin-left: 0%;
-	}
-
-	.aboutUs-col .abouttext h6 {
-		font-size: 1.75em;
-		margin-bottom: 1.5em;	
-	}
-
-	.aboutUs-col .expand-button {
-		font-size: 1.75em;
-		padding: 0.75em 1em;
-		border-radius: 10px;
-	}*/	
-	
-	/*.sectionhead3 {
-		font-size: 3em;
-	}*/
-
-	/*.event_section hr, .newsandarticles hr, .musicalbum hr {
-		width: 100%;
-		margin-left: 29.40%;
-	}
-
-	/*.event_section.card{
-		width: 20%;
-	}*/
-
-	/*.col-sm-3.footer-widget3 {
-		padding-left: 20em;
-	}
-
-	.col-sm-3.footer-widget4 {
-		padding-left: 18em;
-	}
-}
-
-@media (max-width: 2100px) {
-
-	.navbar .ml-auto {
-		font-size: 1.5em;
-	}
-
-	.navbar .dropdown-toggle {
-		margin-top: 0.5em;
-	}
-
-	.carousel-caption {
-		bottom: 7em;
-	}
-
-	.carousel-caption .imgOne{
-		width: 68%;
-	}
-
-	.carousel-control-prev-icon, .carousel-control-next-icon {
-		width: 30px;
-		height: 30px;
-		border-radius: 25px;
-	}
-
-	.carousel-indicators li{
-		width: 20px;
-		height: 20px;
-	}
-
-	.aboutUs-col{
-		margin-top: 2em !important;
-		margin-right: -5em !important;
-	}
-}
-
-@media (max-width: 1088px) {
-
-	.logotop img {
-		width: 3.5em;
-		height: 3.5em;
-	}
-
-	.logotop {
-		margin-left: -0.5em;
-		margin-top: -0.5em;
-	}
-
-	.navbar {
-		height: 30px !important;
-	}
-
-	.navbar .ml-auto {
-		font-size: 0.75em;
-		margin-right: -1em;		
-	}
-
-	.navbar .dropdown-toggle {
-
-		margin-top: 0.75em;
-	}
-
-	.navsearch .searchbar {
-		width: 110px !important;	
-	}
-
-	.carousel-caption h3{
-		font-size: 1.25em !important;
-	}
-
-	.carousel-caption p, .carousel-caption .eventbutton a{
-		font-size: 1em !important;
-	}
-
-	.carousel-caption .eventbutton a {
-		padding: 0.75em 1em;
-	}
-
-	.carousel-caption {
-		bottom: 2em !important;
-	}
-
-	.carousel-control-prev-icon, .carousel-control-next-icon {
-		width: 20px;
-		height: 20px;
-		border-radius: 25px;
-	}
-
-	.carousel-indicators li{
 		width: 15px;
 		height: 15px;
 	}
 
 	.announcement {
-		font-size: 1em;
-	}
-
-	.aboutUs-col{
-		margin-top: -1.5em !important;
-		margin-right: -5em !important;
-	}
-
-	.banner h4 {
-		font-size: 1em;
-	}
-
-	.banner .hrimg {
-		width:80%;
-	}
-
-	.banner .abouttext h6, .banner .expand-button{
-		font-size: 0.75em;
-	}
-
-	.banner .expand-button {
-		border-radius: 5px;
-	}
-}
-
-@media (max-width: 1451px) {
-
-	.logotop img {
-		width: 3.5em;
-		height: 3.5em;
-	}
-
-	.logotop {
-		margin-left: -0.5em;
-		margin-top: -0.5em;
-	}
-
-	.navbar {
-		height: 30px !important;
-	}
-
-	.navbar .ml-auto {
-		font-size: 0.75em;
-		margin-right: -1em;		
-	}
-
-	.navbar .dropdown-toggle {
-		margin-top: 0.75em;
-	}
-
-	.navsearch .searchbar {
-		width: 110px !important;	
-	}
-
-	.carousel-caption h3{
-		font-size: 1.25em !important;
-	}
-
-	.carousel-caption p, .carousel-caption .eventbutton a{
-		font-size: 1em !important;
-	}
-
-	.carousel-caption .eventbutton a {
-		padding: 0.75em 1em;
-	}
-
-	.carousel-caption {
-		bottom: 2em !important;
-	}
-
-	.carousel-control-prev-icon, .carousel-control-next-icon {
-		width: 20px;
-		height: 20px;
-		border-radius: 25px;
-	}
-
-	.carousel-indicators li{
-		width: 15px;
-		height: 15px;
-	}
-
-	.announcement {
-		font-size: 1em;
-	}
-
-	.aboutUs-col{
-		margin-top: -1.5em !important;
-		margin-right: -5em !important;
-	}
-
-	.banner h4 {
-		font-size: 1em;
-	}
-
-	.banner .hrimg {
-		width:80%;
-	}
-
-	.banner .abouttext h6, .banner .expand-button{
-		font-size: 0.75em;
-	}
-
-	.banner .expand-button {
-		border-radius: 5px;
-	}
-}
-
-@media (max-width: 1440px) {
-
-	.carousel-caption{
-		bottom: 8em;
-	}
-
-	.aboutUs-col {
-		margin-top: 3em;
-	}
-
-	.event_section hr, .newsandarticles hr, .musicalbum hr {
-		width: 100%;
-		margin-left: 5.5%;
-	}
-
-	.col-sm-3.footer-widget3 {
-		padding-left: 10em;
-	}
-
-	.col-sm-3.footer-widget4 {
-		padding-left: 10em;
-	}
-}
-
-@media (max-width: 1024px) {
-
-	.logotop img {
-		width: 3.5em;
-		height: 3.5em;
-	}
-
-	.logotop {
-		margin-left: -0.5em;
-		margin-top: -0.5em;
-	}
-
-	.navbar li, .navbar button {
-		font-size: 0.80em;
-		padding-left: 0em;
-	}
-
-	.navbar form {
-		padding-right: 0.15em;
-	}
-
-	.navbar button {
-		margin-top: 0.75em;
-	}
-
-	.navsearch {
-		margin-top: 0.5em;
-	}
-
-	.carousel-caption{
-		bottom: 0em;
-	}
-
-	.carousel-caption h3{
-		font-size: 1.5em;
-	}
-
-	.carousel-caption .imgOne {
-		width: 69%;
-		margin-left: 0%;
-	}
-
-	.carousel-caption p {
-		font-size: 1em;
-	}
-
-	.aboutUs-col {
-		margin-top: 0em;
-		margin-right: -7em;
-	}
-
-	.aboutUs-col h4{
-		font-size: 1em;
-	}
-
-	.aboutUs-col .hrimg {
-		width: 80%;
-		margin-left: 0%;
-	}
-
-	.aboutUs-col .abouttext h6 {
-		font-size: 0.75em;
-		margin-bottom: 1.5em;	
-	}
-
-	.aboutUs-col .expand-button {
-		font-size: 0.75em;
-		padding: 0.75em 1em;
-		border-radius: 5px;
-	}
-
-	.event_section hr, .newsandarticles hr, .musicalbum hr {
-		width: 80%;
-		margin-left: -9.75em;
-	}
-
-	.col-sm-3.footer-widget1 {
-		padding-left: 0em;
-	}
-
-	.col-sm-3.footer-widget2 {
-		padding-left: 1em;
-	}
-
-	.col-sm-3.footer-widget3 {
-		padding-left: 2em;
-	}
-
-	.col-sm-3.footer-widget4 {
-		padding-left: 1em;
-	}
-}
-
-@media (max-width: 768px) {
-	
-	.navbar-light .navbar-toggler-icon {
-		background-color: #E14848;
-		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		font-size: 0.9em;
 	}
 	
-	.logotop img {
-		width: 3.5em;
-		height: 3.5em;
-	}
-
-	.logotop {
-		margin-left: -0.5em;
-		margin-top: -0.75em;
-	}
-
-	/*.navsearch {
-		width: 100%;
-	}*/
-
-	/*.navsearch .searchbar {
-		width: 50%;	
-	}
-
-	.navsearch button {
-		width: 50%;
-	}
-
-	.navsearch i {
-		font-size: 1.5em;
-		padding-bottom: 0.5em;
-		margin-left: 30em;
-		outline: none;
-	}
-
-	.navbar-toggler-icon {
-		margin-top: -2em;
-		width: 3em;
-		height: 2.5em;
-	}
-	
-	.navbar-light .navbar-toggler {
-		border-color: rgba(0,0,0,0);
-		outline: none;
-	}
-
-	.justify-content-end {
-		background-color: #000;
-	}
-
-	.carousel-caption{
-		bottom: -1.5em;
-	}
-
-	.carousel-caption h3{
-		font-size: 1.25em;
-	}
-
-	.carousel-caption .imgOne {
-		width: 76%;
-		margin-left: 0%;
-	}
-
-	.carousel-caption p {
-		font-size: 0.75em;
-	}
-
-	.carousel-caption .eventbutton a {
-		font-size: 0.75em;
-		padding: 0.75em;
-		border-radius: 5px;
-	}
-
-	.carousel-caption .eventbutton {
-		margin-top: 0em;
-	}
-
-	.aboutUs-col {
-		margin-top: -2.5em;
-		margin-right: -9.5em;
-	}
-
-	.aboutUs-col h4{
-		font-size: 1em;
-	}
-
-	.aboutUs-col .hrimg {
-		width: 80%;
-		margin-left: 0%;
-	}
-
-	.aboutUs-col .abouttext h6 {
-		font-size: 0.75em;
-		margin-bottom: 1.5em;	
-	}
-
-	.aboutUs-col .expand-button {
-		font-size: 0.75em;
-		padding: 0.75em 1em;
-		border-radius: 5px;
-	}
-
-	.card-deck{
+	.banner .top-right{
 		margin-right: -3em;
-		margin-left: -3em;
-	}
-
-	.card-title {
-		font-size: 0.75em;
-	}
-
-	.musicbtn {
-		padding: 10px 26px;
-	}*/
-*/*/
-	/*.col-sm-3.footer-widget1 {
-		padding-left: 5px;
-	}
-
-	.col-sm-3.footer-widget2 {
-		padding-left: 5px;
-	}
-
-	.col-sm-3.footer-widget3 {
-		padding-left: 15px;
-	}
-
-	.col-sm-3.footer-widget4 {
-		padding-left: 2px;
-	}*/
-}
-
-/*@media (max-width: 425px) {
-
-	.logotop {
-		margin-left: -0.75em;
-		margin-top: -0.5em;
-	}
-
-	.navsearch {
-		width: 100%;
-	}
-
-	.navsearch .searchbar {
-		width: 50%;	
-	}
-
-	.navsearch button {
-		width: 50%;
-	}
-
-	.navsearch i {
-		font-size: 1.5em;
-		padding-bottom: 0.5em;
-		margin-left: 30em;
-		outline: none;
-	}
-
-	.navbar-toggler-icon {
-		margin-top: -1.25em;
-		width: 3em;
-		height: 2.5em;
-	}
-	
-	.navbar-light .navbar-toggler {
-		border-color: rgba(0,0,0,0);
-		outline: none;
-	}
-
-	.justify-content-end {
-		background-color: #000;
-	}
-
-	.carousel-caption{
-		bottom: -4.5em;
-	}
-
-	.carousel-caption h3{
-		font-size: 0.75em;
-		margin-bottom: -1em;
-	}
-
-	.carousel-caption .imgOne {
-		width: 82%;
-		margin-left: 0%;
-		margin-bottom: -1em;
-	}
-
-	.carousel-caption p {
-		font-size: 0.5em;
-	}
-
-	.carousel-caption .eventbutton a {
-		font-size: 0.5em;
-		padding: 0.75em;
-		border-radius: 5px;
-	}
-
-	.carousel-caption .eventbutton {
-		margin-top: -1em;
-	}
-
-	.carousel-control-prev-icon, .carousel-control-next-icon {
-		width: 10px;
-		height: 10px;
-	}
-
-	.carousel-indicators li{
-		width: 10px;
-		height: 10px;
-		margin-bottom: -3.5em;
-	}
-
-	.aboutUs-col {
-		margin-top: 1.5em;
-		margin-right: -14.5em;
+		margin-top: -4em !important;
 	}
 
 	.aboutUs-col h4{
-		font-size: 1em;
-		margin-bottom: 0em;
+		font-size: 0.95em !important;
+		margin-left: 18.25em !important;
+		margin-top: 0.25em*/
 	}
 
-	.aboutUs-col .hrimg {
-		width: 50%;
-		margin-left: 0%;
-		height: 1em;
-		margin-bottom: 0em;
-	}
-
-	.aboutUs-col .abouttext h6 {
-		font-size: 0.75em;
-		margin-bottom: -2.5em;	
-	}
-
-	.aboutUs-col .expand-button {
-		font-size: 0.75em;
-		padding: 0.75em 1em;
-		border-radius: 3px;
-	}
-
-	.sectionhead3 {
-		font-size: 1.25em;
-	}
-
-	.event_section .hrimg img, .classsec .hrimg img, .newsandarticles .hrimg img, .musicalbum .hrimg img {
-		margin-left: -2em;
-		height: 0.5em;
-		width: 10em;
-	}
-
-	.gallreysec .class-hr-2 {
-		margin-left: 0em;
-		height: 0.5em;
-		width: 10em;
-	}
-
-	.card-deck{
-		margin: 1em 2em;
-	}
-
-	.card-title {
-		font-size: 1em;
-	}
-
-	.musicbtn {
-		padding: 10px 35px;
-	}
-
-	.col-sm-3.footer-widget1 {
-		padding-left: 5px;
-		margin-bottom: 1em;
-	}
-
-	.col-sm-3.footer-widget1 p{
-		color: #fff;
-		font-size: 1em;
-	}
-
-	.col-sm-3.footer-widget2 {
-		padding-left: 5px;
-		margin-bottom: 0.5em;
-	}
-
-	.col-sm-3.footer-widget3 {
-		padding-left: 6px;
-		margin-bottom: 1em;
-	}
-
-	.col-sm-3.footer-widget4 {
-		padding-left: 2px;
-	}
-}
-
-@media (max-width: 375px) {
-
-	
-	.event_section .expand-button, .classsec .expand-button, .gallreysec .expand-button, .newsandarticles .expand-button, .musicalbum .expand-button {
-		padding: 14px 30px;
-		font-size: 0.75em;
-	}
-
-	.copyrighttext {
-		margin: 0.5em;
-	}
-}*/
-
-/*@media (max-width: 320px){
-
-	.event_section .expand-button, .classsec .expand-button, .gallreysec .expand-button, .newsandarticles .expand-button, .musicalbum .expand-button {
-		padding: 14px 30px;
-		font-size: 0.75em;
-	}
-
-	.logotop{
-		margin-right: 7em !important;
-		margin-top: -6.25em !important;
-	}
-
-	.logocss {
-		width: 40px;
-		height: 40px;
-	}
-
-	.carousel-item .carousel-image{
-		height: 9em;
-	}
-
-	.carousel-caption {
-		bottom: 0px;
-		top: 0em;
-		display: grid;
-		grid: auto/ 1fr;
-	}
-
-	.carousel-caption #hr-3 {
-		width: 8em;
-		margin-left: 0.5em;
-		margin-top: 0em;	
-	}
-
-	.carousel-caption .imgOne {
-		width: 4em;
-		margin-top: -0.5em;
-		margin-left: 0.5em;
-	}
-
-	.carousel-caption h3{
-		font-size: 0.75em;
-	}
-	
-	.eventbutton #carousel-button{
-		margin-top: -4em;
-		width: 12em;
-		font-size: 0.5em;
-		padding: 0.75em 0.75em;
-		border-radius: 4px;
-	}
-
-	.carousel-caption p{
-		margin-top: 0em;
-		font-size: 0.5em;
-		margin-bottom: -4em;
-		word-spacing: 0.25em;
-	}
-
-	.carousel-caption img{
-		margin-bottom: 0.25em;
-		margin-top: -2em;
-	}
-	
-	.carousel-control-prev-icon, .carousel-control-next-icon {
-		width: 10px;
-		height: 10px;
-	}
-
-	.carousel-indicators li{
-		top: 1.25em;
-		width: 8px;
-		height: 8px;
-		z-index: -99;
-	}
-
-	.banner img {
-		height: 9em;
-	}
-
-	.aboutUs-col {
-		display: grid;
-		grid: auto/1fr;
-		margin-top: 2em;
-	}
-
-	.aboutUs-col h4{
-		font-size: 0.75em;
-		margin-left: 20.5em;
-		margin-top: 0.25em
-	}
-
-	.aboutUs-col img{
-		width: 12em;
-		height: 1em;
-		margin-left: 16.5em;
+	.aboutUs-col .hrimg{
+		width: 18em;
+		margin-left: 17.25em;
 	}
 
 	.aboutUs-col .abouttext {
-		margin-top: -2em;
+		margin-top: -1.5em;
 		margin-left: 7.75em;
 		padding-top: 0.75em;	
 	}
 
 	.aboutUs-col h6{
-		font-size: 0.75em;
-		margin-left: 10em;
-		
+		font-size: 0.75em !important;
+		margin-left: 12.75em;		
 	}
 
 	.aboutUs-col .expand-button {
 		width: 12em;
 		font-size: 0.75em;
-		padding: 0.5em 0.75em;
-		margin-left: 20.5em;
+		padding: 0.75em 0.75em;
+		margin-left: 23.25em;
 		margin-top: -4em;
 		margin-bottom: 1.5em;
+		border-radius: 4px;
 	}
+}
 
-	.event_section h4, .classsec h4, .newsandarticles h4, .gallreysec h2, .musicalbum h4{
-		font-size: 1.25em;
-	}
+@media screen and (max-width:768px) {
 
-	.card-deck {
-		margin-top: -2em;
+	.banner .top-right{
+		margin-right: -3em;
+		margin-top: -5em !important;
 	}
+}
 
-	.card-title {
-		font-size: 0.85em;
-	}
-
-	.viewmoreevent {
-		padding-top: 10px;
-	}
-
-	.expand-button {
-		font-size: 0.75em;
-	}
-
-	.classsec .class-hr {
-		width: 6em;
-		height: 0.5em;
-		margin-bottom: 20px;
-	}
-
-	.viewmoreclass {
-		margin: 0.75em;
-		padding-top: 10px;
-	}
-
-	.viewmorenews {
-		padding-top: 10px;
-	}
-
-	.gallreysec .class-hr-2 {
-		width: 6em;
-		height: 0.5em;
-		margin-bottom: 20px;
-	}
+@media screen and (max-width:767px) {
 
 	.gallreysec .img1 {
-		padding: 0.5em;
+		padding: 1em;
 	}
 
-	.overlay {
-		opacity: 0.7;
-	}
-
-	.viewmoremusic {
-		margin-top: 1.5em;
-	}
-	
-	.footer {
-		padding-bottom: 0px;
-	}
-	.col-sm-3.footer-widget1, .col-sm-3.footer-widget2, .col-sm-3.footer-widget3, .col-sm-3.footer-widget4 {
-		padding-left: 0em;
+	.gallreysec .overlayBottom {
+		left: 1em;
+		width: 95.8%;
 		margin-bottom: 1em;
-		top: -1em;
+	}
+}
+
+@media screen and (max-width:694px) {
+
+	.carousel-caption {
+		bottom: -3em !important;
 	}
 
-	.col-sm-3.footer-widget1 p {
-		font-size: 1em;
-		color: #fff;
+	.carousel-indicators li{
+		top: 1.25em;
+		width: 10px;
+		height: 10px;
+		z-index: -99;
 	}
 
-	.col-sm-3.footer-widget2 h6 {
-		margin-left: -9.25em;
+	.banner .top-right{
+		margin-right: -4.5em;
+	}
+}
+
+@media screen and (max-width:640px) {
+
+	.aboutUs-col h4{
+		font-size: 0.85em !important;
+		margin-left:21.25em !important;
+		margin-top: 0.25em*/
 	}
 
-	.copyrighttext {
-		margin: 1em;
+	.aboutUs-col .hrimg{
+		width: 15em;
+		margin-left: 17.25em;
 	}
-}*/
+
+	.aboutUs-col .abouttext {
+		margin-top: -1.5em;
+		margin-left: 7.75em;
+		padding-top: 0.75em;	
+	}
+
+	.aboutUs-col h6{
+		font-size: 0.7em !important;
+		margin-left: 12.75em;
+		margin-bottom: -1em;		
+	}
+
+	.aboutUs-col .expand-button {
+		width: 12em;
+		font-size: 0.75em;
+		padding: 0.75em 0.75em;
+		margin-left: 23.25em;
+		margin-bottom: 1.5em;
+		border-radius: 4px;
+	}
+
+}

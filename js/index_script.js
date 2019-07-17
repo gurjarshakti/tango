@@ -8,7 +8,7 @@ window.onscroll = function() {
 
     if(window.pageYOffset > a) {
 
-        head.setAttribute('style', 'position: fixed; z-index: 1; width: 100%; top: 0; box-shadow: 0px 2px 15px #000;');
+        head.setAttribute('style', 'position: fixed; z-index: 1; top: 0; box-shadow: 0px 2px 15px #000;');
     }
 
     else {
