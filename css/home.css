@@ -4,7 +4,11 @@
     font-family: Helevetica, sans-serif;
 }
 
+.footerlist {
+    overflow-wrap: break-word;
+}
  /*Navbar Css */
+
 .navbar {
     font-size: 14px;
     background-color: #000 !important;

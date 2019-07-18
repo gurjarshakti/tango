@@ -100,8 +100,6 @@
 
 	.aboutUs-col h4{
 		font-size: 1em !important;
-		margin-left: 14.25em !important;
-		margin-top: 0.25em*/
 	}
 
 	.aboutUs-col .hrimg{
@@ -111,8 +109,6 @@
 
 	.aboutUs-col .abouttext {
 		margin-top: -1.5em;
-		margin-left: 7.75em;
-		padding-top: 0.75em;	
 	}
 
 	.aboutUs-col h6{
@@ -126,9 +122,13 @@
 		font-size: 0.75em;
 		padding: 0.75em 0.75em;
 		margin-left: 19em;
-		margin-top: -4em;
-		margin-bottom: 1.5em;
-		border-radius: 4px;
+	}
+
+	/*Add Events*/
+
+	.user-detail {
+		margin-left: 15em;
+		margin-top: -14em;
 	}
 }
 
@@ -172,6 +172,28 @@
 	.aboutUs-col {
 		margin-top: 2em;
 		margin-right: -3.5em;
+	}
+
+	/*About Us*/
+
+	.aboutUs-head .text-center{
+		margin-top: -3em;
+		margin-bottom: 2.5em;
+	}
+
+	/*Add Events*/
+
+	#add-events input, #add-events select {
+		width: 250px;
+	}
+
+	#add-events form {
+		margin-left: 4.5em;
+	}
+
+	.user-detail {
+		margin-left: 17em;
+		margin-top: -14em;
 	}
 }
 
@@ -234,9 +256,6 @@
 
 	.carousel-caption .imgOne {
 		width: 20em !important;
-		margin-top: -0.5em;
-		margin-left: 0%;
-		margin-bottom: -0.75em;
 	}
 
 	.carousel-caption #carousel-button {
@@ -261,7 +280,6 @@
 	.aboutUs-col h4{
 		font-size: 0.95em !important;
 		margin-left: 18.25em !important;
-		margin-top: 0.25em*/
 	}
 
 	.aboutUs-col .hrimg{
@@ -271,8 +289,6 @@
 
 	.aboutUs-col .abouttext {
 		margin-top: -1.5em;
-		margin-left: 7.75em;
-		padding-top: 0.75em;	
 	}
 
 	.aboutUs-col h6{
@@ -285,9 +301,28 @@
 		font-size: 0.75em;
 		padding: 0.75em 0.75em;
 		margin-left: 23.25em;
-		margin-top: -4em;
-		margin-bottom: 1.5em;
-		border-radius: 4px;
+	}
+
+	/*About Us*/
+
+	.aboutUs-head .text-center{
+		margin-top: -3em;
+		margin-left: 6em;
+	}
+
+	/*Add Events*/
+
+	#add-events input, #add-events select {
+		width: 200px;
+	}
+
+	#add-events form {
+		margin-left: 3.5em;
+	}
+
+	.user-detail {
+		margin-left: 15em;
+		margin-top: -14em;
 	}
 }
 
@@ -296,6 +331,35 @@
 	.banner .top-right{
 		margin-right: -3em;
 		margin-top: -5em !important;
+	}
+
+	.footer .col-sm-12 {
+		display: grid;
+		grid: auto/ 1fr;
+		margin-top: -2em;
+		margin-bottom: -1em;
+	}
+
+	.col-sm-3 {
+		max-width: 80%;
+		text-align: center;
+		left: 7%;
+		margin-top: 2em;
+	}
+
+	.footer-widget2, .footer-widget4 {
+		padding-left: 5em;
+	}
+	
+	/*Add Events*/
+
+	#add-events form {
+		margin-left: 3.5em;
+	}
+
+	.user-detail {
+		margin-left: 17em;
+		margin-top: -14em;
 	}
 }
 
@@ -310,6 +374,21 @@
 		width: 95.8%;
 		margin-bottom: 1em;
 	}
+
+	/*Add Events*/
+
+	#add-events input, #add-events select {
+		width: 500px;
+	}
+
+	#add-events form {
+		margin-left: 7.25em;
+	}
+
+	#add-events .btn-danger {
+		width: 200px;
+		margin: 1em 2em 0em 9.5em;
+	}
 }
 
 @media screen and (max-width:694px) {
@@ -322,20 +401,129 @@
 		top: 1.25em;
 		width: 10px;
 		height: 10px;
-		z-index: -99;
 	}
 
 	.banner .top-right{
 		margin-right: -4.5em;
 	}
+
+	/*About Us*/
+
+	.aboutUs-head .text-center{
+		margin-top: -3em;
+		margin-left: 5em;
+	}
+
+	#add-events form {
+		margin-left: 5.25em;
+	}
 }
 
 @media screen and (max-width:640px) {
 
+	.carousel-caption {
+		bottom: -4em !important;
+	}
+
+	.carousel-caption h3 {
+		font-size: 1.15em;
+		margin-bottom: 0em;
+	}
+
+	.carousel-caption p {
+		font-size: 0.8em;
+		margin-bottom: -1em;
+	}
+
+	.carousel-caption .imgOne {
+		width: 18.5em !important;
+		margin-top: -0.5em;
+	}
+
 	.aboutUs-col h4{
 		font-size: 0.85em !important;
 		margin-left:21.25em !important;
-		margin-top: 0.25em*/
+	}
+
+	.aboutUs-col .hrimg{
+		width: 16em;
+		margin-left: 18.15em;
+	}
+
+	.aboutUs-col .abouttext {
+		margin-top: -1.5em;	
+	}
+
+	.aboutUs-col h6{
+		font-size: 0.7em !important;
+		margin-left: 14.75em;
+		margin-bottom: -1em;		
+	}
+
+	.aboutUs-col .expand-button {
+		width: 12em;
+		font-size: 0.75em;
+		padding: 0.75em;
+		margin-left: 24.25em;
+	}
+
+	/*About Us*/
+
+	.aboutUs-head .text-center{
+		margin-top: -3em;
+		margin-left: 4.5em;
+	}
+
+	#add-events form {
+		margin-left: 6.75em;
+	}
+
+	#add-events input, #add-events select {
+		width: 400px;
+	}
+
+	#add-events .btn-danger {
+		width: 200px;
+		margin: 1em 2em 0em 6em;
+	}
+
+}
+
+@media screen and (max-width:600px) {
+
+	.carousel-caption {
+		bottom: -4em !important;
+	}
+
+	.carousel-caption h3 {
+		font-size: 1em;
+	}
+
+	.carousel-caption p {
+		font-size: 0.75em;
+	}
+
+	.carousel-caption .imgOne {
+		width: 16em !important;
+	}
+
+	.carousel-caption #carousel-button {
+		font-size: 0.75em !important;
+		padding: 0.75em;
+	}
+
+	.announcement {
+		font-size: 0.8em;
+	}
+	
+	.banner .top-right{
+		margin-right: -6.5em;
+		margin-top: -5.75em !important;
+	}
+
+	.aboutUs-col h4{
+		font-size: 0.8em !important;
+		margin-left: 21.5em !important;
 	}
 
 	.aboutUs-col .hrimg{
@@ -344,24 +532,392 @@
 	}
 
 	.aboutUs-col .abouttext {
-		margin-top: -1.5em;
-		margin-left: 7.75em;
-		padding-top: 0.75em;	
+		margin-top: -1.5em;	
 	}
 
 	.aboutUs-col h6{
 		font-size: 0.7em !important;
-		margin-left: 12.75em;
-		margin-bottom: -1em;		
+		margin-left: 13.75em;
+		margin-bottom: -1.5em;	
 	}
 
 	.aboutUs-col .expand-button {
 		width: 12em;
 		font-size: 0.75em;
-		padding: 0.75em 0.75em;
+		padding: 0.75em;
 		margin-left: 23.25em;
-		margin-bottom: 1.5em;
+	}
+
+	/*About Us*/
+
+	#add-events form {
+		margin-left: 5.25em;
+	}
+
+	.aboutUs-head .text-center{
+		margin-top: -3em;
+		margin-left: 4em;
+	}
+}
+
+@media screen and (max-width:550px) {
+
+	.carousel-caption h3 {
+		font-size: 1em;
+	}
+
+	.carousel-caption p {
+		font-size: 0.65em;
+		margin-top: 0.20em;
+		margin-bottom: -2.25em;
+	}
+
+	.carousel-caption .imgOne {
+		width: 16em !important;
+	}
+
+	.banner .top-right{
+		margin-right: 8em;
+		margin-top: 1em !important;
+	}
+
+	.aboutUs-col h4{
+		font-size: 1.15em !important;
+		margin-left: 20.5em !important;
+	}
+
+	.aboutUs-col .hrimg{
+		width: 22em;
+		height: 1em;
+		margin-left: 23.5em;
+		margin-bottom: 1.25em;
+	}
+
+	.aboutUs-col .abouttext {
+		margin-top: -1.5em;	
+	}
+
+	.aboutUs-col h6{
+		font-size: 0.9em !important;
+		margin-left: 17.75em;
+		margin-bottom: -1.75em;	
+	}
+
+	.aboutUs-col .expand-button {
+		width: 12em;
+		font-size: 0.9em;
+		padding: 0.75em;
+		margin-left: 26.25em;
+	}
+
+	.card-deck {
+		display: grid;
+		grid: auto/ 1fr;
+		padding-left: 5em;
+		padding-right: 5em;
+	}
+	
+	.viewmorenews, .viewmoreclass, .viewmoreevent {
+		margin-top: 0em;
+	}
+
+	.viewmoremusic {
+		margin-top: 2em;
+	}
+
+	.footer-widget1 p {
+		font-size: 1em;
+	}
+
+	/*About Us*/
+
+	#add-events form {
+		margin-left: 5.75em;
+	}
+
+	.aboutUs-head .text-center{
+		margin-top: -3.5em;
+		margin-left: 3.5em;
+		margin-bottom: 3em;
+	}
+
+	.aboutUs-head .text-center .abouttext h4 {
+		font-size: 1.25em;
+	}
+
+	/*Add events*/
+
+	#add-events input, #add-events select {
+		width: 350px;
+	}
+	
+	.profilePic {
+		margin-left: -12em;
+	}
+
+	.user-detail {
+		margin-left: 10em;
+		margin-top: -14em;
+	}
+
+	.user-detail h5, .user-detail p {
+		font-size: 1em;
+	}
+
+	#add-events .btn-danger {
+		width: 200px;
+		margin: 1em 2em 0em 4.5em;
+	}
+}
+
+@media screen and (max-width:520px) {
+
+	.banner .top-right{
+		margin-right: 5em;
+		margin-top: 1em !important;
+	}
+
+	.aboutUs-head .text-center{
+		margin-left: 3.25em;		
+	}
+
+	/*Add events*/
+
+	#add-events input, #add-events select {
+		width: 340px;
+	}
+
+	#add-events form {
+		margin-left: 4.75em;
+	}
+
+	#add-events .btn-danger {
+		width: 200px;
+		margin: 1em 2em 0em 4em;
+	}
+}
+
+@media screen and (max-width:500px) {
+
+	.carousel-caption {
+		bottom: -5em !important;
+	}
+
+	.banner .top-right{
+		margin-right: 4em;
+		margin-top: 0em !important;	
+	}
+
+	.aboutUs-head .text-center{
+		margin-left: 3em;		
+	}
+
+	/*Add Events*/
+
+	#add-events input, #add-events select {
+		width: 321px;
+	}
+
+	#add-events .btn-danger {
+		width: 200px;
+		margin: 1em 2em 0em 3.75em;
+	}
+}
+
+@media screen and (max-width:440px) {
+
+	.carousel-caption {
+		font-size: 0.75em;
+		bottom: -6em !important;
+	}
+
+	.banner .top-right{
+		font-size: 0.5em;
+	}
+
+	.expand-button {
+		font-size: 0.9em;
+	}
+
+	/*About Us*/
+
+	.aboutUs-head .text-center{
+		margin-top: -4em;
+		margin-left: 2.4em;
+		margin-bottom: 4em;
+	}
+
+	.aboutUs-head .text-center .abouttext h4 {
+		font-size: 1em;
+	}
+
+	/*Add Events*/
+
+	#add-events input, #add-events select {
+		width: 260px;
+	}
+
+	#add-events .btn-danger {
+		width: 180px;
+		margin: 1em 2em 0em 2.5em;
+	}
+}
+
+@media screen and (max-width:380px) {
+
+	.logotop img{
+		width: 3.5em;
+		height: 3.5em;
+	}
+
+	.carousel-caption {
+		font-size: 0.65em;
+		bottom: -7em !important;
+	}
+	
+	.carousel-caption #carousel-button {
 		border-radius: 4px;
 	}
 
+	.aboutUs-col h6{;
+		margin-bottom: -2.75em;	
+	}
+
+	.card-deck {
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+
+	.footer .col-sm-12 {
+		left: -2%;
+	}
+
+	.copyrighttext {
+		margin: 1em;
+	}
+
+	/*About Us*/
+
+	.aboutUs-head .text-center{
+		margin-top: -4.5em;
+		margin-left: 1.75em;
+		margin-bottom: 4em;
+	}
+
+	.aboutUs-head .text-center .abouttext h4 {
+		font-size: 1em;
+	}
+
+	/*Add Events*/
+
+	#add-events input, #add-events select {
+		width: 197px;
+	}
+
+	#add-events .btn-danger {
+		width: 150px;
+		margin: 1em 2em 0em 1.5em;
+	}
+
+	.event-add {
+		text-align: center;
+	}
+
+	.profilePic {
+		margin-left: -10em;
+	}
+}
+
+@media screen and (max-width:320px) {
+
+	.logotop img{
+		width: 2.5em;
+		height: 2.5em;
+	}
+
+	.carousel-caption {
+		font-size: 0.5em;
+		bottom: -10em !important;
+	}
+	
+	.banner .top-right{
+		font-size: 0.4em;
+	}
+
+	.carousel-control-prev-icon, .carousel-control-next-icon {
+		width: 10px;
+		height: 10px;
+	}
+
+	.carousel-indicators li{
+		top: 1.25em;
+		width: 8px;
+		height: 8px;
+	}
+
+	.aboutUs-col h4{
+		margin-left: 21.25em !important;
+	}
+
+	.aboutUs-col .hrimg{
+		margin-left: 24.5em;
+		margin-top: -1em;
+	}
+
+	.aboutUs-col h6{
+		margin-left: 17.75em;
+		margin-bottom: -3.75em;	
+	}
+
+	.aboutUs-col .expand-button {
+		margin-left: 26em;
+		border-radius: 3px;	
+	}
+
+	.expand-button {
+		font-size: 0.75em;
+	}
+
+	.classsec .expand-button {
+		padding: 14px 40px;
+	}
+
+	/*About Us*/
+
+	.aboutUs-head .text-center{
+		margin-top: -4.5em;
+		margin-left: 1.15em;
+		margin-bottom: 4em;
+	}
+
+	.aboutUs-head .text-center .abouttext h4 {
+		font-size: 0.75em;
+	}
+
+
+	/*Add Events*/
+
+	#add-events input, #add-events select, #add-events label {
+		width: 250px;
+		margin-left: -4.5em;
+	}
+
+	#add-events .btn-danger {
+		width: 150px;
+		margin: 1em 2em 0em -0.5em;
+	}
+
+	.event-add {
+		width: 300px;
+		margin-left: 1.25em;
+	}
+
+	#addFile {
+		margin-left: -3.6em;
+	}
+	
+	#add-events #maxFiles{
+		display: block;
+		margin-left: -4.5em;
+	}
 }
