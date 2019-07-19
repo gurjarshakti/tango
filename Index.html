@@ -14,6 +14,7 @@
     <!-- Bootstrap CSS -->
     
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> -->
 
     
@@ -53,15 +54,17 @@
             </nav>
              <!-- Logo -->
         
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" onclick="openNav()">
                 
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon">&#9776;</span>
 
             </button>
             
             <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
                 
                 <ul class="nav ml-auto">
+
+                    <div class="hideMenu" onclick="closeNav()">&times;</div>
                    
                     <li class="nav-item">
                         

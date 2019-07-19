@@ -99,15 +99,17 @@
             </nav>
         <!-- Logo -->
         
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" onclick="openNav()">
                 
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon">&#9776;</span>
 
             </button>
             
             <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
                 
-                <ul class="nav ml-auto justify-content-end">
+                <ul class="nav ml-auto">
+
+                    <div class="hideMenu" onclick="closeNav()">&times;</div>
                    
                     <li class="nav-item">
                         
@@ -383,7 +385,7 @@
 
                 </div>
 
-                <div id="event-table">
+                <div id="event-table" style="overflow-x: auto;">
                     
                     <table class="gridtable">
                             
@@ -624,7 +626,7 @@
 
                 </div>
 
-                <div id="event-table">
+                <div id="event-table" style="overflow-x: auto;">
                         
                     <table class="gridtable" id="view-table">
                                 
@@ -1024,7 +1026,7 @@
 
                 </div>
 
-                <div id="event-table">
+                <div id="event-table" style="overflow-x: auto;">
                         
                     <table class="gridtable">
                                 

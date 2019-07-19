@@ -17,8 +17,8 @@ window.onscroll = function() {
   
 }
 
-let dropdownbtn = document.getElementsByClassName('dropdown');
-let dropdownmenu = document.getElementsByClassName('dropdown-menu');
+let dropdownbtn = document.getElementsByClassName('dropdown')[0];
+let dropdownmenu = document.getElementsByClassName('dropdown-menu')[0];
 
 function showMenu() {
 
@@ -30,3 +30,17 @@ function showMenu() {
 		dropdownmenu.style.display = 'none';
 }
 // ------------- 28 June End---------------
+
+// 19 July start 
+
+function closeNav() {
+    document.getElementById('navbarSupportedContent').classList.add('animated', 'fadeOutRight');   
+}
+
+function openNav() {
+    document.getElementById('navbarSupportedContent').style.display = 'block';
+    document.getElementById('navbarSupportedContent').classList.add('nav', 'animated', 'fadeInRight');
+    document.getElementById('navbarSupportedContent').classList.remove('nav');
+}
+
+//  19 July end

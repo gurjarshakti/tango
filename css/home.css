@@ -15,6 +15,34 @@
     height: 55px;
 }
 
+.navbar-toggler-icon {
+    color: #fff;
+    font-size: 1.75em;
+    width: 20px;
+    border: none;
+}
+
+.hideMenu {
+    display: none;
+    color: #fff;
+    font-size: 2.5em;
+    margin: 0.25em 0.5em 0em 5.5em;
+}
+
+.Shownav {
+    display: block;
+    background-color: #000;
+    width: 250px;
+    margin-top: -5.6em !important;
+    margin-right: -1.2em !important;
+    font-size: 1em;
+    background-color: #191919;
+}
+
+.animated {
+    animation-duration: 0.5s;
+}
+
 /* Logo CSS */
 .logotop {
     margin-left: 33.5px;
@@ -442,7 +470,7 @@ button.newslatterbtn {
 
 /* Example div css */
 
-@media screen and (max-width: 576px) {
+/*@media screen and (max-width: 576px) {
 
    h4, h5, h7 {
     font-size: 12px;
@@ -456,7 +484,7 @@ button.newslatterbtn {
     font-size: 10px;
    }
 
-    .navbar {
+   .navbar {
         font-size: 14px;
         background-color: #d96969 !important;
         height: auto;
@@ -501,7 +529,7 @@ button.newslatterbtn {
         height: 25px;
         padding-bottom: 1px;
         padding-top: 0px;
-    }}
+    }}*/
     .card-title { font-size:16px; font-weight:bold;    text-transform: uppercase;}
 .card-title a {color:#000;     text-decoration: none;}
 .card-body span {font-size:13px;}
@@ -1061,6 +1089,7 @@ h6.footerhead.text-center {font-weight: bold;
 #search-data {
     float: right;
     display: inline;
+    margin-top: 0.67em;
 }
 
 /* ------------- date 20 June 2019 end ---------------------- */
